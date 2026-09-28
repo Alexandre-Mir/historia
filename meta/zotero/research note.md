@@ -45,7 +45,7 @@ tags: leitura
 
 start-date:: {% if dateAdded %}{{dateAdded | format("YYYY-MM-DD")}}{% else %}{{importDate | format("YYYY-MM-DD")}}{% endif %}
 end-date::
-page-no:: {% for annotation in annotations %}{% if loop.first %}{{annotation.pageLabel}}{% endif %}{% endfor %}
+page-no:: {% for annotation in annotations %}{% if loop.last %}{{annotation.pageLabel}}{% endif %}{% endfor %}
 
 ## Connections
 

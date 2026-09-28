@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/zotero/research note.md",
+                "file": "01_notes/PAVIANI-Aldo-2010.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "research note"
+              "title": "PAVIANI-Aldo-2010"
             }
           }
         ]
@@ -238,6 +238,8 @@
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "meta/zotero/research note.md",
+    "Análise de História Quantitativa Interpretação de Tabelas, Gráficos e Dados Demográficos.md",
     "01_notes/PAVIANI-Aldo-2010.md",
     "meta/dataview/dashboard-ir-srs.md",
     "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2012.md",
@@ -266,8 +268,6 @@
     "02_zettel/A narratiza dissolve o relato histórico.md",
     "02_zettel/classificação da -narrativa leninista-.md",
     "fluxo.md",
-    "01_notes/VISCARDI-ClaudiaMariaRibeiro-1997.md",
-    "01_notes/BARROS-JoseDAssuncao-2006.md",
     "meta/templater-scripts/header.js",
     "meta/templater-scripts",
     "02_zettel",
