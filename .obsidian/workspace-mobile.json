@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "5ab2eae9b1994eed",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b0d44e051c7aab0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a660e9420990c339",
+            "type": "leaf",
+            "state": {
+              "type": "smart-env-status-view",
+              "state": {},
+              "icon": "gauge",
+              "title": "Smart Environment Status"
+            }
+          },
+          {
+            "id": "629b339a6c8672cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sem título 1"
+            }
+          },
+          {
+            "id": "388a26a7ccd70069",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biblioteca/Subjective well‑being and inequality in Spain’s decline/Subjective well‑being and inequality in Spain’s decline.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Subjective well‑being and inequality in Spain’s decline"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dd81dc7d4cfe139f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9da8f3aefee656d9",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Explorador de arquivos"
+        }
+      },
+      {
+        "id": "24b0bc7e8bceb06d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "tag:#moderna2",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Procurar"
+        }
+      },
+      {
+        "id": "652e27ca2fd08cf1",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Etiquetas"
+        }
+      },
+      {
+        "id": "5065f7e61e347c3c",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "Todas as propriedades"
+        }
+      },
+      {
+        "id": "6a32910937f1dc01",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Marcadores"
+        }
+      },
+      {
+        "id": "8c497354d02d969c",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook-navigator",
+          "title": "Notebook Navigator"
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "right": {
+    "id": "691fbf9d0b289048",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1b14acd888ef9de5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Biblioteca/ROMANO-Ruggiero-1993/ROMANO-Ruggiero-1993.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Links inversos"
+        }
+      },
+      {
+        "id": "49320165fbc58e4b",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Links de saída"
+        }
+      },
+      {
+        "id": "679afb530d206130",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Sumário"
+        }
+      },
+      {
+        "id": "605a8a0d872eaa52",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator-calendar",
+          "state": {},
+          "icon": "lucide-calendar-days",
+          "title": "Calendário"
+        }
+      },
+      {
+        "id": "7534264a362231ca",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-ghost",
+          "title": "review-queue-list-view"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-spaced-repetition:Revisar flashcards": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false
+    }
+  },
+  "active": "629b339a6c8672cf",
+  "lastOpenFiles": [
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/Subjective well‑being and inequality in Spain’s decline.md",
+    "Sem título 1.md",
+    "Biblioteca/ROMANO-Ruggiero-1993/ROMANO Couyunturas opuestas.pdf",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-12.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-6.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-11.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-5.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-10.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-1.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-2.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-8.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-7.jpeg",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/Subjective well‑being and inequality in Spain’s decline.pdf",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets/Subjective well‑being and inequality in Spain’s decline_img-3.jpeg",
+    "Sem título.md",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/assets",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline",
+    "Biblioteca/ROMANO-Ruggiero-1993/ROMANO-Ruggiero-1993.md",
+    "Biblioteca/Planos/Planos-de-Ensino-Topicos-Carlos-Villa (1)/PLANO TEA3.md",
+    "2026-09-03.md",
+    "Biblioteca/Understanding_quantitative_history_H_z_library_sk,_1lib_sk,-68-104.pdf",
+    "Understanding_quantitative_history_H_z_library_sk,_1lib_sk,.pdf",
+    "Raízes_do_Brasil_Sérgio_Buarque_de_H_z_library_sk,_1lib_sk,.pdf",
+    "Biblioteca/Crítica_e_crise_Uma_contribuição_à_z_library_sk,_1lib_sk,-19-47.pdf",
+    "Crítica_e_crise_Uma_contribuição_à_z_library_sk,_1lib_sk,.pdf",
+    "Crítica e Crise A Gênese do Estado Absolutista e a Ascensão do Iluminismo.md",
+    "Conteúdo SEDES DF.md",
+    "Biblioteca/Aula4_parte2_Inteco_Madu.pdf",
+    "Aula 01.09.md",
+    "Análise de História Quantitativa Interpretação de Tabelas, Gráficos e Dados Demográficos.md",
+    "Análise da Formação Brasileira e a Herança Cultural Ibérica.md",
+    "Biblioteca/Raízes_do_Brasil_Sérgio_Buarque_de_H_z_library_sk,_1lib_sk,-29-40/Raízes_do_Brasil_Sérgio_Buarque_de_H_z_library_sk,_1lib_sk,-29-40.md",
+    "2026-08-31.md",
+    "Biblioteca/Planos/PLANO HB2/PLANO HB2.md",
+    "Biblioteca/Independência História e Historiografia (István Jancsó) (z-library.sk, 1lib.sk, z-lib.sk) (1)/SLEMIAN-Andréa-2005.md",
+    "2026-09-02.md",
+    "2026-09-01.md",
+    "Biblioteca/Planos/26.2_M2_T2/PLANO MODERNA 2.md",
+    "Músicas Peinard 2026.md"
+  ]
+}

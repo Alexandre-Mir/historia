@@ -1,0 +1,67 @@
+/* Cores dos Callouts por Metadados/Cor do Zotero */
+/* Yellow */
+.research-note .callout[data-callout-metadata="#ffd400"],
+.research-note .callout[data-callout*="yellow"] {
+  --callout-color: 255, 204, 0;
+}
+
+/* Red / Important */
+.research-note .callout[data-callout-metadata="#ff6666"],
+.research-note .callout[data-callout*="important" i],
+.research-note .callout[data-callout*="red" i] {
+  --callout-color: 255, 59, 48;
+}
+
+/* Green / Reference */
+.research-note .callout[data-callout-metadata="#5fb236"],
+.research-note .callout[data-callout*="reference" i],
+.research-note .callout[data-callout*="green" i] {
+  --callout-color: 40, 205, 65;
+}
+
+/* Blue / Undefined - Blue */
+.research-note .callout[data-callout-metadata="#2ea8e5"],
+.research-note .callout[data-callout*="blue" i] {
+  --callout-color: 0, 122, 255;
+}
+
+/* Purple / Undefined - Purple */
+.research-note .callout[data-callout-metadata="#a28ae5"],
+.research-note .callout[data-callout*="purple" i] {
+  --callout-color: 125, 84, 222;
+}
+
+/* Estilo Minimalista Limpo para Callouts nas Notas de Pesquisa */
+.research-note .callout {
+  background-color: transparent !important;
+  border-width: 0 0 0 3px !important;
+  border-style: solid !important;
+  border-color: rgba(var(--callout-color, var(--callout-default)), 0.75) !important;
+  border-radius: 0 !important;
+  padding: 0.4em 0 0.4em 1em !important;
+  margin: 1em 0 !important;
+  box-shadow: none !important;
+}
+
+/* Título minimalista e discreto */
+.research-note .callout-title {
+  padding: 0 !important;
+  margin-bottom: 0.25em !important;
+  font-size: 0.85em !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  opacity: 0.75;
+}
+
+/* Ocultar ícone grande para manter o visual limpo */
+.research-note .callout-icon {
+  display: none !important;
+}
+
+/* Conteúdo interno alinhado com o texto */
+.research-note .callout-content {
+  padding: 0 !important;
+  font-size: 0.96em !important;
+  line-height: 1.6 !important;
+}

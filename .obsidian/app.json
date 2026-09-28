@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "defaultViewMode": "preview",
+  "livePreview": false,
+  "showInlineTitle": true,
+  "propertiesInDocument": "hidden",
+  "foldIndent": false,
+  "foldHeading": false,
+  "showIndentGuide": true
+}

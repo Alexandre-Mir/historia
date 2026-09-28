@@ -1,0 +1,21 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "01_notes",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "create research note",
+      "outputPathTemplate": "01_notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "meta/attachments/{{citekey}}/",
+      "imageBaseNameTemplate": "image",
+      "templatePath": "meta/zotero/research note.md",
+      "cslStyle": "instituto-brasileiro-de-informacao-em-ciencia-e-tecnologia-abnt"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note"
+}

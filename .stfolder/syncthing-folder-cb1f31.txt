@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ymbl6-hexcw
+created: 2026-09-01T23:55:13-03:00
