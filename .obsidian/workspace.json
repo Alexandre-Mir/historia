@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_notes/PAVIANI-Aldo-2010.md",
+                "file": "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2012.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PAVIANI-Aldo-2010"
+              "title": "ALBUQUERQUEJUNIOR-DurvalMuniz-2012"
             }
           }
         ]
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 274.93359375,
+    "collapsed": true
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -238,10 +239,10 @@
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "meta/dataview/dashboard-ir-srs.md",
+    "01_notes/PAVIANI-Aldo-2010.md",
     "meta/zotero/research note.md",
     "Análise de História Quantitativa Interpretação de Tabelas, Gráficos e Dados Demográficos.md",
-    "01_notes/PAVIANI-Aldo-2010.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2012.md",
     "01_notes/MORAES-AntonioCarlosRobert-2005.md",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",
