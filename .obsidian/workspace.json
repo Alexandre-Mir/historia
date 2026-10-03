@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fluxo.md",
-                "mode": "preview",
+                "file": "meta/templater/daily.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fluxo"
+              "title": "daily"
             }
           }
         ]
@@ -247,9 +247,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9c39d164d90cebdf",
+  "active": "09be9fcd0d6e8cb5",
   "lastOpenFiles": [
+    "daily",
     "fluxo.md",
+    "meta/templater/daily.md",
     "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2012.md",
     "meta/dataview/dashboard-ir-srs.md",
     "01_notes/PAVIANI-Aldo-2010.md",
@@ -277,8 +279,6 @@
     "Sem título 3.md",
     "Sem título 4.md",
     "Sem título 5.md",
-    "02_zettel/A narratiza dissolve o relato histórico.md",
-    "02_zettel/classificação da -narrativa leninista-.md",
     "meta/templater-scripts/header.js",
     "meta/templater-scripts",
     "02_zettel",
