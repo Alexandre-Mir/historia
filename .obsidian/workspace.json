@@ -13,71 +13,93 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "MENESES-UlpianoToledoBezerrade-1980"
-            },
-            "group": "09aeb1c4e718b146"
-          },
-          {
-            "id": "70c4280d973f5aeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "MENESES-UlpianoToledoBezerrade-1980"
-            }
-          },
-          {
-            "id": "52f4818644dc36eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2026-10-03.md",
+                "file": "daily/2026-10-05.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-10-03"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "bb70bbec74d76a1d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6bac3f8df84a785b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Links inversos para MENESES-UlpianoToledoBezerrade-1980"
+              "title": "2026-10-05"
             },
             "group": "09aeb1c4e718b146"
           }
         ]
+      },
+      {
+        "id": "105667ca3bcf22f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "3b90482ef7720b68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4802931c711b8928",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "daily/2026-10-05.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": false
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de 2026-10-05"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          },
+          {
+            "id": "bb70bbec74d76a1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6bac3f8df84a785b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "daily/2026-10-05.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para 2026-10-05"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -292,10 +314,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "52f4818644dc36eb",
+  "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "meta/templater/templater-daily-note.md",
+    "daily/2026-10-04.md",
+    "daily/2026-10-05.md",
     "daily/2026-10-03.md",
+    "meta/templater/templater-daily-note.md",
     "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
     "02_zettel/o que é o documento voluntário.md",
     "origem etimológica da palavra documento.md",
@@ -323,8 +347,6 @@
     "02_zettel/registros do conceito de Região.md",
     "02_zettel/Região numa abordagem foucaultiana.md",
     "01_notes/HAVERBEKE-Marijn-2025.md",
-    "01_notes/FERRO-Sergio-2024.md",
-    "02_zettel/o que é a historiografia regional.md",
     "meta/templater-scripts/header.js",
     "meta/templater-scripts",
     "02_zettel",
