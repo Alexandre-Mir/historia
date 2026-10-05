@@ -4,9 +4,9 @@ type: zettel
 tags:
   - zettel
   - review
-sr-due: 2026-10-03
+sr-due: 2026-10-06
 sr-interval: 1
-sr-ease: 250
+sr-ease: 230
 ---
 ### Síntese
 
