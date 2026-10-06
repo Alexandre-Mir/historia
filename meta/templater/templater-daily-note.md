@@ -7,16 +7,16 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] beber 2 litros de água #extra
 - [ ] lavar louça #casa
 - [ ] arrumar a cama #casa
-- [ ] revisar notas com plugin, 25 min #estudo 
-- [ ] ler, 25 min #estudo
-- [ ] processar zettel, 25 min #estudo 
+- [ ] revisar flashcards #estudo 
+- [ ] revisar notas com plugin #estudo 
+- [ ] ler, #estudo
+- [ ] processar zettel #estudo 
 - [ ] criar flashcards #estudo 
 - [ ] preparar o estudo do dia seguinte #estudo 
 - [ ] revisar a agenda do dia #extra 
 ## rotina do dia
 <%* if (dia === 1) { -%>
 - [ ] treino de força A (peito e ombros), 40 min #exercicio
-- [ ] planejar a semana, 15 min #extra 
 - [ ] lavar 1 tênis #casa
 <%* } -%>
 <%* if (dia === 2) { -%>
