@@ -8817,7 +8817,16 @@ class IW extends obsidian.Plugin {
             LogTo.Console("Failed to add button to the search pane.");
             return;
         }
-        view.addToQueueButton = new obsidian.ButtonComponent(view.containerEl.children[0].firstChild)
+        let buttonParent = view.headerDom && view.headerDom.navButtonsEl
+            ? view.headerDom.navButtonsEl
+            : (view.containerEl.children[0] && view.containerEl.children[0].firstChild
+                ? view.containerEl.children[0].firstChild
+                : null);
+        if (!buttonParent) {
+            LogTo.Console("Failed to find search pane button container. Skipping add button.");
+            return;
+        }
+        view.addToQueueButton = new obsidian.ButtonComponent(buttonParent)
             .setClass("nav-action-button")
             .setIcon("sheets-in-box")
             .setTooltip("Add to IW Queue")
