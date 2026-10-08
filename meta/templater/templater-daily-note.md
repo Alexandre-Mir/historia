@@ -7,11 +7,13 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] beber 2 litros de água #extra
 - [ ] lavar louça #casa
 - [ ] arrumar a cama #casa
+- [ ] escutar podcast #estudo 
 - [ ] revisar flashcards #estudo 
-- [ ] revisar notas aleatórias #estudo 
+- [ ] revisar nota aleatória #estudo 
 - [ ] ler #estudo
 - [ ] processar zettel #estudo 
 - [ ] criar flashcards #estudo 
+- [ ] criar podcast #estudo
 - [ ] preparar o estudo do dia seguinte #estudo 
 - [ ] revisar a agenda do dia #extra 
 ## rotina do dia

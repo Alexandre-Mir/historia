@@ -50,28 +50,31 @@ page-no:: {% for annotation in annotations %}{% if loop.last %}{{annotation.page
 ## Connections
 
 {% persist "comment" %}
+%% begin comment %%
 comment::
+%% end comment %%
 {% endpersist %}
 
 ## Note
 
 {% macro calloutHeader(color) -%}
-{%- if color == "#ff6666" -%}Important
-{%- elif color == "#5fb236" -%}Reference
-{%- elif color == "#2ea8e5" -%}Undefined - Blue
-{%- elif color == "#a28ae5" -%}Undefined - Purple
+{%- if color == "#ff6666" or color == "#red" -%}Important
+{%- elif color == "#5fb236" or color == "#green" -%}Tip
+{%- elif color == "#2ea8e5" or color == "#blue" -%}Note
+{%- elif color == "#a28ae5" or color == "#purple" -%}Summary
+{%- elif color == "#f19837" or color == "#orange" -%}Warning
+{%- else -%}Quote
 {%- endif -%}
 {%- endmacro %}
 
 {% persist "annotations" %}
+%% begin annotations %%
 {% set annotations = annotations | filterby("date", "dateafter", lastImportDate) -%}
 {% if annotations.length > 0 %}
 Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
 
 {% for annotation in annotations %}
-{%- if annotation.color != "#ffd400" %}
 > [!{{calloutHeader(annotation.color) | trim}}]
-{%- endif %}
 {%- if annotation.imageRelativePath %}
 ![[{{annotation.imageRelativePath}}]] ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
 {%- endif %}
@@ -79,9 +82,11 @@ Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
 {{annotation.annotatedText}} ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
 {%- endif %}
 {%- if annotation.comment %}
->>{{annotation.comment}}
+
+> **Nota:** {{annotation.comment}}
 {%- endif %}
 
 {% endfor %}
 {% endif %}
+%% endannotations %%
 {% endpersist %}

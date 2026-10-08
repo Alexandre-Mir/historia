@@ -21,34 +21,6 @@
               "icon": "lucide-file",
               "title": "2026-10-07"
             }
-          },
-          {
-            "id": "cca5684b36bb1a66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2026-10-06.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-06"
-            }
-          },
-          {
-            "id": "1099b20cb658737d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2026-10-05.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-05"
-            }
           }
         ]
       }
@@ -277,11 +249,13 @@
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "daily/2026-10-06.md",
-    "daily/2026-10-07.md",
-    "meta/templater/templater-daily-note.md",
-    "daily/2026-10-05.md",
     "01_notes/ROUSSO-Henry-2016.md",
+    "daily/2026-10-07.md",
+    "meta/zotero/research note.md",
+    "fluxo.md",
+    "daily/2026-10-06.md",
+    "daily/2026-10-05.md",
+    "meta/templater/templater-daily-note.md",
     "IW-Queues/IW-Queue.md",
     "IW-Queues",
     "02_zettel/o que é o documento voluntário.md",
@@ -302,8 +276,6 @@
     "02_zettel/registros do conceito de Região.md",
     "02_zettel/Região numa abordagem foucaultiana.md",
     "02_zettel/A narratiza dissolve o relato histórico.md",
-    "02_zettel/classificação da -narrativa leninista-.md",
-    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
     "daily",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-12-x84-y391.png",
