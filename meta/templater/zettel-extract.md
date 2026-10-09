@@ -20,17 +20,15 @@ type: zettel
 tags:
   - zettel
   - review
-sr-due: ${nowDate}
-sr-interval: 1
-sr-ease: 250
+  - seed
 ---
 ### Síntese
+
+### Texto original
 ${selection}
 
 ### Conexões
 - 
-
-### Flashcards
 
 ---
 **Fonte:** [[${sourceTitle}]]

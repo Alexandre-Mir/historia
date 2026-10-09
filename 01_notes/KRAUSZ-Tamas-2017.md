@@ -48,8 +48,8 @@ Pode parecer que o panorama histórico recente não é adequado a uma abordagem 
 Não é surpresa que o estudo e a ciência da história tenham se tornado ainda mais politizados desde a perestroika e que escrever história sobre o assunto tenha se transformado em iniciativa política. ([p. ]())
 
 
-[[classificação da -narrativa leninista-]]
-[[A narratiza dissolve o relato histórico]]
+[[classificação da narrativa leninista]]
+[[a linguagem como julgamento absoluto pode relativizar fatos históricos]]
 
 
 > [!Undefined - Blue]

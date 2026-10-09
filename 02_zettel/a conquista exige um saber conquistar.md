@@ -17,7 +17,5 @@ A conquista depende do emprego de uma dada estratégia, de uma dada tática, exi
 ### Conexões
 - [[a Região implica em domínio e subordinação]]
 
-### Flashcards
-
 ---
 **Fonte:** [[ALBUQUERQUEJUNIOR-DurvalMuniz-2008]]

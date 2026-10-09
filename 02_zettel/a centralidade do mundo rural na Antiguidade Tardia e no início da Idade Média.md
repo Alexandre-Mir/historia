@@ -19,7 +19,5 @@ There is no need to insist on the fact that urban centres and an urban economy o
 ### Conexões
 - 
 
-### Flashcards
-
 ---
 **Fonte:** [[CHEYETTE-FredricL.-2008]]

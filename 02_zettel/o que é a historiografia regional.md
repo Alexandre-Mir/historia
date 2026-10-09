@@ -14,8 +14,5 @@ Campo teórico e metodológico da História que busca compreender os fenômenos 
 ### Conexões
 - 
 
-### #Flashcards
-Campo ==teórico== e ==metodológico== da História que busca compreender os fenômenos ==delimitadores dos espaços== em ==aspectos sociais==, ==políticos== e ==econômicos==.
-
 ---
 **Fonte:** [[SOARES-JoseRobertoHenriqueSouza-2019]]

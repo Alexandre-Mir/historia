@@ -13,16 +13,108 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-10-07.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "01_notes/ROUSSO-Henry-2016.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-10-07"
+              "title": "ROUSSO-Henry-2016"
+            },
+            "group": "09aeb1c4e718b146"
+          },
+          {
+            "id": "87c970f6a6d00ad7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily/2026-10-08.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2026-10-08"
             }
           }
-        ]
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "105667ca3bcf22f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "3b90482ef7720b68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4802931c711b8928",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "01_notes/ROUSSO-Henry-2016.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": false
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de ROUSSO-Henry-2016"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          },
+          {
+            "id": "bb70bbec74d76a1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6bac3f8df84a785b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "01_notes/ROUSSO-Henry-2016.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para ROUSSO-Henry-2016"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -84,7 +176,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 274.93359375,
+    "collapsed": true
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -188,19 +281,8 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "e0df4c03308e5e17",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "b772e41e41b1cd8c",
@@ -212,7 +294,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/zotero/research note.md",
+                "file": "02_zettel/registros do conceito de Região.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,35 +329,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cf20fac58c848ff7",
+  "active": "87c970f6a6d00ad7",
   "lastOpenFiles": [
-    "01_notes/ROUSSO-Henry-2016.md",
     "daily/2026-10-07.md",
+    "daily/2026-10-08.md",
+    "meta/templater/templater-daily-note.md",
+    "01_notes/ROUSSO-Henry-2016.md",
+    "02_zettel/o presentismo nas américas é a-memórico.md",
+    "02_zettel/o regime de historicidade é a relação humana com o tempo e espaço histórico.md",
+    "02_zettel/vivemos em um regime de historicidade presentista.md",
+    "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
+    "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
+    "meta/attachments/ROUSSO-Henry-2016",
+    "zettelkasten-supervisor.md",
+    "meta/templater/zettel-extract.md",
+    "02_zettel/classificação da narrativa leninista.md",
+    "01_notes/KRAUSZ-Tamas-2017.md",
+    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
+    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
+    "02_zettel/a Região implica em domínio e subordinação.md",
+    "02_zettel/o que é a historiografia regional.md",
+    "02_zettel/etmologia da Região.md",
+    "02_zettel/registros do conceito de Região.md",
+    "02_zettel/Região numa abordagem foucaultiana.md",
+    "02_zettel/o que é o documento voluntário.md",
+    "02_zettel/diferença entre Região e Regionalismo.md",
+    "02_zettel/a conquista exige um saber conquistar.md",
+    "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
+    "meta/templater/extract research note from selection.md",
     "meta/zotero/research note.md",
     "fluxo.md",
     "daily/2026-10-06.md",
-    "daily/2026-10-05.md",
-    "meta/templater/templater-daily-note.md",
-    "IW-Queues/IW-Queue.md",
     "IW-Queues",
-    "02_zettel/o que é o documento voluntário.md",
-    "nem toda coisa física é um documento por natureza.md",
-    "origem etimológica da palavra documento.md",
-    "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
-    "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
-    "2026-10-06.md",
-    "meta/dataview/dashboard-ir-srs.md",
-    "daily/2026-10-04.md",
-    "daily/2026-10-03.md",
-    "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
-    "01_notes/SOARES-JoseRobertoHenriqueSouza-2019.md",
-    "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2012.md",
-    "01_notes/CHEYETTE-FredricL.-2008.md",
-    "02_zettel/diferença entre Região e Regionalismo.md",
-    "02_zettel/o que é a historiografia regional.md",
-    "02_zettel/registros do conceito de Região.md",
-    "02_zettel/Região numa abordagem foucaultiana.md",
-    "02_zettel/A narratiza dissolve o relato histórico.md",
     "daily",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-12-x84-y391.png",
@@ -288,13 +373,10 @@
     "meta/javascript/load-current-note.js",
     "meta/javascript/workspace-load-work-with-notes.js",
     "meta/javascript/workspace-load-search-research-notes.js",
-    "meta/javascript/search-research-notes.js",
     "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-12.jpeg",
     "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-9.jpeg",
     "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-2.jpeg",
     "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-1.jpeg",
-    "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-0.jpeg",
-    "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-46.jpeg",
-    "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-45.jpeg"
+    "Biblioteca/HAVERBEKE/assets/Eloquent_JavaScript_Marijn_Haverbeke_z_library_sk,_1lib_sk,_z_img-0.jpeg"
   ]
 }
