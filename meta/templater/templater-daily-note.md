@@ -57,5 +57,5 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] hobby #extra 
 - [ ] organizar mesa #casa
 - [ ] projeto financeiro com cashew #extra 
-#### Estudo do dia - História Contemporânea 2
+#### Estudo do dia - Teoria da História
 <%* } -%>

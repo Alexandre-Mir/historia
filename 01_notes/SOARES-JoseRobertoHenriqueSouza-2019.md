@@ -43,7 +43,7 @@ Imported on 2026-09-22 6:23 pm
 
 Imported on 2026-09-24 12:27 pm
 
-[[o que é a historiografia regional]]
+[[a historiografia regional investiga a Região como objeto]]
 [[diferença entre Região e Regionalismo]]
 [[registros do conceito de Região]]
 
