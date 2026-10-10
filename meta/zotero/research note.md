@@ -23,13 +23,50 @@ archive: "{{archive | replace('"', "'")}}"
 {%- if archiveLocation %}
 archive-location: "{{archiveLocation | replace('"', "'")}}"
 {%- endif %}
+{%- if doi %}
+doi: "{{doi}}"
+{%- endif %}
+{%- if url %}
+url: "{{url}}"
+{%- endif %}
 citekey: {{citekey}}
-tags: leitura
+tags:
+  - leitura
 ---
+
+{% macro calloutType(color, colorCategory) -%}
+{%- set c = (colorCategory or "") | lower -%}
+{%- set hex = (color or "") | lower -%}
+{%- if c == "red" or hex == "#ff6666" or hex == "#red" -%}
+important
+{%- elif c == "green" or hex == "#5fb236" or hex == "#green" -%}
+tip
+{%- elif c == "blue" or hex == "#2ea8e5" or hex == "#blue" -%}
+info
+{%- elif c == "purple" or hex == "#a28ae5" or hex == "#purple" -%}
+summary
+{%- elif c == "orange" or hex == "#f19837" or hex == "#orange" -%}
+warning
+{%- elif c == "yellow" or hex == "#ffd400" or hex == "#yellow" -%}
+quote
+{%- elif c == "magenta" or hex == "#e56eee" -%}
+quote
+{%- elif c == "gray" or hex == "#aaaaaa" -%}
+note
+{%- else -%}
+quote
+{%- endif -%}
+{%- endmacro %}
 
 {{bibliography}}
 
-[online]({{uri}}) [local]({{desktopURI}}){% for attachment in attachments | filterby("path", "endswith", ".pdf") %} [pdf](file://{{attachment.path | replace(" ", "%20")}}){% endfor %}
+🔗 **Acesso:** [Zotero Desktop]({{desktopURI}}) · [Zotero Web]({{uri}}){% for attachment in attachments | filterby("path", "endswith", ".pdf") %} · [PDF Local](file://{{attachment.path | replace(" ", "%20")}}){% endfor %}
+
+{%- if abstractNote %}
+
+> [!abstract]- Resumo da Obra (Abstract)
+> {{abstractNote}}
+{%- endif %}
 
 {% if tags.length > 0 -%}
 {%- for t in tags -%}
@@ -49,44 +86,71 @@ page-no:: {% for annotation in annotations %}{% if loop.last %}{{annotation.page
 
 ## Connections
 
+{% persist "connections" %}
+{%- if not _retained.connections -%}
+- 
+{%- endif -%}
+{% endpersist %}
+
 {% persist "comment" %}
-%% begin comment %%
+{%- if not _retained.comment -%}
 comment::
-%% end comment %%
+{%- endif -%}
 {% endpersist %}
 
 ## Note
 
-{% macro calloutHeader(color) -%}
-{%- if color == "#ff6666" or color == "#red" -%}Important
-{%- elif color == "#5fb236" or color == "#green" -%}Tip
-{%- elif color == "#2ea8e5" or color == "#blue" -%}Note
-{%- elif color == "#a28ae5" or color == "#purple" -%}Summary
-{%- elif color == "#f19837" or color == "#orange" -%}Warning
-{%- else -%}Quote
-{%- endif -%}
-{%- endmacro %}
-
 {% persist "annotations" %}
-%% begin annotations %%
-{% set annotations = annotations | filterby("date", "dateafter", lastImportDate) -%}
-{% if annotations.length > 0 %}
-Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
+{%- set newAnnotations = annotations | filterby("date", "dateafter", lastImportDate) -%}
+{%- if newAnnotations.length > 0 %}
+### 📅 Importado em {{importDate | format("YYYY-MM-DD HH:mm")}}
 
-{% for annotation in annotations %}
-> [!{{calloutHeader(annotation.color) | trim}}]
+{% for annotation in newAnnotations %}
 {%- if annotation.imageRelativePath %}
-![[{{annotation.imageRelativePath}}]] ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
-{%- endif %}
-{%- if annotation.annotatedText %}
-{{annotation.annotatedText}} ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
-{%- endif %}
+> [!{{calloutType(annotation.color, annotation.colorCategory)}}] Imagem (p. {{annotation.pageLabel}})
+> ![[{{annotation.imageRelativePath}}]]
+> [Ver no Zotero (p. {{annotation.pageLabel}})]({{annotation.desktopURI}})
 {%- if annotation.comment %}
-
-> **Nota:** {{annotation.comment}}
+> 
+> 💡 **Comentário:** {{annotation.comment}}
+{%- endif %}
+{%- if annotation.tags and annotation.tags.length > 0 %}
+> 
+> {%- for tag in annotation.tags %} #{{tag.tag | replace(" ", "-")}} {%- endfor %}
 {%- endif %}
 
-{% endfor %}
+{% elif annotation.annotatedText %}
+> [!{{calloutType(annotation.color, annotation.colorCategory)}}]
+> {{annotation.annotatedText}} ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
+{%- if annotation.comment %}
+> 
+> 💡 **Comentário:** {{annotation.comment}}
+{%- endif %}
+{%- if annotation.tags and annotation.tags.length > 0 %}
+> 
+> {%- for tag in annotation.tags %} #{{tag.tag | replace(" ", "-")}} {%- endfor %}
+{%- endif %}
+
+{% elif annotation.comment %}
+> [!note] Comentário (p. {{annotation.pageLabel}})
+> 💡 {{annotation.comment}} ([p. {{annotation.pageLabel}}]({{annotation.desktopURI}}))
+{%- if annotation.tags and annotation.tags.length > 0 %}
+> 
+> {%- for tag in annotation.tags %} #{{tag.tag | replace(" ", "-")}} {%- endfor %}
+{%- endif %}
+
 {% endif %}
-%% endannotations %%
+{% endfor %}
+{%- endif %}
 {% endpersist %}
+
+---
+
+## 💎 Zettels Atômicos Derivados
+
+```dataview
+TABLE file.cday AS "Criado em", tags AS "Tags"
+FROM "02_zettel"
+WHERE contains(Fonte, this.file.link) OR contains(file.outlinks, this.file.link) OR contains(file.inlinks, this.file.link)
+SORT file.cday desc
+```

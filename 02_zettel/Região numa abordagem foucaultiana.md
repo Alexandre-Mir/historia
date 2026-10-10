@@ -16,8 +16,5 @@ Numa abordagem foucaultiana, a categoria Região é percebida como um objeto ide
 
 ### Conexões
 
-### #flashcards
-Numa abordagem ==foucaultiana==, a categoria Região é percebida como um ==objeto idealizado== e ==planejado==, utilizado apenas para ==segregar socioeconomicamente== os espaços em defesa dos ==interesses== de ==uma parte minoritária da sociedade==.
-
 ---
 **Fonte:** [[SOARES-JoseRobertoHenriqueSouza-2019]]

@@ -15,7 +15,7 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] preparar o estudo do dia seguinte #estudo 
 - [ ] revisar a agenda do dia #extra 
 - [ ] aprimorar skill zettel #extra 
-- [ ] enviar currículo
+- [ ] enviar currículo #trabalho
 ## rotina do dia
 <%* if (dia === 1) { -%>
 - [ ] treino de força A (peito e ombros), 40 min #exercicio
