@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -249,8 +248,8 @@
   },
   "active": "b0be12fe8d56b386",
   "lastOpenFiles": [
-    "meta/templater/templater-daily-note.md",
     "daily/2026-10-10.md",
+    "meta/templater/templater-daily-note.md",
     "01_notes/ECO-Umberto-2024.md",
     "02_zettel/a historiografia regional investiga a Região como objeto.md",
     "02_zettel/a Região implica em domínio e subordinação.md",
