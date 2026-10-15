@@ -1,16 +1,14 @@
 # 🧭 Painel de estudo: leitura, revisão e escrita
 
-Atalhos para retomar o ciclo descrito em [[fluxo]]: leitura ativa, revisão de Zettels e avanço dos projetos de escrita.
-
 ---
 
 ## 📚 Leituras ativas
-> Obras marcadas com `#leitura`, ordenadas da menos recentemente retomada para a mais recente.
+> Obras marcadas sem valor atribuído a `end-date::`, ordenadas da menos recentemente retomada para a mais recente.
 
 ```dataview
 TABLE
   dateformat(file.mtime, "yyyy-MM-dd") AS "Última retomada"
-FROM #leitura
+FROM "01_notes"
 SORT file.mtime asc
 LIMIT 15
 ```

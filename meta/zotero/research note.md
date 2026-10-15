@@ -30,8 +30,6 @@ doi: "{{doi}}"
 url: "{{url}}"
 {%- endif %}
 citekey: {{citekey}}
-tags:
-  - leitura
 ---
 
 {% macro calloutType(color, colorCategory) -%}

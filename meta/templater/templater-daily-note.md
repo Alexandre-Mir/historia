@@ -9,7 +9,7 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] Revisar agenda e escolher a prioridade do dia #extra
 
 ## 📖 Bloco de estudo — leitura e fichamento
-> Siga o ciclo do [[fluxo]]: retome uma leitura ativa e avance apenas 1–3 blocos/parágrafos.
+> Siga o ciclo do [[fluxo de estudos]]: retome uma leitura ativa e avance apenas 1–3 blocos/parágrafos.
 - [ ] Sessão de leitura incremental (1 pomodoro) #estudo
 - [ ] Registrar/organizar o avanço na nota de literatura em `01_notes/` #estudo
 
