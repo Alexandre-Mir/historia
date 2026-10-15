@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -225,7 +224,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "random-note:Abrir nota aleatória": false,
-      "obsidian-spaced-repetition:Revisar flashcards": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
