@@ -79,12 +79,23 @@
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
+          },
+          {
+            "id": "f188af7a07fad4b5",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 586.2578125
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -232,11 +243,16 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "daily/2026-10-15.md",
+    "meta/templater/templater-daily-note.md",
+    "02_zettel/classificação da narrativa leninista.md",
+    "IW-Queues/IW-Queue.md",
     "meta/dataview/dashboard-ir-srs.md",
     "fluxo.md",
     "Biblioteca/Subjective well‑being and inequality in Spain’s decline/Subjective well‑being and inequality in Spain’s decline.md",
@@ -248,7 +264,6 @@
     "Biblioteca/Aula6_Inteco_Madu/Aula6_Inteco_PPT.md",
     "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
     "inbox.md",
-    "meta/templater/templater-daily-note.md",
     "Análise de História Quantitativa Interpretação de Tabelas, Gráficos e Dados Demográficos.md",
     "Sem título.md",
     "02_zettel/origem etimológica da palavra documento.md",
@@ -260,9 +275,6 @@
     "02_zettel/Região numa abordagem foucaultiana.md",
     "02_zettel/etmologia da Região.md",
     "02_zettel/a conquista exige um saber conquistar.md",
-    "02_zettel/a historiografia regional investiga a Região como objeto.md",
-    "02_zettel/a Região implica em domínio e subordinação.md",
-    "02_zettel/diferença entre Região e Regionalismo.md",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/ROUSSO-Henry-2016",
