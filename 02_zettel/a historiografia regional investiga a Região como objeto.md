@@ -1,12 +1,6 @@
 ---
-created: 2026-09-24 17:41
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-08
-sr-interval: 3
-sr-ease: 230
 ---
 ### Síntese
 Sem tomar a região como algo natural, a historigrafia regional deve questionar o poder-saber que formou aquela região. Sem também, cair na armadilha d[[a relação dialética entre historiografia regional e Região a-histórica]].

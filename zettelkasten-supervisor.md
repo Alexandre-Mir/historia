@@ -80,9 +80,9 @@ O título é a unidade primária de recuperação e interligação do pensamento
 
 ### 6. Rastreabilidade e Anatomia Técnica do Cofre
 - A nota deve respeitar o ecossistema estrutural limpo do cofre do pesquisador:
-  - Cabeçalho com frontmatter (`type: zettel`, tags `#zettel`, data de criação). Não utiliza campos burocráticos de agendamento de repetição espaçada.
+  - Cabeçalho com frontmatter (`type: zettel`, tag `#zettel` e data de criação). O agendamento da revisão é controlado pelo plugin Spaced Repetition, não por campos manuais no template.
   - Fonte bibliográfica explícita: `**Fonte:** [[Autor-Ano]]`.
-  - Seções anatômicas padrão: `### Síntese`, citação da literatura (`> [!important]`) e `### Conexões`. Não há seção de flashcards.
+  - Seções anatômicas padrão: `### Síntese`, citação da literatura (`> [!important]`) e `### Conexões`, com o nexo entre notas explicado. Não há seção de flashcards.
 
 ---
 

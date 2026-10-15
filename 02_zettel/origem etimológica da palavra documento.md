@@ -1,12 +1,6 @@
 ---
-created: 2026-10-03 11:56
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-08
-sr-interval: 2
-sr-ease: 230
 ---
 ### Síntese
 
@@ -17,8 +11,6 @@ A palavra documento tem a mesma raiz latina do verbo  doceo , que significa ensi
 
 ### Conexões
 - 
-
-### Flashcards
 
 ---
 **Fonte:** [[MENESES-UlpianoToledoBezerrade-1980]]

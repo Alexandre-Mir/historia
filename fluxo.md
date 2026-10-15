@@ -1,6 +1,6 @@
-# 🧭 Guia Prático de Estudos: Zettelkasten + SuperMemo + Incremental Reading
+# 🧭 Guia Prático de Estudos: Zettelkasten + Incremental Reading + Incremental Writing
 
-Este documento consolida o fluxo oficial de trabalho do cofre `historia`, integrando a captura do Zotero, leitura incremental parágrafo a parágrafo, atomização Zettelkasten e repetição espaçada SM-2.
+Este documento consolida o fluxo de trabalho do cofre `historia`, integrando a captura do Zotero, leitura incremental, atomização Zettelkasten, evolução orgânica das notas e escrita incremental.
 
 ---
 
@@ -9,8 +9,8 @@ flowchart TD
     A["1. Zotero: Leitura & Grifos"] -->|Importação automática| B["2. 01_notes/ (Notas de Literatura)"]
     B -->|Ctrl+N: Work With Notes| C["3. Incremental Reading por Blocos"]
     C -->|Alt+Z: Extrair Zettel| D["4. 02_zettel/ (Notas Atômicas Conceituais)"]
-    D -->|Active Recall & SM-2| E["5. Fila Diária Spaced Repetition"]
-    E -->|Refinamento espaçado| D
+    D -->|Exploração do grafo| E["5. Evolução orgânica no grafo"]
+    E -->|Novas conexões e leituras cruzadas| D
     D -->|Conexões & Síntese| F["6. Incremental Writing: MOCs & Ensaios"]
 ```
 
@@ -28,7 +28,7 @@ flowchart TD
 ---
 
 ### Fase 2: Sessão de Leitura Incremental (Incremental Reading)
-1. Abra o painel de controle [[meta/dataview/dashboard-ir-srs|Dashboard IR & SRS]] para ver suas leituras em andamento.
+1. Abra o [[meta/dataview/dashboard-ir-srs|Painel de estudo: leitura, revisão e escrita]] para ver suas leituras em andamento.
 2. Abra a nota da obra que vai estudar hoje em `01_notes/`.
 3. Pressione **`Ctrl+N`** (`work with notes`):
    - O Obsidian carrega o layout de trabalho com **Grafo Local**, **Links Inversos** e **Sumário**, mantendo a sua nota aberta em foco.
@@ -44,7 +44,7 @@ Ao encontrar um excerto relevante no texto:
    - Digite um título conceitual claro e expressivo (ex: `Idealização da categoria região em Soares`).
 3. **O que acontece automaticamente:**
    - Uma nova nota atômica é gerada em `02_zettel/<Título>.md`.
-   - A nova nota recebe a tag `#zettel`, `#review`, dados de agendamento SM-2 e a referência `**Fonte:** [[Nome da Obra]]`.
+   - A nova nota recebe a tag `#zettel` e a referência `**Fonte:** [[Nome da Obra]]`.
    - Na sua nota de leitura original em `01_notes/`, **a citação é substituída pelo link** `[[Título do Zettel]]`.
 4. Abra o novo Zettel em `02_zettel/`:
    - **Reescreva a síntese com suas próprias palavras** (paráfrase ativa).
@@ -52,28 +52,19 @@ Ao encontrar um excerto relevante no texto:
 
 ---
 
-### Fase 4: Active Recall & Repetição Espaçada (SuperMemo / SM-2)
-Para garantir retenção de longo prazo na memória:
-1. Dentro do Zettel, se desejar formular um cartão de memorização direta:
-   - Crie uma pergunta e resposta inline usando `::`:
-     ```markdown
-     Qual é a função da categoria região para Soares?:: Segregar socioeconomicamente os espaços em defesa de interesses de minorias.
-     ```
-   - Ou oculte termos-chave com clozes (`==termo==`):
-     ```markdown
-     A categoria Região é percebida como um objeto ==idealizado e planejado==.
-     ```
-2. **Revisão Diária:**
-   - Diariamente ou no início dos estudos, abra o **Obsidian Spaced Repetition** (ícone de baralho na barra lateral esquerda ou `Ctrl+P ➔ Spaced Repetition: Review flashcards / Review notes`).
-   - O algoritmo SM-2 apresentará tanto as **notas `#zettel`** quanto os **flashcards** na data exata da curva de esquecimento.
-   - Avalie sua retenção (*Errei*, *Difícil*, *OK*, *Fácil*). O sistema recalcula o próximo intervalo em dias automaticamente.
+### Fase 4: Evolução Orgânica dos Zettels
+As notas amadurecem pelo uso e pelo contato com outras ideias, sem depender de uma fila artificial de revisão:
+1. Explore o grafo local e os backlinks a partir do Zettel em que está trabalhando.
+2. Leia as notas conectadas e verifique que relações, tensões ou diferenças ficam mais claras quando colocadas lado a lado.
+3. Atualize a síntese com sua compreensão atual, acrescente conexões com nexos explícitos e crie novos Zettels quando surgir uma ideia independente.
+4. Retome Zettels antigos durante leituras cruzadas ou sessões de escrita; cada encontro pode aprofundar a rede e amadurecer as notas.
 
 ---
 
 ### Fase 5: Incremental Writing (Escrita Incremental e Síntese)
 O Incremental Writing atua tanto na escala micro (notas) quanto macro (ensaios):
-1. **Micro-Writing (Refinamento Espaçado):**
-   - Ao revisar uma nota de `02_zettel/` na fila SM-2, aproveite 1 a 2 minutos para **reescrever**, aprimorar termos e adicionar novas conexões com conceitos aprendidos recentemente.
+1. **Micro-Writing (Refinamento de Zettels):**
+   - Ao reencontrar uma nota de `02_zettel/` pelo grafo, backlinks, leitura cruzada ou escrita, aproveite alguns minutos para **reescrever**, aprimorar termos e adicionar conexões com nexos explícitos.
 2. **Macro-Writing (Ensaios e MOCs):**
    - Projetos de escrita longos (como artigos, capítulos ou ensaios em andamento) recebem a tag `#escrita` ou entram na fila do **Incremental Writing**.
    - A cada ciclo da fila, você não tenta terminar o texto de uma vez:

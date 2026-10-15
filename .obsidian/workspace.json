@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "057e868e1fe24ecd",
+        "id": "4a048e74afd82a94",
         "type": "tabs",
         "children": [
           {
-            "id": "b0be12fe8d56b386",
+            "id": "cf20fac58c848ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-10-10.md",
+                "file": "IW-Queues/IW-Queue.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-10"
+              "title": "IW-Queue"
             }
           }
         ]
@@ -83,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 274.93359375,
+    "collapsed": true
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -187,19 +189,8 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "5cc263d58ad5a481",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "review-queue-list-view"
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "b772e41e41b1cd8c",
@@ -211,7 +202,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_zettel/registros do conceito de Região.md",
+                "file": "meta/zotero/research note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,37 +237,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5cc263d58ad5a481",
+  "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "daily/2026-10-10.md",
+    "meta/dataview/dashboard-ir-srs.md",
+    "fluxo.md",
+    "Biblioteca/Subjective well‑being and inequality in Spain’s decline/Subjective well‑being and inequality in Spain’s decline.md",
+    "Biblioteca/BASILE-Marcello-2009/BASILE-Marcello-2009.md",
+    "Biblioteca/_Planos/MODERNA 2/MODERNA 2.md",
+    "Biblioteca/Roberto_Carlos_em_Detalhes_Paulo_Ces_z_library_sk,_1lib_sk,/Roberto Carlos em detalhes.md",
+    "Biblioteca/Cabanada & Cabanagem/Cabanada & Cabanagem.md",
+    "daily/2026-10-14.md",
+    "Biblioteca/Aula6_Inteco_Madu/Aula6_Inteco_PPT.md",
+    "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
+    "inbox.md",
     "meta/templater/templater-daily-note.md",
-    "01_notes/ECO-Umberto-2024.md",
+    "Análise de História Quantitativa Interpretação de Tabelas, Gráficos e Dados Demográficos.md",
+    "Sem título.md",
+    "02_zettel/origem etimológica da palavra documento.md",
+    "02_zettel/nem toda coisa física é um documento por natureza.md",
+    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
+    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
+    "02_zettel/registros do conceito de Região.md",
+    "02_zettel/o que é o documento voluntário.md",
+    "02_zettel/Região numa abordagem foucaultiana.md",
+    "02_zettel/etmologia da Região.md",
+    "02_zettel/a conquista exige um saber conquistar.md",
     "02_zettel/a historiografia regional investiga a Região como objeto.md",
     "02_zettel/a Região implica em domínio e subordinação.md",
-    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
-    "daily/2026-10-09.md",
-    "01_notes/ARAUJO-AndredeMelo-2024.md",
-    "02_zettel/o espaço pode determinar marcos cronológicos.md",
-    "02_zettel/classificação da narrativa leninista.md",
-    "02_zettel/criar marcos cronológicos e conceituais atribui sentido às ações humanas.md",
-    "02_zettel/Região numa abordagem foucaultiana.md",
-    "meta/zotero/research note.md",
-    "daily/2026-10-08.md",
-    "daily/2026-10-07.md",
-    "01_notes/ROUSSO-Henry-2016.md",
-    "02_zettel/o presentismo nas américas é a-memórico.md",
-    "02_zettel/o regime de historicidade é a relação humana com o tempo e espaço histórico.md",
-    "02_zettel/vivemos em um regime de historicidade presentista.md",
+    "02_zettel/diferença entre Região e Regionalismo.md",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/ROUSSO-Henry-2016",
-    "zettelkasten-supervisor.md",
-    "meta/templater/zettel-extract.md",
-    "01_notes/KRAUSZ-Tamas-2017.md",
-    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
-    "02_zettel/etmologia da Região.md",
-    "02_zettel/registros do conceito de Região.md",
-    "02_zettel/o que é o documento voluntário.md",
     "IW-Queues",
     "daily",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",

@@ -1,12 +1,6 @@
 ---
-created: 2026-09-25 10:24
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-19
-sr-interval: 14
-sr-ease: 250
 ---
 ### Síntese
 A ideia de região nasce como uma ferramenta de exercício do poder, do controle e da força. No Império Romano, *regione* nomeava a área de atuação de uma legião ou força militar. A noção de região confunde-se com a de província, vinda de *vincere* ("vencer"). No final da Idade Média, o conceito é redefinido para nomear a extensão territorial sob o governo direto do rei (*regio*).
@@ -17,8 +11,6 @@ A noção de região, por exemplo, tem origem militar, vem do latim regione, e n
 
 ### Conexões
 - 
-
-### Flashcards
 
 ---
 **Fonte:** [[ALBUQUERQUEJUNIOR-DurvalMuniz-2008]]

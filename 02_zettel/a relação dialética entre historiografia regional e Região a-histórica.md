@@ -1,12 +1,6 @@
 ---
-created: 2026-09-25 10:11
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-20
-sr-interval: 15
-sr-ease: 250
 ---
 ### Síntese
 A região tida como um *a priori*, justifica a existência de um campo do saber que também justifica a região, criando uma relação dialética que uma depende da outra.
@@ -19,8 +13,6 @@ Literalmente, a região dá um lugar político e epistêmico à historiografia r
 
 ### Conexões
 - 
-
-### Flashcards
 
 ---
 **Fonte:** [[ALBUQUERQUEJUNIOR-DurvalMuniz-2008]]

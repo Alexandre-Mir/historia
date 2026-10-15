@@ -1,14 +1,15 @@
-# 🧠 Dashboard: Incremental Reading & Spaced Repetition
+# 🧭 Painel de estudo: leitura, revisão e escrita
+
+Atalhos para retomar o ciclo descrito em [[fluxo]]: leitura ativa, revisão de Zettels e avanço dos projetos de escrita.
 
 ---
 
-## 📚 1. Fila de Leitura Incremental (Leituras Ativas)
-> Notas marcadas com `#leitura` ou localizadas em `01_notes`. Mostra as últimas notas modificadas para retomar o fluxo.
+## 📚 Leituras ativas
+> Obras marcadas com `#leitura`, ordenadas da menos recentemente retomada para a mais recente.
 
 ```dataview
-TABLE 
-  title AS "Título",
-  dateformat(file.mtime, "D - HH:mm") AS "Última Interação"
+TABLE
+  dateformat(file.mtime, "yyyy-MM-dd") AS "Última retomada"
 FROM #leitura
 SORT file.mtime asc
 LIMIT 15
@@ -16,44 +17,34 @@ LIMIT 15
 
 ---
 
-## 🔁 2. Revisões Espaçadas de Notas (SuperMemo / SM-2)
-> Notas atômicas com a tag `#zettel` ou `#review` ordenadas pela data de vencimento (`sr-due`).
+## 🧠 Zettels recentes no grafo
+> Use esta lista para escolher uma nota e explorar seus backlinks e conexões. As notas amadurecem ao serem retomadas em leituras cruzadas, ao explicitar relações com outras ideias e ao contribuir para a escrita.
 
 ```dataview
-TABLE 
-  sr-due AS "Vencimento SRS",
-  sr-interval AS "Intervalo (dias)",
-  sr-ease AS "Ease Factor",
-  Fonte AS "Obra de Origem"
-FROM #zettel OR #review
-SORT sr-due asc
+TABLE
+  dateformat(file.ctime, "yyyy-MM-dd") AS "Criado em"
+FROM "02_zettel"
+SORT file.ctime desc
 LIMIT 20
 ```
 
 ---
 
-## ⚡ 3. Zettels Recentes e Conexões Pendentes
-> Notas atômicas criadas recentemente em `02_zettel`. Verifique se precisam de mais links bidirecionais (outlinks).
+## 🔗 Conexões para conferir
+> Use a lista como convite à revisão: confira se a síntese está na sua voz e se cada conexão explica o nexo entre as ideias. A contagem de links inclui também a fonte bibliográfica.
 
 ```dataview
-TABLE 
-  length(file.outlinks) AS "Links de Saída",
-  length(file.inlinks) AS "Backlinks",
-  file.cday AS "Criado em"
+TABLE
+  length(file.inlinks) AS "Notas que apontam para cá",
+  dateformat(file.mtime, "yyyy-MM-dd") AS "Última alteração"
 FROM "02_zettel"
-SORT file.ctime desc
-LIMIT 15
+WHERE length(file.inlinks) = 0
+SORT file.mtime asc
 ```
 
 ---
 
-## 💡 4. Ideias Órfãs (Notas sem Conexões)
-> Notas conceituais em `02_zettel` com poucos ou nenhum link. Ótimas candidatas para Incremental Writing e conexão com outras ideias.
+## ✍️ Projetos de escrita incremental
+> Escolha um item da [[IW-Queues/IW-Queue|fila de escrita]] e termine cada sessão deixando anotado o próximo passo concreto.
 
-```dataview
-TABLE 
-  file.cday AS "Criação"
-FROM "02_zettel"
-WHERE length(file.outlinks) <= 1
-SORT file.ctime desc
-```
+Fila: [[IW-Queues/IW-Queue|abrir a fila de escrita incremental]].

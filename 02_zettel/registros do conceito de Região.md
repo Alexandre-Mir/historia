@@ -1,12 +1,6 @@
 ---
-created: 2026-09-24 17:54
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-08
-sr-interval: 3
-sr-ease: 230
 ---
 ### Síntese
 O primeiro registro compreende a Região como algo natural, definido por determinadas ocupações humanas em partes específicas do espaço geográfico. ([p. 238](zotero://open-pdf/library/items/WEZMAG2W?page=238&annotation=FNPM5W9B))
@@ -15,9 +9,6 @@ O segundo registro é definido pelo autor ([[ALBUQUERQUEJUNIOR-DurvalMuniz-2008]
 
 ### Conexões
 - [[Região numa abordagem foucaultiana]]
-
-### #Flashcards
-Quantos registros sobre Região o autor define?::três
 
 ---
 **Fonte:** [[SOARES-JoseRobertoHenriqueSouza-2019]]

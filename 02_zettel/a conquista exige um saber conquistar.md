@@ -1,12 +1,6 @@
 ---
-created: 2026-09-25 10:28
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-21
-sr-interval: 16
-sr-ease: 250
 ---
 ### Síntese
 O exercício do poder e a dominação territorial dependem inevitavelmente da produção de conhecimento. O poder exige uma técnica, uma arte de governar e um saber acumulado. Como aponta Foucault, todo espaço de poder é também um espaço de saber. O "saber-fazer" é o que viabiliza e consolida o domínio. Não existe domínio territorial sem um conjunto de saberes e técnicas que o estruturem e o legitimem.

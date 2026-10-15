@@ -1,12 +1,6 @@
 ---
-created: 2026-09-24 13:07
-type: zettel
 tags:
   - zettel
-  - review
-sr-due: 2026-10-23
-sr-interval: 18
-sr-ease: 250
 ---
 ### Síntese
 

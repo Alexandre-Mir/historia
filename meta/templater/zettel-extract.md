@@ -11,24 +11,26 @@ if (!title) return;
 const fileName = title.replace(/[\\/:*?"<>|#^\[\]]/g, "-").trim();
 const sourceTitle = tp.file.title;
 const nowDateTime = tp.date.now("YYYY-MM-DD HH:mm");
-const nowDate = tp.date.now("YYYY-MM-DD");
+// Cada linha da seleção vira citação Markdown, preservando trechos multilinha.
+const quotedSelection = selection
+    .split("\n")
+    .map(line => `> ${line}`)
+    .join("\n");
 
-// Conteúdo formatado da nova nota atômica
+// Estrutura padrão da nota atômica
 const noteContent = `---
 created: ${nowDateTime}
 type: zettel
 tags:
   - zettel
-  - review
-  - seed
 ---
 ### Síntese
 
-### Texto original
-${selection}
+> [!important] Trecho de origem
+${quotedSelection}
 
 ### Conexões
-- 
+- <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 
 ---
 **Fonte:** [[${sourceTitle}]]

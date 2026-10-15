@@ -1,5 +1,0 @@
-- [ ] Drag and Drop
-	- [x] Arco de cartas
-		- [ ] Destacar e trazer carta pra frente ao hover
-	- [ ] Animação ao arrastar
-	- [ ] Zoom ao drag
