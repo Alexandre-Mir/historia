@@ -74,5 +74,41 @@
       ],
       "key": "R"
     }
+  ],
+  "quickadd:choice:8fccdf26-e809-4000-a664-2e0bc7c3c5ae": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "quickadd:choice:0a8e34a0-121c-4eb8-a25d-3051c56f9a72": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:6560e10b-a2af-4b02-bcc4-8d0e9a7cb92d": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "quickadd:choice:26e8a6b3-1321-4b2c-ab82-3c3a17939fcb": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Z"
+    }
   ]
 }

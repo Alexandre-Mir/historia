@@ -1,0 +1,34 @@
+{
+  "editorPosition": "right",
+  "attachShortcutToGlobalWindow": false,
+  "globalNamespace": "MF",
+  "formDefinitions": [
+    {
+      "title": "Encerrar sessão de leitura",
+      "name": "encerrar-sessao-leitura",
+      "fields": [
+        {
+          "name": "readingPosition",
+          "label": "Onde você parou?",
+          "description": "Página, seção ou trecho para retomar.",
+          "isRequired": true,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "nextReadingStep",
+          "label": "Qual é o próximo passo?",
+          "description": "Uma ação pequena e concreta para a próxima sessão.",
+          "isRequired": true,
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}

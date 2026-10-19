@@ -178,6 +178,86 @@
           }
         ]
       }
+    },
+    {
+      "id": "8fccdf26-e809-4000-a664-2e0bc7c3c5ae",
+      "name": "Encerrar sessão de leitura",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Encerrar sessão de leitura",
+        "id": "24f30518-3188-4d01-9931-8f1a1fca2637",
+        "commands": [
+          {
+            "name": "finish-reading-session",
+            "type": "UserScript",
+            "id": "e1a584c9-2cc2-4771-9963-8d0a5d4bae4d",
+            "path": "meta/javascript/finish-reading-session.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "0a8e34a0-121c-4eb8-a25d-3051c56f9a72",
+      "name": "Adicionar tarefa à nota de hoje",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Adicionar tarefa à nota de hoje",
+        "id": "23b1c9d5-7291-4005-b394-fd280b48fb71",
+        "commands": [
+          {
+            "name": "add-task-to-today",
+            "type": "UserScript",
+            "id": "0ec24ff3-4fec-4b82-a519-a880711bac64",
+            "path": "meta/javascript/add-task-to-today.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "6560e10b-a2af-4b02-bcc4-8d0e9a7cb92d",
+      "name": "Abrir fonte do Zettel",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Abrir fonte do Zettel",
+        "id": "ca68bfed-9da5-48a9-a75d-57bb99a779df",
+        "commands": [
+          {
+            "name": "open-zettel-source",
+            "type": "UserScript",
+            "id": "96b51746-4120-4e8d-80c6-fd91b9623603",
+            "path": "meta/javascript/open-zettel-source.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "26e8a6b3-1321-4b2c-ab82-3c3a17939fcb",
+      "name": "Buscar referência Zotero",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Buscar referência Zotero",
+        "id": "c2b29657-7166-4161-b0f8-d47a665f0e10",
+        "commands": [
+          {
+            "name": "search-literature-notes",
+            "type": "UserScript",
+            "id": "9b6c32ce-3c68-497a-9b5a-c96850fff78e",
+            "path": "meta/javascript/search-literature-notes.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

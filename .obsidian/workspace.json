@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4a048e74afd82a94",
+        "id": "edb6d63c7c7ee1ba",
         "type": "tabs",
         "children": [
           {
-            "id": "cf20fac58c848ff7",
+            "id": "b07991c19fc383ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/templater/templater-daily-note.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
+                "file": "daily/2026-10-19.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "templater-daily-note"
+              "title": "2026-10-19"
             }
           }
         ]
@@ -188,6 +187,16 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "c2dea36edc2f3074",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ]
       },
@@ -223,6 +232,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "local-backup:Run local backup": false,
+      "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
@@ -236,35 +248,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cf20fac58c848ff7",
+  "active": "b07991c19fc383ce",
   "lastOpenFiles": [
-    "meta/javascript/resume-reading.js",
-    "meta/javascript/open-todays-note.js",
     "meta/README.md",
+    "daily/2026-10-19.md",
+    "AGENTS.md",
+    "meta/javascript/open-todays-note.js",
+    "meta/zotero/research note.md",
+    "meta/zotero/fluxo-de-importacao.md",
+    "daily/2026-10-14.md",
+    "meta/templater/templater-daily-note.md",
+    "meta/reports/backend-check.log",
+    "meta/reports",
+    "meta/javascript/resume-reading.js",
     "meta/javascript/restore-zotero-backup.js",
     "meta/javascript/zotero-backups.js",
     "meta/javascript/run-backend-check-now.js",
     "meta/javascript/backend-check-runner.js",
     "meta/javascript/run-backend-check.js",
-    "meta/zotero/fluxo-de-importacao.md",
     "meta/javascript/backup-zotero-import.js",
-    "meta/scripts/check-backend.js",
-    "meta/scripts",
-    "meta/javascript/load-current-note.js",
-    "daily/2026-10-19.md",
     "daily/2026-10-18.md",
-    "AGENTS.md",
     "rotina-supervisor.md",
     "fluxo de estudos.md",
     "meta/dataview/dashboard-ir-srs.md",
     "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
-    "meta/zotero/research note.md",
     "zettelkasten-supervisor.md",
     "inbox.md",
     "Ensaio sobre Brasília.md",
     "meta/templater/extract research note from selection.md",
     "meta/templater/zettel-extract.md",
-    "meta/templater/templater-daily-note.md",
     "meta/dataview/search research notes.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "daily/2026-10-15.md",
@@ -273,7 +285,6 @@
     "02_zettel/nem toda coisa física é um documento por natureza.md",
     "02_zettel/o passado é inacessível ao historiador.md",
     "IW-Queues/IW-Queue.md",
-    "02_zettel/classificação da narrativa leninista.md",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",

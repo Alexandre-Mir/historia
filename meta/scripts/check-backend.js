@@ -90,6 +90,14 @@ for (const file of walk(path.join(root, "meta/templater")).filter((item) => item
 
 const quickAddFile = path.join(obsidian, "plugins/quickadd/data.json");
 const quickAdd = readJson(quickAddFile, {}) ?? {};
+if (communityPlugins.includes("modalforms")) {
+  const modalFormsFile = path.join(obsidian, "plugins/modalforms/data.json");
+  const modalForms = readJson(modalFormsFile, {}) ?? {};
+  const availableForms = new Set((modalForms.formDefinitions ?? []).map((form) => form.name));
+  if (!availableForms.has("encerrar-sessao-leitura")) {
+    error("Formulário Modal Forms ausente: encerrar-sessao-leitura.");
+  }
+}
 const choiceIds = new Set();
 for (const choice of quickAdd.choices ?? []) {
   if (choiceIds.has(choice.id)) error(`Id QuickAdd duplicado: ${choice.id}`);

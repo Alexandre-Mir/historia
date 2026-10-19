@@ -63,6 +63,16 @@ try {
         return;
     }
     await tp.file.cursor_append(`[[${fileName}]]`);
+    await tp.app.workspace.getLeaf(false).openFile(created);
+    const editor = tp.app.workspace.activeLeaf?.view?.editor;
+    if (editor) {
+        const content = await tp.app.vault.read(created);
+        const synthesisLine = content.split(/\r?\n/).findIndex(line => line.trim() === "### Síntese");
+        if (synthesisLine >= 0) {
+            editor.setCursor({ line: synthesisLine + 1, ch: 0 });
+            editor.focus();
+        }
+    }
 } catch (error) {
     new Notice(`Não foi possível criar o Zettel: ${error.message}`);
     return;

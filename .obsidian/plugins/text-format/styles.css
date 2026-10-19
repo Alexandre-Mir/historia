@@ -1,0 +1,39 @@
+/* The stop word list is a sentence's worth of text, not a single word, so it
+   gets the full width of the settings row instead of the default short box. */
+.text-format-stop-words {
+  width: 100%;
+  min-height: 5em;
+  resize: vertical;
+}
+
+/* The case picker's preview of what the selection would become. */
+.text-format-preview {
+  display: block;
+  color: var(--text-muted);
+  font-family: var(--font-monospace);
+  white-space: pre;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Saved replacements: the editor draws its own rows inside one setting row. */
+.text-format-replacements {
+  display: block;
+}
+
+.text-format-replacement {
+  margin-bottom: var(--size-4-3);
+  padding: 0 var(--size-4-3);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+}
+
+.text-format-replacement-error {
+  margin-top: var(--size-4-2);
+  color: var(--text-error);
+  font-size: var(--font-ui-small);
+}
+
+.text-format-replacement-error.is-hidden {
+  display: none;
+}

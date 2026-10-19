@@ -8,5 +8,11 @@
   "quickadd",
   "obsidian-incremental-writing",
   "nldates-obsidian",
-  "notebook-navigator"
+  "notebook-navigator",
+  "modalforms",
+  "calendar",
+  "text-format",
+  "omnisearch",
+  "obsidian-tasks-plugin",
+  "local-backup"
 ]

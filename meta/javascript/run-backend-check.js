@@ -1,5 +1,7 @@
 module.exports = async ({ app }) => {
-  const { runBackendCheck } = require("./backend-check-runner");
+  const { join } = require("path");
+  const runnerPath = join(app.vault.adapter.basePath, "meta", "javascript", "backend-check-runner.js");
+  const { runBackendCheck } = require(runnerPath);
   const result = await runBackendCheck(app);
   if (result.skipped) return;
 

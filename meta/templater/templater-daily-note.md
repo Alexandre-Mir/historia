@@ -60,7 +60,7 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 
 ## ✍️ Noite — fechamento e continuidade
 - [ ] Preparar o jantar #casa
-- [ ] Atualizar `reading-position::` e `next-reading-step::` na nota da obra #estudo
+- [ ] Atualizar `reading-position::` e `next-reading-step::` na nota da obra #estudo · [Encerrar sessão pelo assistente](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae)
 - [ ] Preparar o estudo do próximo dia (nota/obra e trecho a retomar) #estudo
 - [ ] Fazer uma revisão breve da agenda de amanhã #extra
 

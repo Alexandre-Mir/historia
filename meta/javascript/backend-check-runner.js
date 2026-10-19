@@ -8,8 +8,7 @@ const run = (binary, checker, root) => new Promise((resolve) => {
 });
 
 module.exports.runBackendCheck = async (app) => {
-  const { Platform } = require("obsidian");
-  if (Platform.isMobile) return { skipped: true };
+  if (typeof app.vault.adapter.basePath !== "string") return { skipped: true };
 
   const root = app.vault.adapter.basePath;
   const checker = "meta/scripts/check-backend.js";

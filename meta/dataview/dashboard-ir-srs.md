@@ -2,9 +2,13 @@
 
 ## ⚡ Acesso rápido
 
-[Abrir nota de hoje](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A687ee15f-5e80-47c4-b8a9-5d92c19c67e4) · [Retomar leitura](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Ae2be231a-5fc8-4e86-9c3b-997fb8676356) · [Extrair Zettel da seleção](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af660fbef-76bf-44e1-b1fb-3e6de8976e18) · [[meta/dataview/search research notes|Buscar notas de pesquisa]]
+- **Rotina:** [Abrir nota de hoje](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A687ee15f-5e80-47c4-b8a9-5d92c19c67e4) · [Adicionar tarefa](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A0a8e34a0-121c-4eb8-a25d-3051c56f9a72)
+- **Leitura:** [Retomar](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Ae2be231a-5fc8-4e86-9c3b-997fb8676356) · [Encerrar sessão](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae)
+- **Zettels:** [Extrair da seleção](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af660fbef-76bf-44e1-b1fb-3e6de8976e18) · [Abrir fonte](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A6560e10b-a2af-4b02-bcc4-8d0e9a7cb92d)
+- **Pesquisa:** [Buscar referência Zotero](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A26e8a6b3-1321-4b2c-ab82-3c3a17939fcb) · [[meta/dataview/search research notes|Abrir busca avançada]]
+- **Navegação:** [Calendário](obsidian://advanced-uri?vault=historia&commandid=calendar%3Ashow-calendar-view) · [Busca geral](obsidian://advanced-uri?vault=historia&commandid=omnisearch%3Ashow-modal)
 
-Atalhos: `Ctrl/Cmd + Shift + D` abre a nota diária; `Ctrl/Cmd + Shift + R` inicia a retomada de leitura.
+Atalhos: `Ctrl/Cmd + Shift + D` abre a nota diária; `Ctrl/Cmd + Shift + R` inicia a retomada; `Ctrl/Cmd + Shift + E` encerra a sessão; `Ctrl/Cmd + Shift + T` captura tarefa; `Ctrl/Cmd + Shift + O` abre a fonte do Zettel; `Ctrl/Cmd + Shift + Z` busca referências.
 
 ---
 
@@ -25,6 +29,17 @@ if (!today) {
   if (open.length) dv.taskList(open, false);
   else dv.paragraph(tasks.length ? "Tudo concluído por hoje." : "A nota não tem tarefas pendentes.");
 }
+```
+
+---
+
+## 📋 Pendências no vault
+> Consulta geral do Tasks. Marque itens aqui para atualizar a caixa de seleção na nota de origem.
+
+```tasks
+not done
+sort by due
+sort by path
 ```
 
 ---

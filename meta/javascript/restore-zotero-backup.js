@@ -1,6 +1,7 @@
-module.exports = async ({ app }) => {
-  const { FuzzySuggestModal } = require("obsidian");
-  const { listSnapshots, restoreSnapshot } = require("./zotero-backups");
+module.exports = async ({ app, quickAddApi }) => {
+  const { join } = require("path");
+  const backupsPath = join(app.vault.adapter.basePath, "meta", "javascript", "zotero-backups.js");
+  const { listSnapshots, restoreSnapshot } = require(backupsPath);
   const snapshots = await listSnapshots(app);
 
   if (!snapshots.length) {
@@ -8,29 +9,16 @@ module.exports = async ({ app }) => {
     return;
   }
 
-  const selected = await new Promise((resolve) => {
-    class SnapshotPicker extends FuzzySuggestModal {
-      getItems() {
-        return snapshots;
-      }
-
-      getItemText(snapshot) {
-        const date = snapshot.manifest.createdAt ?? snapshot.root.split("/").at(-1);
-        const label = snapshot.manifest.label ?? "Backup Zotero";
-        return `${date} · ${label} · ${snapshot.manifest.files.length} arquivos`;
-      }
-
-      onChooseItem(snapshot) {
-        resolve(snapshot);
-      }
-
-      onClose() {
-        resolve(null);
-      }
-    }
-
-    new SnapshotPicker(app).open();
+  const displayItems = snapshots.map((snapshot) => {
+    const date = snapshot.manifest.createdAt ?? snapshot.root.split("/").at(-1);
+    const label = snapshot.manifest.label ?? "Backup Zotero";
+    return `${date} · ${label} · ${snapshot.manifest.files.length} arquivos`;
   });
+  const selected = await quickAddApi.suggester(
+    displayItems,
+    snapshots,
+    "Escolha um backup Zotero para restaurar",
+  );
 
   if (!selected) return;
   const fileCount = selected.manifest.files.length;
