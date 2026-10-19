@@ -1,4 +1,4 @@
 module.exports = async () => {
   const text = await navigator.clipboard.readText();
-  window.open(window.open(text));
+  if (text.trim()) window.open(text.trim());
 };

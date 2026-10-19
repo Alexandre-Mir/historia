@@ -32,16 +32,22 @@ Você está atuando dentro do cofre **`historia`** no Obsidian.
 
 ## 🛠️ 3. Catálogo de Skills Especializadas (Acionáveis sob Demanda)
 
-O agente deve manter o comportamento central enxuto e acionar ou recomendar as skills modulares quando o usuário solicitar tarefas específicas:
+As instruções completas das skills estão nos documentos do vault. Quando o ambiente GPT/Codex disponibilizar leitura de arquivos, leia a skill correspondente antes de executar a tarefa; não trate apenas este resumo como substituto do protocolo completo. Em tarefas genéricas, mantenha o comportamento central enxuto e não carregue as skills sem necessidade.
 
 1. **`zettelkasten-supervisor` ([`zettelkasten-supervisor.md`](file:///home/alelinux/historia/zettelkasten-supervisor.md)):**
-   - **Quando usar:** Ao avaliar, auditar ou revisar notas atômicas em `02_zettel/`.
+   - **Quando usar:** Sempre que o usuário pedir avaliação, auditoria, revisão, titulação, teste de atomicidade ou evolução incremental de notas em `02_zettel/`, ou submeter conteúdo com essa finalidade.
    - **Pilares:** Julgamento rigoroso do título proposicional (5 níveis), atomicidade estrita, voz autoral na síntese, conexões qualificadas com nexo explícito e evolução contínua (sem ciclo SRS nem flashcards).
    - **Regra de Ouro Inviolável:** O agente está terminantemente proibido de reescrever a nota ou entregar o novo título pronto. O esforço intelectual pertence exclusivamente ao pesquisador.
 
 2. **`rotina-supervisor` ([`rotina-supervisor.md`](file:///home/alelinux/historia/rotina-supervisor.md)):**
-   - **Quando usar:** Ao revisar a agenda, organizar o dia, definir a prioridade ou realizar o fechamento noturno em notas da pasta `daily/`.
+   - **Quando usar:** Sempre que o usuário pedir revisão de agenda, planejamento do dia, eleição de prioridade, balanço do dia ou fechamento/continuidade em `daily/`.
    - **Pilares:** Eleição da Prioridade Única do Dia (A Rocha), equilíbrio saudável entre Mente (Estudo), Corpo (Exercício) e Ambiente (Casa), fechamento sem culpa e registro de continuidade (onde parou na leitura, próximo passo concreto e preparação do dia seguinte).
+
+### Regra de Ativação das Skills
+
+- **Detecte pela intenção, não apenas pelo caminho do arquivo:** se o usuário pedir uma auditoria Zettelkasten, use `zettelkasten-supervisor`, mesmo que cole a nota diretamente no chat; se pedir planejamento/fechamento da rotina, use `rotina-supervisor`, mesmo sem pedir edição de um arquivo em `daily/`.
+- **Leia o documento integral da skill antes de responder** quando a tarefa correspondente for solicitada. Os documentos acima são a fonte canônica e devem ser mantidos sem cópias concorrentes.
+- **Ação nos arquivos:** editar uma nota diária só quando a solicitação de planejamento/fechamento ou o contexto der essa autorização; avaliações de Zettels são consultivas e nunca autorizam reescrita da nota.
 
 ---
 

@@ -58,7 +58,7 @@ quote
 
 {{bibliography}}
 
-🔗 **Acesso:** [Zotero Desktop]({{desktopURI}}) · [Zotero Web]({{uri}}){% for attachment in attachments | filterby("path", "endswith", ".pdf") %} · [PDF Local](file://{{attachment.path | replace(" ", "%20")}}){% endfor %}
+🔗 **Acesso:** [Zotero Desktop]({{desktopURI}}) · [Zotero URI]({{uri}}){% if url %} · [Página da publicação]({{url}}){% endif %}{% for attachment in attachments | filterby("path", "endswith", ".pdf") %}{% if attachment.pdfURI %} · [Abrir PDF no Zotero]({{attachment.pdfURI}}){% endif %} · [PDF local](file://{{attachment.path | replace(" ", "%20")}}){% endfor %}
 
 {%- if abstractNote %}
 
@@ -81,6 +81,18 @@ quote
 start-date:: {% if dateAdded %}{{dateAdded | format("YYYY-MM-DD")}}{% else %}{{importDate | format("YYYY-MM-DD")}}{% endif %}
 end-date::
 page-no:: {% for annotation in annotations %}{% if loop.last %}{{annotation.pageLabel}}{% endif %}{% endfor %}
+reading-position::
+next-reading-step::
+
+```dataviewjs
+const page = dv.current();
+const position = page["reading-position"] || page["page-no"];
+const nextStep = page["next-reading-step"];
+
+dv.header(3, "Retomada da leitura");
+dv.paragraph(`**Último ponto registrado:** ${position || "ainda não registrado"}`);
+dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next-reading-step:: ao encerrar a sessão"}`);
+```
 
 ## Connections
 

@@ -57,28 +57,22 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "obsidian-spaced-repetition:srs-note-review-good": [
+  "quickadd:choice:687ee15f-5e80-47c4-b8a9-5d92c19c67e4": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
-      "key": "Numpad2"
+      "key": "D"
     }
   ],
-  "obsidian-spaced-repetition:srs-note-review-hard": [
+  "quickadd:choice:e2be231a-5fc8-4e86-9c3b-997fb8676356": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
-      "key": "Numpad1"
-    }
-  ],
-  "obsidian-spaced-repetition:srs-note-review-easy": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Numpad3"
+      "key": "R"
     }
   ]
 }

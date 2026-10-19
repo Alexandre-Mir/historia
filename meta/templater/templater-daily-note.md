@@ -4,12 +4,14 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 -%>
 
 ## 🌅 Manhã — abertura e foco
+- [ ] Preparar o café da manhã #casa
 - [ ] Arrumar a cama e cuidar da louça #casa
 - [ ] Beber água ao longo do dia (meta: 2 L) #extra
 - [ ] Revisar agenda e escolher a prioridade do dia #extra
 
 ## 📖 Bloco de estudo — leitura e fichamento
 > Siga o ciclo do [[fluxo de estudos]]: retome uma leitura ativa e avance apenas 1–3 blocos/parágrafos.
+- [ ] Abrir o campo `next-reading-step::` da nota da obra e retomar dali #estudo
 - [ ] Sessão de leitura incremental (1 pomodoro) #estudo
 - [ ] Registrar/organizar o avanço na nota de literatura em `01_notes/` #estudo
 
@@ -18,10 +20,12 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] Refinar a síntese ou adicionar conexões ao Zettel trabalhado #estudo
 
 ## 🌇 Tarde — movimento e tarefa da casa
+- [ ] Preparar o almoço #casa
+- [ ] Enviar 3 currículos #trabalho
 <%* if (dia === 1) { -%>
 - [ ] Treino de força A (peito e ombros), 40 min #exercicio
 - [ ] Lavar um tênis #casa
-#### Estudo do dia — Medieval 1
+#### Estudo do dia — História Medieval I
 <%* } else if (dia === 2) { -%>
 - [ ] Caminhada, 30 min #exercicio
 - [ ] Tirar pó dos móveis e organizar a sala #casa
@@ -55,7 +59,8 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 <%* } -%>
 
 ## ✍️ Noite — fechamento e continuidade
-- [ ] Anotar onde parei e qual é o próximo passo concreto da leitura #estudo
+- [ ] Preparar o jantar #casa
+- [ ] Atualizar `reading-position::` e `next-reading-step::` na nota da obra #estudo
 - [ ] Preparar o estudo do próximo dia (nota/obra e trecho a retomar) #estudo
 - [ ] Fazer uma revisão breve da agenda de amanhã #extra
 

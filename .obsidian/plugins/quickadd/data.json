@@ -58,6 +58,126 @@
           }
         ]
       }
+    },
+    {
+      "id": "50fc4a27-85f3-4b92-a8c4-49f9606e92f3",
+      "name": "Zotero: backup pré-importação",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Zotero: backup pré-importação",
+        "id": "7f78c9c7-ef83-4ccb-bd20-8ae7398c6a73",
+        "commands": [
+          {
+            "name": "backup-zotero-import",
+            "type": "UserScript",
+            "id": "3353de7a-91b3-4279-af2e-15445b94e3a1",
+            "path": "meta/javascript/backup-zotero-import.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "fe342cdd-1fbf-46cc-a4ae-3529ba2c82da",
+      "name": "Verificar backend ao iniciar",
+      "type": "Macro",
+      "command": false,
+      "runOnStartup": true,
+      "macro": {
+        "name": "Verificar backend ao iniciar",
+        "id": "6bf42638-6646-457b-b3f2-62bb44269516",
+        "commands": [
+          {
+            "name": "run-backend-check",
+            "type": "UserScript",
+            "id": "eb834c17-f09b-4908-bf8c-a3ad753e2cf5",
+            "path": "meta/javascript/run-backend-check.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "d79ccf25-59d8-44eb-957d-09123abef137",
+      "name": "Verificar backend agora",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Verificar backend agora",
+        "id": "f39e90f2-b246-4bd1-bfe3-c50bfe274a91",
+        "commands": [
+          {
+            "name": "run-backend-check-now",
+            "type": "UserScript",
+            "id": "11a615cb-f82a-42c4-99f5-18bdcd003ea9",
+            "path": "meta/javascript/run-backend-check-now.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "78a87c6c-e5d3-46a7-8640-9f613c996a1a",
+      "name": "Restaurar backup Zotero",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Restaurar backup Zotero",
+        "id": "498d96de-0ecc-49f5-9148-0110d6fdab5b",
+        "commands": [
+          {
+            "name": "restore-zotero-backup",
+            "type": "UserScript",
+            "id": "8fdf35db-4d02-4a2e-8eaf-fd990cb2791a",
+            "path": "meta/javascript/restore-zotero-backup.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "687ee15f-5e80-47c4-b8a9-5d92c19c67e4",
+      "name": "Abrir nota de hoje",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Abrir nota de hoje",
+        "id": "c192ad40-4643-4d87-a860-bd0a79260ec6",
+        "commands": [
+          {
+            "name": "open-todays-note",
+            "type": "UserScript",
+            "id": "9a8865aa-2221-4147-93db-5f06c4771836",
+            "path": "meta/javascript/open-todays-note.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "e2be231a-5fc8-4e86-9c3b-997fb8676356",
+      "name": "Retomar leitura",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Retomar leitura",
+        "id": "ae2be277-5d8d-4137-85c4-33be876322b7",
+        "commands": [
+          {
+            "name": "resume-reading",
+            "type": "UserScript",
+            "id": "d838efc6-a84e-4f0b-b2ad-f2d81e44a1b7",
+            "path": "meta/javascript/resume-reading.js",
+            "settings": {}
+          }
+        ]
+      }
     }
   ],
   "inputPrompt": "single-line",

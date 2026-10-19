@@ -304,7 +304,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-spaced-repetition:Revisar flashcards": false,
           "workspaces:Gerenciar leiautes da área de trabalho": false,
           "switcher:Abrir a troca rápida": false,
           "graph:Abrir visualização em gráfico": false,
@@ -545,7 +544,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-spaced-repetition:Revisar flashcards": false,
           "workspaces:Gerenciar leiautes da área de trabalho": false,
           "switcher:Abrir a troca rápida": false,
           "graph:Abrir visualização em gráfico": false,

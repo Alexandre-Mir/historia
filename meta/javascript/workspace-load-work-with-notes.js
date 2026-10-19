@@ -1,5 +1,22 @@
 module.exports = async (params) => {
   const { app } = params;
+  const workspaceName = "work-with-notes";
+  const vaultName = encodeURIComponent(app.vault.getName());
+
+  const waitForLayoutChange = () =>
+    new Promise((resolve) => {
+      let eventRef;
+      const timeout = window.setTimeout(() => {
+        app.workspace.offref(eventRef);
+        resolve();
+      }, 2000);
+
+      eventRef = app.workspace.on("layout-change", () => {
+        window.clearTimeout(timeout);
+        app.workspace.offref(eventRef);
+        resolve();
+      });
+    });
   
   // 1. Salva o arquivo que está ativo no momento
   const activeFile = app.workspace.getActiveFile();
@@ -8,21 +25,14 @@ module.exports = async (params) => {
     return;
   }
 
-  // 2. Carrega o layout do workspace "work-with-notes" usando o plugin nativo de workspaces
-  const workspacesPlugin = app.internalPlugins?.plugins?.workspaces?.instance;
-  if (workspacesPlugin && workspacesPlugin.loadWorkspace) {
-    await workspacesPlugin.loadWorkspace("work-with-notes");
-  } else {
-    // Fallback via Advanced URI se o plugin interno não estiver diretamente acessível
-    window.open("obsidian://advanced-uri?vault=historia&workspace=work-with-notes");
-    await new Promise((resolve) => setTimeout(resolve, 300));
-  }
+  // 2. Carrega o layout de trabalho e aguarda a alteração da estrutura de painéis.
+  const layoutChange = waitForLayoutChange();
+  window.open(
+    `obsidian://advanced-uri?vault=${vaultName}&workspace=${workspaceName}`,
+  );
+  await layoutChange;
 
-  // 3. Aguarda o DOM/painéis estabilizarem após carregar o layout
-  await new Promise((resolve) => setTimeout(resolve, 150));
-
-  // 4. Substitui o arquivo da aba markdown principal pelo arquivo original capturado
-  // O grupo de abas "09aeb1c4e718b146" mantém o grafo local e os backlinks sincronizados com a nota ativa!
+  // 3. Reabre a nota original no painel ativo após a troca do layout.
   const leaf = app.workspace.getLeaf(false);
   if (leaf) {
     await leaf.openFile(activeFile);

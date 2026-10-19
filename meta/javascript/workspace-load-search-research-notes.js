@@ -1,3 +1,6 @@
-module.exports = async () => {
-  window.open("obsidian://advanced-uri?vault=historia&workspace=dashboard");
+module.exports = async ({ app }) => {
+  const vaultName = encodeURIComponent(app.vault.getName());
+  window.open(
+    `obsidian://advanced-uri?vault=${vaultName}&workspace=dashboard`,
+  );
 };
