@@ -10,9 +10,14 @@
   "nldates-obsidian",
   "notebook-navigator",
   "modalforms",
-  "calendar",
   "text-format",
   "omnisearch",
   "obsidian-tasks-plugin",
-  "local-backup"
+  "local-backup",
+  "obsidian-footnotes",
+  "obsidian-linter",
+  "obsidian-meta-bind-plugin",
+  "obsidian-day-planner",
+  "periodic-notes",
+  "obsidian-languagetool-plugin"
 ]

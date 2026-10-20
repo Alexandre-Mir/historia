@@ -1,0 +1,18 @@
+{
+  "locale": "",
+  "preserveAcronyms": true,
+  "stopWords": "a, an, the, and, but, or, nor, for, yet, so, as, at, by, down, from, in, into, like, near, of, off, on, onto, over, past, per, to, up, upon, via, with, vs, v, versus, than, en",
+  "removeHyphenOnJoin": true,
+  "keepImageAltText": true,
+  "caseTarget": "line",
+  "tidyInvisibles": true,
+  "tidyLigatures": true,
+  "tidyJoin": false,
+  "tidySpaces": true,
+  "tidyTrailing": true,
+  "tidyBlank": true,
+  "keepHardBreaks": true,
+  "confirmTidy": true,
+  "cleanOnPaste": false,
+  "replacements": []
+}

@@ -4,70 +4,70 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 -%>
 
 ## 🌅 Manhã — abertura e foco
-- [ ] Preparar o café da manhã #casa
-- [ ] Arrumar a cama e cuidar da louça #casa
+**A Rocha do dia:** _escreva aqui uma prioridade acadêmica concreta_
+
+- [ ] 07:30 - 08:00 Preparar o café da manhã #casa
+- [ ] 08:00 - 08:15 Arrumar a cama e cuidar da louça #casa
 - [ ] Beber água ao longo do dia (meta: 2 L) #extra
-- [ ] Revisar agenda e escolher a prioridade do dia #extra
+- [ ] Revisar a agenda e escolher uma única prioridade acadêmica #extra
 
 ## 📖 Bloco de estudo — leitura e fichamento
 > Siga o ciclo do [[fluxo de estudos]]: retome uma leitura ativa e avance apenas 1–3 blocos/parágrafos.
-- [ ] Abrir o campo `next-reading-step::` da nota da obra e retomar dali #estudo
-- [ ] Sessão de leitura incremental (1 pomodoro) #estudo
-- [ ] Registrar/organizar o avanço na nota de literatura em `01_notes/` #estudo
+
+- [ ] 08:30 - 09:20 Sessão de leitura incremental (1 pomodoro) #estudo
+- [ ] Registrar o avanço na nota de literatura em `01_notes/` #estudo
 
 ## 🧠 Bloco de estudo — elaboração
-- [ ] Processar um trecho em Zettel: paráfrase própria + ao menos uma conexão #estudo
-- [ ] Refinar a síntese ou adicionar conexões ao Zettel trabalhado #estudo
+- [ ] 10:15 - 11:00 Processar ou amadurecer um Zettel: síntese autoral e uma conexão com nexo explícito #estudo
 
 ## 🌇 Tarde — movimento e tarefa da casa
-- [ ] Preparar o almoço #casa
-- [ ] Enviar 3 currículos #trabalho
+- [ ] 12:00 - 13:00 Preparar o almoço #casa
+- [ ] 14:00 - 14:45 Enviar 3 currículos #trabalho
 <%* if (dia === 1) { -%>
-- [ ] Treino de força A (peito e ombros), 40 min #exercicio
-- [ ] Lavar um tênis #casa
+- [ ] 15:00 - 16:00 Treino de força A (peito e ombros), 40 min #exercicio
+- [ ] 16:00 - 16:30 Lavar um tênis #casa
 #### Estudo do dia — História Medieval I
 <%* } else if (dia === 2) { -%>
-- [ ] Caminhada, 30 min #exercicio
-- [ ] Tirar pó dos móveis e organizar a sala #casa
+- [ ] 15:00 - 15:30 Caminhada, 30 min #exercicio
+- [ ] 16:00 - 16:30 Tirar pó dos móveis e organizar a sala #casa
 - [ ] Organizar uma pasta do computador #extra
 #### Estudo do dia — História Contemporânea II
 <%* } else if (dia === 3) { -%>
-- [ ] Treino de força B (costas e bíceps), 40 min #exercicio
-- [ ] Limpar fogão e geladeira #casa
+- [ ] 15:00 - 16:00 Treino de força B (costas e bíceps), 40 min #exercicio
+- [ ] 16:00 - 16:30 Limpar fogão e geladeira #casa
 #### Estudo do dia — História Contemporânea II
 <%* } else if (dia === 4) { -%>
-- [ ] Alongamento e mobilidade, 30 min #exercicio
+- [ ] 15:00 - 15:30 Alongamento e mobilidade #exercicio
 - [ ] Limpar a caixa de e-mail #extra
-- [ ] Trocar lençóis e toalhas #casa
+- [ ] 16:00 - 16:30 Trocar lençóis e toalhas #casa
 #### Estudo do dia — História Antiga I
 <%* } else if (dia === 5) { -%>
-- [ ] Treino de força C (pernas), 40 min #exercicio
-- [ ] Limpar o banheiro #casa
+- [ ] 15:00 - 16:00 Treino de força C (pernas), 40 min #exercicio
+- [ ] 16:00 - 16:30 Limpar o banheiro #casa
 #### Estudo do dia — Cultura Brasileira
 <%* } else if (dia === 6) { -%>
-- [ ] Faxina geral (aspirar e passar pano) #casa
-- [ ] Caminhar ao ar livre, 45 min #exercicio
-- [ ] Lavar e estender a roupa #casa
+- [ ] 15:00 - 15:45 Faxina geral (aspirar e passar pano) #casa
+- [ ] 15:45 - 16:30 Caminhar ao ar livre, 45 min #exercicio
+- [ ] 16:30 - 17:00 Lavar e estender a roupa #casa
 - [ ] Tirar o lixo #casa
 #### Estudo do dia — Prática de Pesquisa Histórica
 <%* } else { -%>
-- [ ] Caminhada curta, 30 min #exercicio
-- [ ] Organizar a mesa #casa
+- [ ] 15:00 - 15:30 Caminhada curta #exercicio
+- [ ] 16:00 - 16:30 Organizar a mesa #casa
 - [ ] Hobby / descanso ativo #extra
 - [ ] Projeto financeiro com Cashew #extra
 #### Estudo do dia — Teoria da História
 <%* } -%>
 
-## ✍️ Noite — fechamento e continuidade
-- [ ] Preparar o jantar #casa
-- [ ] Atualizar `reading-position::` e `next-reading-step::` na nota da obra #estudo · [Encerrar sessão pelo assistente](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae)
-- [ ] Preparar o estudo do próximo dia (nota/obra e trecho a retomar) #estudo
-- [ ] Fazer uma revisão breve da agenda de amanhã #extra
+## 🌙 Noite — fechamento e continuidade
+- [ ] 19:00 - 19:45 Preparar o jantar #casa
+- [ ] 20:30 - 20:45 Registrar `reading-position::` e `next-reading-step::` na nota da obra #estudo · [Registrar continuidade](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae)
+- [ ] 20:45 - 21:00 Preparar o estudo do próximo dia: disciplina, obra e trecho a retomar #estudo
+- [ ] 21:00 - 21:10 Fazer uma revisão breve da agenda de amanhã #extra
 
 <%* if (dia === 0) { -%>
 ## 🌱 Projeto semanal — escrita incremental
-> Reserve 30–45 min. Trabalhe sempre no mesmo ensaio, artigo ou MOC com tag `#escrita`. Cada sessão deve deixar um avanço reutilizável.
-- [ ] Abrir o projeto `#escrita` e reler o último ponto de continuidade #estudo
-- [ ] Acrescentar um parágrafo, conectar 2 Zettels ou melhorar uma seção existente #escrita
-- [ ] Registrar no projeto o próximo passo específico para a próxima semana #escrita
+> Bônus semanal: reserve 30–45 min para avançar no mesmo ensaio, artigo ou MOC com tag `#escrita`.
+- [ ] 11:15 - 12:00 Acrescentar um parágrafo, conectar 2 Zettels ou melhorar uma seção existente #escrita
+- [ ] Registrar no projeto o próximo passo específico para a próxima semana #estudo
 <%* } -%>

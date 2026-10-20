@@ -1,6 +1,6 @@
 ---
-tags:
-  - zettel
+type: zettel
+tags: zettel
 ---
 ### Síntese
 Criar e delimitar uma região é, essencialmente, um ato de tomada de posse, soberania e dominação de um grupo sobre determinado espaço. Ao estabelecer as fronteiras e a "identidade" de uma região, define-se quem está dentro e quem fica fora. O recorte regional vitorioso resulta da imposição de um determinado projeto político ou cultural, o que significa que outros grupos forma derrotados, banidos ou marginalizados nesse processo.

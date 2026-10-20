@@ -7,11 +7,11 @@ module.exports = async ({ app, quickAddApi }) => {
 
   const active = app.workspace.getActiveFile();
   const works = (await Promise.all(app.vault.getMarkdownFiles()
-    .filter((file) => file.path.startsWith("01_notes/"))
+    .filter((file) => file.path.startsWith("01_notes/") && file.basename.trim())
     .map(async (file) => {
       const frontmatter = app.metadataCache.getFileCache(file)?.frontmatter ?? {};
       const content = await app.vault.read(file);
-      const endDate = content.match(/^end-date::\s*(.*)$/m)?.[1]?.trim() ?? frontmatter["end-date"];
+      const endDate = content.match(/^end-date::[ \t]*(.*)$/m)?.[1]?.trim() ?? frontmatter["end-date"];
       return { file, frontmatter, content, isActive: !endDate };
     })))
     .filter((work) => work.isActive)
@@ -31,10 +31,10 @@ module.exports = async ({ app, quickAddApi }) => {
   }
   if (!work) return;
 
-  const readInline = (key) => work.content.match(new RegExp(`^${key}::\\s*(.*)$`, "m"))?.[1]?.trim();
+  const readInline = (key) => work.content.match(new RegExp(`^${key}::[ \\t]*(.*)$`, "m"))?.[1]?.trim();
   let result;
   try {
-    result = await modalForms.openForm("encerrar-sessao-leitura", {
+    result = await modalForms.openForm("registrar-continuidade-leitura", {
       values: {
         readingPosition: readInline("reading-position") || readInline("page-no") || "",
         nextReadingStep: readInline("next-reading-step") || "",
@@ -63,5 +63,5 @@ module.exports = async ({ app, quickAddApi }) => {
   content = upsert(content, "next-reading-step", nextReadingStep);
   await app.vault.modify(work.file, content);
   await app.workspace.getLeaf(false).openFile(work.file);
-  new Notice(`Continuidade salva em ${work.file.basename}.`);
+  new Notice(`Continuidade registrada em ${work.file.basename}.`);
 };

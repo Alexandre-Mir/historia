@@ -4,8 +4,8 @@
   "globalNamespace": "MF",
   "formDefinitions": [
     {
-      "title": "Encerrar sessão de leitura",
-      "name": "encerrar-sessao-leitura",
+      "title": "Registrar continuidade da leitura",
+      "name": "registrar-continuidade-leitura",
       "fields": [
         {
           "name": "readingPosition",

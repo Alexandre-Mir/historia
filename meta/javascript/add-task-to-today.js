@@ -63,18 +63,33 @@ module.exports = async ({ app }) => {
           isRequired: true,
           input: { type: "textarea", hidden: false },
         },
+        {
+          name: "timeRange",
+          label: "Horário (opcional)",
+          description: "Para mostrar no Day Planner, use HH:mm - HH:mm, por exemplo 14:00 - 14:30.",
+          isRequired: false,
+          input: { type: "text", hidden: false },
+        },
       ],
     });
     if (result.status !== "ok") return;
 
-    const { section, task } = result.getData();
+    const { section, task, timeRange } = result.getData();
     if (!sections.includes(section) || !String(task ?? "").trim()) return;
+    const schedule = String(timeRange ?? "").trim();
+    if (schedule) {
+      const match = schedule.match(/^((?:[01]\d|2[0-3]):[0-5]\d) - ((?:[01]\d|2[0-3]):[0-5]\d)$/);
+      if (!match || match[1] >= match[2]) {
+        new Notice("Horário inválido. Use HH:mm - HH:mm e informe o fim depois do início.");
+        return;
+      }
+    }
     const headingIndex = lines.findIndex((line) => line.startsWith("## ") && line.includes(section));
     if (headingIndex < 0) throw new Error(`Bloco não encontrado no template: ${section}`);
     let insertAt = headingIndex + 1;
     while (insertAt < lines.length && !/^#{1,2}\s/.test(lines[insertAt])) insertAt += 1;
     while (insertAt > headingIndex + 1 && !lines[insertAt - 1].trim()) insertAt -= 1;
-    lines.splice(insertAt, 0, `- [ ] ${String(task).trim()}`);
+    lines.splice(insertAt, 0, `- [ ] ${schedule ? `${schedule} ` : ""}${String(task).trim()}`);
     await app.vault.modify(file, lines.join("\n"));
     await app.workspace.getLeaf(false).openFile(file);
     new Notice("Tarefa adicionada à nota de hoje.");

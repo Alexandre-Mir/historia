@@ -1,38 +1,5 @@
 Resultado mais recente do check-backend (o arquivo muda quando o resultado muda)
-Estado: erro (código 1)
-Erros: 1 · Avisos: 0
+Estado: sem erros
+Erros: 0 · Avisos: 0
 
-/home/alelinux/historia/meta/scripts/check-backend.js:279
-    if (!(quickadd.choices ?? []).some((choice) => choice.id === choiceId && choice.command)) {
-    ^
-
-ReferenceError: quickadd is not defined
-    at verifyCommandReference (/home/alelinux/historia/meta/scripts/check-backend.js:279:5)
-    at Object.<anonymous> (/home/alelinux/historia/meta/scripts/check-backend.js:326:5)
-    at Module._compile (node:internal/modules/cjs/loader:1968:14)
-    at Object..js (node:internal/modules/cjs/loader:2108:10)
-    at Module.load (node:internal/modules/cjs/loader:1690:32)
-    at Module._load (node:internal/modules/cjs/loader:1480:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
-    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
-    at node:internal/main/run_main_module:33:47
-
-Node.js v26.11.1
-1: Command failed: /usr/bin/node meta/scripts/check-backend.js
-/home/alelinux/historia/meta/scripts/check-backend.js:279
-    if (!(quickadd.choices ?? []).some((choice) => choice.id === choiceId && choice.command)) {
-    ^
-
-ReferenceError: quickadd is not defined
-    at verifyCommandReference (/home/alelinux/historia/meta/scripts/check-backend.js:279:5)
-    at Object.<anonymous> (/home/alelinux/historia/meta/scripts/check-backend.js:326:5)
-    at Module._compile (node:internal/modules/cjs/loader:1968:14)
-    at Object..js (node:internal/modules/cjs/loader:2108:10)
-    at Module.load (node:internal/modules/cjs/loader:1690:32)
-    at Module._load (node:internal/modules/cjs/loader:1480:12)
-    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
-    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5)
-    at node:internal/main/run_main_module:33:47
-
-Node.js v26.11.1
-
+Backend consistente: nenhuma divergência detectada.

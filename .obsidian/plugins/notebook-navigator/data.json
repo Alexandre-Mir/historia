@@ -12,7 +12,7 @@
       "hiddenFileTags": [],
       "hiddenFileProperties": [],
       "navigationBanner": null,
-      "periodicNotesFolder": "",
+      "periodicNotesFolder": "daily",
       "shortcuts": [],
       "navRainbow": {
         "mode": "none",
@@ -108,8 +108,8 @@
   "startView": "files",
   "showInfoButtons": true,
   "homepage": {
-    "source": "none",
-    "file": null,
+    "source": "file",
+    "file": "meta/dataview/dashboard-ir-srs.md",
     "createMissingPeriodicNote": true
   },
   "dualPane": true,
@@ -213,7 +213,7 @@
   "propertySortOrder": "alpha-asc",
   "showAllPropertiesFolder": true,
   "scopePropertiesToCurrentContext": false,
-  "defaultListMode": "standard",
+  "defaultListMode": "compact",
   "includeDescendantNotes": false,
   "defaultFolderSort": "modified-desc",
   "defaultFolderSortPropertyKey": "",
@@ -324,8 +324,8 @@
   "calendarShowOutsideMonthDays": true,
   "calendarShowYearCalendar": true,
   "calendarLeftPlacement": "navigation",
-  "calendarWeeksToShow": 1,
-  "calendarIntegrationMode": "notebook-navigator",
+  "calendarWeeksToShow": 2,
+  "calendarIntegrationMode": "daily-notes",
   "calendarPeriodicNotesLocaleSource": "calendar",
   "calendarCustomFilePattern": "YYYY/YYYYMMDD",
   "calendarCustomWeekPattern": "gggg/[W]ww",
@@ -512,7 +512,13 @@
     ]
   },
   "customVaultName": "",
-  "pinnedNotes": {},
+  "pinnedNotes": {
+    "01_notes/CHEYETTE-FredricL.-2008.md": {
+      "folder": true,
+      "tag": false,
+      "property": false
+    }
+  },
   "fileIcons": {},
   "fileColors": {},
   "fileBackgroundColors": {},

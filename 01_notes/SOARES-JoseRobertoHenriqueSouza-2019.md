@@ -37,7 +37,7 @@ comment::
 Imported on 2026-09-22 6:23 pm
 
 
-[[Região numa abordagem foucaultiana]]
+[[a Região foucaultiana é idealizada e planejada por uma parte minoritária da sociedade]]
 
 
 

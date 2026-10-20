@@ -88,7 +88,7 @@
     {
       "modifiers": [
         "Mod",
-        "Shift"
+        "Alt"
       ],
       "key": "T"
     }
@@ -109,6 +109,24 @@
         "Shift"
       ],
       "key": "Z"
+    }
+  ],
+  "text-format:join-lines": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "text-format:dehyphenate": [
+    {
+      "modifiers": [
+        "Mod",
+        "Alt"
+      ],
+      "key": "H"
     }
   ]
 }

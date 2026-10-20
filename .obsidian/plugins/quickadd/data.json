@@ -181,12 +181,12 @@
     },
     {
       "id": "8fccdf26-e809-4000-a664-2e0bc7c3c5ae",
-      "name": "Encerrar sessão de leitura",
+      "name": "Registrar continuidade da leitura",
       "type": "Macro",
       "command": true,
       "runOnStartup": false,
       "macro": {
-        "name": "Encerrar sessão de leitura",
+        "name": "Registrar continuidade da leitura",
         "id": "24f30518-3188-4d01-9931-8f1a1fca2637",
         "commands": [
           {
@@ -194,6 +194,26 @@
             "type": "UserScript",
             "id": "e1a584c9-2cc2-4771-9963-8d0a5d4bae4d",
             "path": "meta/javascript/finish-reading-session.js",
+            "settings": {}
+          }
+        ]
+      }
+    },
+    {
+      "id": "f6db9ad2-7bb9-4452-87d2-6ac7a255851c",
+      "name": "Concluir leitura da obra",
+      "type": "Macro",
+      "command": true,
+      "runOnStartup": false,
+      "macro": {
+        "name": "Concluir leitura da obra",
+        "id": "92d358db-127f-432b-b73f-64c1096e044b",
+        "commands": [
+          {
+            "name": "complete-reading",
+            "type": "UserScript",
+            "id": "43c91ad2-1602-49e7-9aed-2e3a46bc5c78",
+            "path": "meta/javascript/complete-reading.js",
             "settings": {}
           }
         ]
