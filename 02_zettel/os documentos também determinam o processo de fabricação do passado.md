@@ -5,7 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-Devemos pressupor que não temos acesso a todos os vestígios do passado e por isso, os vestígios que temos, moldarão como vemos o passado.
+Se a [[a moldura é produto da estrutura]], os vestígios que sobreviveram até chegarem ao nosso conhecimento, passaram por um "filtro do passado". O que era considerado importante para determinadas relações sociais sobrevive. Então os documentos moldam o processo de fabricação no sentido de que estamos debatendo o que era importante pra determinadas parcelas da sociedade. Uma forma de tentar escapar desse filtro é através das mediações, indo além do que o próprio vestígios nos mostra 
 
 
 > [!important] Trecho de origem
@@ -17,6 +17,7 @@ Devemos pressupor que não temos acesso a todos os vestígios do passado e por i
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 - os vestígios vão determinar a fabricação do passado, também, por que [[o passado é inacessível ao historiador]]
+- [[o que é o documento voluntário]] - em relação ao filtro, um documento voluntário pode também mostrar algo que não pretendia
 
 ---
 **Fonte:** [[GUARINELLO-NorbertoLuiz-2003]]

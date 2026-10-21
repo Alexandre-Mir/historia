@@ -30,27 +30,30 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 #### Estudo do dia — História Medieval I
 <%* } else if (dia === 2) { -%>
 - [ ] 15:00 - 15:30 Caminhada, 30 min #exercicio
-- [ ] 16:00 - 16:30 Tirar pó dos móveis e organizar a sala #casa
+- [ ] 16:00 - 16:30 Tirar pó dos móveis, aspirar o sofá e organizar a sala #casa
 - [ ] Organizar uma pasta do computador #extra
 #### Estudo do dia — História Contemporânea II
 <%* } else if (dia === 3) { -%>
 - [ ] 15:00 - 16:00 Treino de força B (costas e bíceps), 40 min #exercicio
-- [ ] 16:00 - 16:30 Limpar fogão e geladeira #casa
+- [ ] 16:00 - 16:30 Passar paninho: geladeira, filtro, microondas, fogão, armários e bancada #casa
+- [ ] Dar um grau na pia #casa
 #### Estudo do dia — História Contemporânea II
 <%* } else if (dia === 4) { -%>
 - [ ] 15:00 - 15:30 Alongamento e mobilidade #exercicio
 - [ ] Limpar a caixa de e-mail #extra
 - [ ] 16:00 - 16:30 Trocar lençóis e toalhas #casa
+- [ ] Organizar o guarda-roupa #casa
 #### Estudo do dia — História Antiga I
 <%* } else if (dia === 5) { -%>
 - [ ] 15:00 - 16:00 Treino de força C (pernas), 40 min #exercicio
-- [ ] 16:00 - 16:30 Limpar o banheiro #casa
+- [ ] 16:00 - 16:30 Lavar o banheiro e o tapete do banheiro #casa
 #### Estudo do dia — Cultura Brasileira
 <%* } else if (dia === 6) { -%>
-- [ ] 15:00 - 15:45 Faxina geral (aspirar e passar pano) #casa
+- [ ] 15:00 - 15:45 Faxina geral: aspirar, lavar o chão e passar pano #casa
 - [ ] 15:45 - 16:30 Caminhar ao ar livre, 45 min #exercicio
 - [ ] 16:30 - 17:00 Lavar e estender a roupa #casa
 - [ ] Tirar o lixo #casa
+- [ ] Queimar um incenso para concluir a limpeza 🪷 #casa
 #### Estudo do dia — Prática de Pesquisa Histórica
 <%* } else { -%>
 - [ ] 15:00 - 15:30 Caminhada curta #exercicio

@@ -6,12 +6,16 @@ author:
 title: "A última Catástrofe: a História, o Presente, o Contemporâneo"
 date: 2016-01-01
 citekey: ROUSSO-Henry-2016
-tags: leitura
 ---
+
+
 
 ROUSSO, Henry. **A última Catástrofe: a História, o Presente, o Contemporâneo**. [_S.l._]: Editora FGV, 2016. 344 p.
 
-[online](http://zotero.org/users/local/lwyBaBSh/items/KSWCA74C) [local](zotero://select/library/items/KSWCA74C) [pdf](file:///home/alelinux/Zotero/storage/V6EKZ2PQ/A_última_catástrofe_A_história,_o_pr_z_library_sk,_1lib_sk,.ocr.pdf)
+🔗 **Acesso:** [Zotero Desktop](zotero://select/library/items/KSWCA74C) · [Zotero URI](http://zotero.org/users/local/lwyBaBSh/items/KSWCA74C) · [Abrir PDF no Zotero](zotero://open-pdf/library/items/V6EKZ2PQ) · [PDF local](file:///home/alelinux/Zotero/storage/V6EKZ2PQ/A_última_catástrofe_A_história,_o_pr_z_library_sk,_1lib_sk,.ocr.pdf)
+
+> [!abstract]- Resumo da Obra (Abstract)
+> A última catástrofe, publicado inicialmente na França e lançado agora pela FGV Editora, apresenta um quadro geral dos debates sobre os desafios e especificidades da história do tempo presente. A história do tempo presente é uma história como as outras? Quais são os marcos cronológicos que a delimitam? Como a história do tempo presente pode lidar com as demandas memoriais e garantir seu compromisso com as regras do ofício do historiador? Qual sua relação com o regime de historicidade presentista? Por que a história dos períodos recentes que enfrentou tantas resistências vem conquistando uma grande visibilidade tanto na esfera universitária quanto no espaço público? Henry Rousso, um dos principais expoentes da historiografia francesa dedicados ao estudo da história do tempo presente, busca responder essas questões tomando as seguintes diretrizes: "a história já não se caracteriza por tradições a respeitar, por heranças a transmitir, por mortos a celebrar, mas antes, por problemas a "gerir" mediante um constante trabalho de crítica.
 
 #subject/história-contemporânea-2
 
@@ -19,17 +23,29 @@ ROUSSO, Henry. **A última Catástrofe: a História, o Presente, o Contemporâne
 
 start-date:: 2026-10-05
 end-date::
-page-no:: 22
+page-no:: 23
+reading-position:: 24
+next-reading-step:: Ler o bloco "O eterno presente medieval"
+
+```dataviewjs
+const page = dv.current();
+const position = page["reading-position"] || page["page-no"];
+const nextStep = page["next-reading-step"];
+
+dv.header(3, "Retomada da leitura");
+dv.paragraph(`**Último ponto registrado:** ${position || "ainda não registrado"}`);
+dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next-reading-step:: ao encerrar a sessão"}`);
+```
 
 ## Connections
+
+%% begin connections %%-%% end connections %%
 
 %% begin comment %%
 comment::
 %% end comment %%
 
 ## Note
-
-
 
 %% begin annotations %%
 
@@ -88,6 +104,31 @@ Ele mostra como o antigo general ateniense póde, por sua busca da verdade, aque
 
 
 %% endannotations %%
+### 📅 Importado em 2026-10-21 13:11
+
+
+> [!quote]
+> A contemporaneidade significa, portanto, tambéma possibilidade para o historiador de agir sobre seu presente, quer ele seja um ator dos eventos que ele descreve, quer seu ato de narrar apresente uma utilidade política. ([p. 23](zotero://open-pdf/library/items/V6EKZ2PQ?page=23&annotation=MFUCE9Z4))
+
+
+
+> [!quote]
+> A história se constitui, portanto, na origem como olhar e como agao sobre os vivos, e náo como estudo, lembranca ou divida para com os mortos. A contemporaneidade náo é identificada, para falar com propriedade, pois ela é inerente ao procedimento dos historiadores e ela náo tem nenhuma razáo para constituir uma categoria singular. A prática de uma história no seu tempo náo suscita menos, em relaçãoa ela, apesar de tudo, reservas que se enderecam 4 história mesma, uma história — pode-se frisar — em que a guerra, a violéncia, o barulho e o furor sáo onipresentes. Narrar a história (próxima) náo é nem sem riscos, nem sem efeitos ([p. 23](zotero://open-pdf/library/items/V6EKZ2PQ?page=23&annotation=NPBT36NF))
+
+
+
 %% end annotations %%
 
-%% Import Date: 2026-10-08T14:01:22.014-03:00 %%
+---
+
+## 💎 Zettels Atômicos Derivados
+
+```dataview
+TABLE file.cday AS "Criado em", tags AS "Tags"
+FROM "02_zettel"
+WHERE contains(Fonte, this.file.link) OR contains(file.outlinks, this.file.link) OR contains(file.inlinks, this.file.link)
+SORT file.cday desc
+```
+
+
+%% Import Date: 2026-10-21T13:11:18.570-03:00 %%
