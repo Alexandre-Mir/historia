@@ -10,6 +10,7 @@ const dia = Number(tp.date.now("d", 0, tp.file.title, "YYYY-MM-DD"));
 - [ ] 08:00 - 08:15 Arrumar a cama e cuidar da louça #casa
 - [ ] Beber água ao longo do dia (meta: 2 L) #extra
 - [ ] Revisar a agenda e escolher uma única prioridade acadêmica #extra
+- [ ] Finalizar corte para o canal Saber do Brasil #projeto
 
 ## 📖 Bloco de estudo — leitura e fichamento
 > Siga o ciclo do [[fluxo de estudos]]: retome uma leitura ativa e avance apenas 1–3 blocos/parágrafos.

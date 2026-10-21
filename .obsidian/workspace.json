@@ -13,16 +13,93 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/dataview/dashboard-ir-srs.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "meta/templater/templater-daily-note.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "dashboard-ir-srs"
-            }
+              "title": "templater-daily-note"
+            },
+            "group": "09aeb1c4e718b146"
           }
         ]
+      },
+      {
+        "id": "105667ca3bcf22f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "3b90482ef7720b68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4802931c711b8928",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "meta/templater/templater-daily-note.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": false
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de templater-daily-note"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          },
+          {
+            "id": "bb70bbec74d76a1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6bac3f8df84a785b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "meta/templater/templater-daily-note.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para templater-daily-note"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -84,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -189,26 +265,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "ab17ba0f1f0166ae",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "1ad4a4ebf7b44676",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -222,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/zotero/research note.md",
+                "file": "02_zettel/registros do conceito de Região.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,6 +307,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -264,21 +321,26 @@
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "meta/javascript/complete-reading.js",
+    "meta/templater/weekly-review.md",
+    "meta/templater/monthly-review.md",
     "meta/templater/templater-daily-note.md",
+    "01_notes/ROUSSO-Henry-2016.md",
+    "daily/2026-10-20.md",
+    "01_notes/PAVIANI-Aldo-2010.md",
+    "meta/dataview/dashboard-ir-srs.md",
+    "meta/README.md",
+    "meta/sugestoes-plugins.md",
+    "meta/zotero/fluxo-de-importacao.md",
+    "meta/footnote-shortcut-test.md",
+    "fluxo de estudos.md",
+    "meta/dataview/search research notes.md",
+    "meta/javascript/complete-reading.js",
     "meta/reports/archive/community-plugins-conflict-20260908.json",
     "meta/reports/archive",
     "meta/dataview/dashboard-ir-srs-metabind-prototype.md",
-    "meta/templater/monthly-review.md",
-    "meta/templater/weekly-review.md",
     "daily/2026-10-19.md",
-    "meta/dataview/dashboard-ir-srs.md",
-    "meta/sugestoes-plugins.md",
-    "meta/footnote-shortcut-test.md",
-    "fluxo de estudos.md",
     "IW-Queues/IW-Queue.md",
     "02_zettel/a Região implica em domínio e subordinação.md",
-    "meta/dataview/search research notes.md",
     "02_zettel/a Região foucaultiana é idealizada e planejada por uma parte minoritária da sociedade.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
@@ -288,10 +350,6 @@
     "02_zettel/o passado é inacessível ao historiador.md",
     "02_zettel/nem toda coisa física é um documento por natureza.md",
     "daily/2026-10-18.md",
-    "daily/2026-10-15.md",
-    "Sem título.md",
-    "01_notes/CHEYETTE-FredricL.-2008.md",
-    "meta/README.md",
     "meta/javascript/open-todays-note.js",
     "meta/reports/backend-check.log",
     "meta/reports",
@@ -299,7 +357,6 @@
     "meta/javascript/restore-zotero-backup.js",
     "meta/javascript/zotero-backups.js",
     "meta/javascript/run-backend-check-now.js",
-    "meta/javascript/backend-check-runner.js",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",
