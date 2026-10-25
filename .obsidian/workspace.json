@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4a048e74afd82a94",
+        "id": "82da6dc5867511a7",
         "type": "tabs",
         "children": [
           {
-            "id": "cf20fac58c848ff7",
+            "id": "ee4cc801bd78b78f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2026-10-21.md",
+                "file": "01_notes/GEERTZ-Clifford-2006.md",
                 "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-10-21"
+              "title": "GEERTZ-Clifford-2006"
             }
           }
         ]
@@ -189,6 +188,26 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "a0754d988bdb3e9e",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "9d0458781db07112",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
         ]
       },
@@ -231,7 +250,6 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
-      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -240,16 +258,21 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "cf20fac58c848ff7",
+  "active": "ee4cc801bd78b78f",
   "lastOpenFiles": [
     "meta/dataview/dashboard-ir-srs.md",
+    "01_notes/GEERTZ-Clifford-2006.md",
+    "projetos/lithium.md",
+    "projetos/Sem título",
+    "projetos",
+    "daily/2026-10-21.md",
     "01_notes/ROUSSO-Henry-2016.md",
     "daily/2026-10-04.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
-    "daily/2026-10-21.md",
     "meta/templater/templater-daily-note.md",
     "meta/templater/weekly-review.md",
     "meta/templater/monthly-review.md",
@@ -272,15 +295,11 @@
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "02_zettel/a moldura é produto da estrutura.md",
     "02_zettel/a história é o passado emoldurado.md",
-    "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
-    "02_zettel/o passado é inacessível ao historiador.md",
     "meta/javascript/open-todays-note.js",
     "meta/reports/backend-check.log",
     "meta/reports",
     "meta/javascript/resume-reading.js",
     "meta/javascript/restore-zotero-backup.js",
-    "meta/javascript/zotero-backups.js",
-    "meta/javascript/run-backend-check-now.js",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",
