@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_notes/GEERTZ-Clifford-2006.md",
+                "file": "meta/dataview/dashboard-ir-srs.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "GEERTZ-Clifford-2006"
+              "title": "dashboard-ir-srs"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -258,15 +257,14 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "ee4cc801bd78b78f",
   "lastOpenFiles": [
-    "meta/zotero/research note.md",
     "01_notes/GEERTZ-Clifford-2006.md",
     "meta/dataview/dashboard-ir-srs.md",
+    "meta/zotero/research note.md",
     "01_notes/GRINBERG-Keila-2009.md",
     "daily/2026-10-25.md",
     "projetos/lithium.md",
