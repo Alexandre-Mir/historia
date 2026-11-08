@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/dataview/dashboard-ir-srs.md",
+                "file": "zettelkasten-supervisor.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "dashboard-ir-srs"
+              "title": "zettelkasten-supervisor"
             }
           }
         ]
@@ -257,13 +257,16 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "ee4cc801bd78b78f",
   "lastOpenFiles": [
-    "01_notes/GEERTZ-Clifford-2006.md",
+    "AGENTS.md",
+    "fluxo de estudos.md",
     "meta/dataview/dashboard-ir-srs.md",
+    "01_notes/GEERTZ-Clifford-2006.md",
     "meta/zotero/research note.md",
     "01_notes/GRINBERG-Keila-2009.md",
     "daily/2026-10-25.md",
@@ -283,7 +286,6 @@
     "meta/sugestoes-plugins.md",
     "meta/zotero/fluxo-de-importacao.md",
     "meta/footnote-shortcut-test.md",
-    "fluxo de estudos.md",
     "meta/dataview/search research notes.md",
     "meta/javascript/complete-reading.js",
     "meta/reports/archive/community-plugins-conflict-20260908.json",
@@ -292,7 +294,6 @@
     "daily/2026-10-19.md",
     "IW-Queues/IW-Queue.md",
     "02_zettel/a Região implica em domínio e subordinação.md",
-    "02_zettel/a Região foucaultiana é idealizada e planejada por uma parte minoritária da sociedade.md",
     "meta/javascript/open-todays-note.js",
     "meta/reports/backend-check.log",
     "meta/reports",
