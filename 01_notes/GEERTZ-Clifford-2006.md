@@ -23,7 +23,7 @@ GEERTZ, Clifford. **A Interpretação das Culturas**. [_S.l._]: LTC, 2006. 224 p
 
 start-date:: 2026-10-15
 end-date::
-page-no:: 86
+page-no:: 120
 reading-position::
 next-reading-step::
 
@@ -48,15 +48,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 %% begin annotations %%
 ### 📅 Importado em 2026-10-24 07:39
 
-
-> [!quote]
-> A segunda lei da termodinâmica ou princípio da seleção natural, a noção da motivação inconsciente ou a organização dos meios de produção não explicam tudo, nem mesmo tudo o que é humano, mas ainda assim explicam alguma coisa. Nossa atenção procura isolar justamente esse algo, para nos desvencilhar de uma quantidade de pseudociência à qual ele também deu origem, no primeiro fluxo da sua celebridade. ([p. 15](zotero://open-pdf/library/items/7KMX32EF?page=15&annotation=FIZICBM6))
-
-
-
-> [!quote]
-> O conceito de cultura que eu defendo, e cuja utilidade os ensaios abaixo tentam demonstrar, é essencialmente semiótico. Acreditando, como Max Weber, que o homem é um animal amarrado a teias de significados que ele mesmo teceu, assumo a cultura como sendo essas teias e a sua análise; portanto, não como uma ciência experimental em busca de leis, mas como uma ciência interpretativa, à procura do significado. É justamente uma explicação que eu procuro, ao construir expressões sociais enigmáticas na sua superfície. Todavia, essa afirmativa, uma doutrina numa cláusula, requer por si mesma uma explicação. ([p. 17](zotero://open-pdf/library/items/7KMX32EF?page=17&annotation=YNXN6KNN))
-
+[[Cultura como documento]]
 
 
 ### 📅 Importado em 2026-10-27 14:13
@@ -114,8 +106,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
-> [!quote]
-> A cultura é pública porque o significado o é. ([p. 27](zotero://open-pdf/library/items/7KMX32EF?page=27&annotation=U8P37QAJ))
+
 
 
 
@@ -400,6 +391,24 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 
 
 
+### 📅 Importado em 2026-11-10 14:48
+
+
+> [!quote]
+> Em vez de a cultura funcionar simplesmente para suplementar, desenvolver e ampliar capacidades organicamente baseadas, lógica e geneticamente anteriores a ela, ela parece ser o ingrediente dessas capacidades. Um ser humano sem cultura seria, provavelmente, não um macaco intrinsecamente talentoso, embora incompleto, mas apenas uma monstruosidade totalmente sem mente e, em consequência, sem possibilidade de ser trabalhada. ([p. 104](zotero://open-pdf/library/items/7KMX32EF?page=104&annotation=EWMCUG54))
+
+
+
+> [!quote]
+> A partir desse ponto de vista, parece inteiramente errônea a opinião aceita de que o funcionamento mental é, basicamente, um processo intracerebral, que só pode ser auxiliado e amplificado secundariamente por vários mecanismos artificiais que esse mesmo processo permitiu ao homem inventar. Pelo contrário, sendo impossível uma definição inteiramente especificada, suficiente em termos adaptativos, da predominância dos processos neurais em termos de parâmetros intrínsecos, o cérebro humano é inteiramente dependente dos recursos culturais para o seu próprio funcionamento. ([p. 114](zotero://open-pdf/library/items/7KMX32EF?page=114&annotation=V3D64WTS))
+
+
+
+> [!quote]
+> Para tomar nossas decisões, precisamos saber como nos sentimos a respeito das coisas; para saber como nos sentimos a respeito das coisas precisamos de imagens públicas de sentimentos que apenas o ritual, o mito e a arte podem fornecer. ([p. 120](zotero://open-pdf/library/items/7KMX32EF?page=120&annotation=ACV54UI6))
+
+
+
 %% end annotations %%
 
 ---
@@ -414,4 +423,4 @@ SORT file.cday desc
 ```
 
 
-%% Import Date: 2026-10-28T18:02:06.226-03:00 %%
+%% Import Date: 2026-11-10T14:48:13.287-03:00 %%
