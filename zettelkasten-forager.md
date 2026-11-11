@@ -87,11 +87,11 @@ Ao analisar uma nota, o Forager deve responder rigorosamente com a seguinte estr
 - **Inventário de Matéria-Prima:** Quantidade de citações (`> [!important]`), notas de rodapé/referências (`> [!reference]`) e anotações marginais (`>>...`).
 - **Estado de Atomização:** Lista dos Zettels já extraídos (`[[...]]`) e diagnóstico de saturação/remanescência da nota.
 
-### 2. Jazidas Prospectadas (Proto-Zettels Articulados)
-Para cada proto-zettel identificado (recomenda-se de 2 a 4 por rodada, priorizando qualidade sobre volume):
+### 2. Jazida Prospectada (Proto-Zettel Articulado)
+Apresente estritamente **1 única jazida prioritária** por rodada (a mais densa, madura ou urgente da nota), garantindo foco analítico absoluto e evitando sobrecarga cognitiva no processo de atomização:
 
 ---
-#### ⛏️ Jazida [N]: `[Hipótese de Trabalho]` *(Rótulo provisório apenas para organização analítica)*
+#### ⛏️ Jazida Prioritária: `[Hipótese de Trabalho]` *(Rótulo provisório apenas para organização analítica)*
 - **Elementos Convocados:**
   - *Citação Âncora:* Trecho textual e página (`[p. X](zotero:...)`).
   - *Marginalia / Catalisador:* Anotação marginal do usuário (`>>...`) ou comentário global (`comment::`).
@@ -146,9 +146,9 @@ O Zettelkasten é um sistema de extensão cognitiva baseado no esforço intelect
 
 ---
 
-### 2. Jazidas Prospectadas (Proto-Zettels Articulados)
+### 2. Jazida Prospectada (Proto-Zettel Articulado)
 
-#### ⛏️ Jazida 1: `[Subjetivação Social da Região]`
+#### ⛏️ Jazida Prioritária: `[Subjetivação Social da Região]`
 - **Elementos Convocados:**
   - *Citação Âncora:* Trecho da página 6 sobre o engajamento de forças sociais, elites e militância individual na subjetivação da identidade regional.
   - *Marginalia / Catalisador:* Sua anotação `>>Os movimentos populares influenciam sobre a região`.
@@ -164,23 +164,6 @@ O Zettelkasten é um sistema de extensão cognitiva baseado no esforço intelect
 
 ---
 
-#### ⛏️ Jazida 2: `[A Armadilha Identitária da História Regional]`
-- **Elementos Convocados:**
-  - *Citação Âncora:* Trecho da página 5 sobre o risco da historiografia regional se tornar instrumento de legitimação acrítica e aprisionamento pelo dispositivo da identidade.
-  - *Marginalia / Catalisador:* Sua síntese conceitual seca: `>>Região != identidade`.
-- **Mecanismo de Articulação:** Sua anotação pontual (`Região != identidade`) é a chave de cisão analítica: ela separa o corte espacial/geográfico (região) da naturalização essencialista de um "ser" ou "alma" regional (identidade). A citação fornece a denúncia historiográfica de que defender a região acriticamente é defender o próprio dispositivo de poder que a gerou.
-- **Diretriz de Titulação Proposicional (Fórmula Mental):**
-  - Formule uma tese crítica (Nível 4) que enuncie como a defesa historiográfica da "identidade regional" reproduz a própria dominação e naturaliza fronteiras políticas.
-  - *Dica de Encaixe:* O título deve soar como um mecanismo analítico direto quando linkado.
-- **Provocação para a Voz Autoral (Síntese):**
-  - *Pergunta Socrática:* Como o historiador pode estudar um espaço regional sem se tornar o relações-públicas ideológico das elites que inventaram aquela identidade?
-- **Hipótese de Conectividade Qualificada:**
-  - `- [[a relação dialética entre historiografia regional e Região a-histórica]]` *(Causal: a busca por uma identidade essencialista é o mecanismo que torna a região a-histórica)*.
-  - `- [[o documento voluntário é definido pela intencionalidade do registro]]` *(Aplicação: a identidade regional atua como um 'documento voluntário' fabricado para perpetuar memórias institucionais)*.
-- **Gatilho de Extração:** Selecione na nota o trecho da página 5 (*"O grande desafio que se coloca para a historiografia..."*) e pressione `Alt+Z`.
-
----
-
 ### 3. Topologia Conceitual da Leitura (Grafo de Articulação)
 
 ```mermaid
@@ -189,17 +172,16 @@ graph TD
     Z2["[[a conquista exige um saber conquistar]]<br><i>(Zettel Existente)</i>"]
     Z3["[[a relação dialética entre historiografia...]]<br><i>(Zettel Existente)</i>"]
     
-    J1["⛏️ Jazida 1: Subjetivação e agência social da região<br><i>(Proto-Zettel)</i>"]
-    J2["⛏️ Jazida 2: O risco identitário da historiografia regional<br><i>(Proto-Zettel)</i>"]
+    J1["⛏️ Jazida Prioritária: Subjetivação e agência social da região<br><i>(Proto-Zettel)</i>"]
 
     Z2 -->|técnica de dominação| Z1
     Z1 -->|tensionado por agência social| J1
-    J1 -->|alimenta e legitima| J2
-    J2 -->|consequência metodológica| Z3
+    J1 -->|desdobra-se em diálogo com| Z3
 ```
 
 ---
 
 ### 4. Triagem Negativa (O que NÃO deve ser atomizado)
 - **Descarte 1 (Página 1 - Listagem de Grupos de Pesquisa do CNPq):** Trecho puramente bibliográfico e contextual. Serve para ancorar a relevância sociológica do tema na introdução de um artigo, mas não contém uma tese conceitual independente.
-- **Descarte 2 (Página 6 - Citação a Francisco de Oliveira / Elegia para uma Re(li)gião):** Deve permanecer como referência bibliográfica (`> [!reference]`) para fundamentar a Jazida 1, sem necessidade de virar uma nota atômica isolada a menos que a obra de Chico de Oliveira venha a ser fichada diretamente no futuro.
+- **Descarte 2 (Página 6 - Citação a Francisco de Oliveira / Elegia para uma Re(li)gião):** Deve permanecer como referência bibliográfica (`> [!reference]`) para fundamentar a Jazida Prioritária, sem necessidade de virar uma nota atômica isolada a menos que a obra de Chico de Oliveira venha a ser fichada diretamente no futuro.
+- **Reserva de Matéria-Prima (Página 5 - O risco identitário):** O debate sobre `Região != identidade` (p. 5) possui alta densidade conceitual, mas permanece reservado na nota de leitura para uma próxima rodada de forrageamento, respeitando o princípio de **1 única jazida por ciclo de extração**.

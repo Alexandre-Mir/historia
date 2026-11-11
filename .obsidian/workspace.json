@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "82da6dc5867511a7",
+        "id": "4a048e74afd82a94",
         "type": "tabs",
         "children": [
           {
-            "id": "ee4cc801bd78b78f",
+            "id": "cf20fac58c848ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_zettel/Cultura como documento.md",
+                "file": "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cultura como documento"
+              "title": "a escala de contextualização altera a ontologia e o significado do vestígio"
             }
           }
         ]
@@ -188,26 +188,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "a0754d988bdb3e9e",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "9d0458781db07112",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -250,6 +230,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -258,21 +239,30 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "ee4cc801bd78b78f",
+  "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "01_notes/GEERTZ-Clifford-2006.md",
-    "02_zettel/Cultura como documento.md",
-    "zettelkasten-forager.md",
-    "zettelkasten-supervisor.md",
-    "fluxo de estudos.md",
-    "rotina-supervisor.md",
-    "meta/dataview/dashboard-ir-srs.md",
-    "AGENTS.md",
+    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+    "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
+    "02_zettel/o contexto histórico é uma fictio contemporânea.md",
+    "02_zettel/a moldura é produto da cultura.md",
+    "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
+    "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
     "meta/zotero/research note.md",
+    "meta/zotero/fluxo-de-importacao.md",
+    "zettelkasten-forager.md",
+    "AGENTS.md",
+    "fluxo de estudos.md",
+    "01_notes/GEERTZ-Clifford-2006.md",
+    "02_zettel/o locus não é o objeto de estudo.md",
+    "02_zettel/a Cultura constitui o ser humano.md",
+    "02_zettel/a etnografia como inscrição fabricada.md",
+    "02_zettel/Cultura é um sítio de vestígios.md",
+    "meta/dataview/dashboard-ir-srs.md",
+    "zettelkasten-supervisor.md",
+    "rotina-supervisor.md",
     "01_notes/GRINBERG-Keila-2009.md",
     "daily/2026-10-25.md",
     "projetos/lithium.md",
@@ -282,16 +272,6 @@
     "01_notes/ROUSSO-Henry-2016.md",
     "daily/2026-10-04.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
-    "meta/templater/templater-daily-note.md",
-    "meta/templater/weekly-review.md",
-    "meta/templater/monthly-review.md",
-    "daily/2026-10-20.md",
-    "01_notes/PAVIANI-Aldo-2010.md",
-    "meta/README.md",
-    "meta/sugestoes-plugins.md",
-    "meta/zotero/fluxo-de-importacao.md",
-    "meta/footnote-shortcut-test.md",
-    "meta/dataview/search research notes.md",
     "meta/javascript/complete-reading.js",
     "meta/reports/archive/community-plugins-conflict-20260908.json",
     "meta/reports/archive",

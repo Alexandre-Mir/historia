@@ -5,7 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-Se a [[a moldura é produto da estrutura]], os vestígios que sobreviveram até chegarem ao nosso conhecimento, passaram por um "filtro do passado". O que era considerado importante para determinadas relações sociais sobrevive. Então os documentos moldam o processo de fabricação no sentido de que estamos debatendo o que era importante pra determinadas parcelas da sociedade. Uma forma de tentar escapar desse filtro é através das mediações, indo além do que o próprio vestígios nos mostra 
+Se a [[a moldura é produto da cultura]], os vestígios que sobreviveram até chegarem ao nosso conhecimento, passaram por um "filtro do passado". O que era considerado importante para determinadas relações sociais sobrevive. Então os documentos moldam o processo de fabricação no sentido de que estamos debatendo o que era importante pra determinadas parcelas da sociedade. Uma forma de tentar escapar desse filtro é através das mediações, indo além do que o próprio vestígios nos mostra 
 
 
 > [!important] Trecho de origem

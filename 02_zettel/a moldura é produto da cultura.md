@@ -5,7 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-A forma científica de se pensar é em grande parte, única de nosso tempo, por isso, [[a história é o passado emoldurado]], e essa moldura faz parte da superestrutura gerada pela estrutura.
+A forma científica de se pensar é em grande parte, única de nosso tempo, por isso, [[a história é o passado emoldurado]], e essa moldura faz parte da cultura.
 
 > [!important] Trecho de origem
 > > [!quote]

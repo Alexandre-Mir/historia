@@ -24,8 +24,8 @@ GEERTZ, Clifford. **A Interpretação das Culturas**. [_S.l._]: LTC, 2006. 224 p
 start-date:: 2026-10-15
 end-date::
 page-no:: 120
-reading-position::
-next-reading-step::
+reading-position:: 121
+next-reading-step:: Devo usar o zettelkasten-supervisor nos últimos zettels criados
 
 ```dataviewjs
 const page = dv.current();
@@ -48,7 +48,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 %% begin annotations %%
 ### 📅 Importado em 2026-10-24 07:39
 
-[[Cultura como documento]]
+[[Cultura é um sítio de vestígios]]
 
 
 ### 📅 Importado em 2026-10-27 14:13
@@ -79,10 +79,6 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
-> [!quote]
-> A cultura, esse documento de atuação, é portanto pública, como uma piscadela burlesca ou uma incursão fracassada aos carneiros. Embora uma ideação, não existe na cabeça de alguém; embora não física, não é uma identidade oculta. ([p. 25](zotero://open-pdf/library/items/7KMX32EF?page=25&annotation=SQMNEQJG))
-> 
-> 💡 **Comentário:** Cultura como documento
 
 
 
@@ -170,10 +166,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
-> [!quote]
-> O etnógrafo “inscreve” o discurso social: ele o anota.3 Ao fazê-lo, ele o transforma de acontecimento passado, que existe apenas em seu próprio momento de ocorrência, em um relato, que existe em sua inscrição e que pode ser consultado novamente. ([p. 38](zotero://open-pdf/library/items/7KMX32EF?page=38&annotation=UZGF754Z))
-> 
-> 💡 **Comentário:** Se relaciona com a fabricação da história
+[[a etnografia como inscrição fabricada]]
 
 
 
@@ -182,18 +175,11 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
-> [!quote]
-> A noção de que se pode encontrar a essência de sociedades nacionais, civilizações, grandes religiões ou o que quer que seja, resumida e simplificada nas assim chamadas pequenas cidades e aldeias “típicas” é um absurdo visível. ([p. 41](zotero://open-pdf/library/items/7KMX32EF?page=41&annotation=BCQEUNGA))
 
 
 
-> [!quote]
-> O locus do estudo não é o objeto do estudo. Os antropólogos não estudam as aldeias (tribos, cidades, vizinhanças...), eles estudam nas aldeias. ([p. 42](zotero://open-pdf/library/items/7KMX32EF?page=42&annotation=4GY9LJKM))
 
-
-
-> [!note] Comentário (p. 43)
-> 💡 Nesse sentido é totalmente possivel classes sociais diferentes se estudarem sem necessariamente pertencer a tal ([p. 43](zotero://open-pdf/library/items/7KMX32EF?page=43&annotation=U6XG49R6))
+[[o locus não é o objeto de estudo]]
 
 
 
@@ -297,8 +283,7 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 
 
 
-> [!quote]
-> O fato de que em todos os lugares as pessoas se juntam e procriam filhos têm algum sentido do que é meu e do que é teu, e se protegem, de alguma forma, contra a chuva e o sol não é nem falso nem sem importância, sob alguns pontos de vista. Todavia, isso pouco ajuda no traçar um retrato do homem que seja uma parecença verdadeira e honesta e não uma espécie de caricatura de um “João Universal”, sem crenças e credos. ([p. 67](zotero://open-pdf/library/items/7KMX32EF?page=67&annotation=DDUIXS98))
+
 
 
 
@@ -339,15 +324,7 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 
 
 
-> [!quote]
-> A primeira delas é que a cultura é vista melhor não como complexos de padrões concretos de comportamento — costumes, usos, tradições, feixes de hábitos —, como tem sido o caso até agora, mas como um conjunto de mecanismos de controle — planos, receitas, regras, instruções (o que os engenheiros de computação chamam “programas”) — para governar o comportamento. ([p. 73](zotero://open-pdf/library/items/7KMX32EF?page=73&annotation=LQGY3GY9))
-> 
-> 💡 **Comentário:** cultura é algoritimo?
-
-
-
-> [!quote]
-> A segunda ideia é que o homem é precisamente o animal mais desesperadamente dependente de tais mecanismos de controle, extragenéticos, fora da pele, de tais programas culturais, para ordenar seu comportamento. ([p. 73](zotero://open-pdf/library/items/7KMX32EF?page=73&annotation=CIKV7IHD))
+[[a Cultura constitui o ser humano]]
 
 
 
