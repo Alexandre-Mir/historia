@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
-                "mode": "source",
+                "file": "meta/dataview/dashboard-ir-srs.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "a escala de contextualização altera a ontologia e o significado do vestígio"
+              "title": "dashboard-ir-srs"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -188,6 +187,26 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "ba8d87928babcda5",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "ae8f40639ad9bbd6",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
         ]
       },
@@ -230,7 +249,6 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
-      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -239,13 +257,16 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+    "daily/2026-11-11.md",
+    "meta/dataview/dashboard-ir-srs.md",
     "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
+    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "02_zettel/o contexto histórico é uma fictio contemporânea.md",
     "02_zettel/a moldura é produto da cultura.md",
     "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
@@ -260,7 +281,6 @@
     "02_zettel/a Cultura constitui o ser humano.md",
     "02_zettel/a etnografia como inscrição fabricada.md",
     "02_zettel/Cultura é um sítio de vestígios.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "zettelkasten-supervisor.md",
     "rotina-supervisor.md",
     "01_notes/GRINBERG-Keila-2009.md",
@@ -271,7 +291,6 @@
     "daily/2026-10-21.md",
     "01_notes/ROUSSO-Henry-2016.md",
     "daily/2026-10-04.md",
-    "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
     "meta/javascript/complete-reading.js",
     "meta/reports/archive/community-plugins-conflict-20260908.json",
     "meta/reports/archive",
