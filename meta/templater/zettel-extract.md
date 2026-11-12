@@ -40,6 +40,7 @@ const quotedSelection = selection
 const noteContent = `---
 created: ${nowDateTime}
 type: zettel
+maturidade: semente
 tags:
   - zettel
 ---

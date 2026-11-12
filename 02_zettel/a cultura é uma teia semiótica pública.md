@@ -5,9 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-Inspirado em Weber, Geertz define a cultura como as teias de significados que o próprio ser humano teceu e nas quais se encontra enredado. Por essa razão, a antropologia só pode funcionar como uma ciência interpretativa em busca de sentidos. A Cultura é pública porque os significados e símbolos pertencem ao mundo social e intersubjetivo. A Cultura não é uma força que causa eventos, mas o contexto no qual esses comportamentos e símbolos podem ser interpretados e descritos com densidade.
-Ou seja, a cultura é um "sítio de vestígios", o que significa que a relação descrita como poder-saber em foucault ou [[a linguagem como julgamento absoluto pode relativizar fatos históricos]] não pode ser uma imposição de significados.
-O historiador não necessita ter presenciado a "piscadela viva"; seu papel é decifrar o código público que tornou a piscadela compreensível para quem a viveu e que permaneceu inscrito nos documentos.
+Inspirado por Weber, Geertz define a cultura como as teias de significados que o próprio ser humano teceu e nas quais se encontra enredado. A cultura é a totalidade acumulada desses sistemas de símbolos. Por essa razão, a antropologia só pode funcionar como uma ciência interpretativa em busca de sentidos. A cultura é pública porque o significado é público e ata como ação simbólica no mundo social e intersubjetivo. A cultura opera como um conjunto de mecanismos de controle que governam o comportamento humano.
 
 
 > [!important] Trecho de origem
@@ -24,6 +22,8 @@ O historiador não necessita ter presenciado a "piscadela viva"; seu papel é de
 
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
+- [[a descrição densa aplicada à história]] (Aplicação metodológica: a hermenêutica do código público fornece o fundamento para a crítica documental sem exigir presença física do historiador no evento)
+- [[a linguagem como julgamento absoluto pode relativizar fatos históricos]] (Contraste dialético: tensiona a imposição discursiva unilateral contra a partilha pública e intersubjetiva de sentidos)
 
 ---
 **Fonte:** [[GEERTZ-Clifford-2006]]

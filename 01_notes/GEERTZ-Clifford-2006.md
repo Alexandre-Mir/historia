@@ -24,8 +24,8 @@ GEERTZ, Clifford. **A Interpretação das Culturas**. [_S.l._]: LTC, 2006. 224 p
 start-date:: 2026-10-15
 end-date::
 page-no:: 120
-reading-position:: 121
-next-reading-step:: Devo usar o zettelkasten-supervisor nos últimos zettels criados
+reading-position:: 130
+next-reading-step:: revisar a [[o locus não é o objeto de estudo]]
 
 ```dataviewjs
 const page = dv.current();
@@ -48,7 +48,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 %% begin annotations %%
 ### 📅 Importado em 2026-10-24 07:39
 
-[[Cultura é um sítio de vestígios]]
+[[a cultura é uma teia semiótica pública]]
 
 
 ### 📅 Importado em 2026-10-27 14:13
@@ -278,17 +278,7 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 
 
 
-> [!quote]
-> Mesmo se o que se quer é descer a níveis menos abstratos e afirmar, como fez Kluckhohn, que o conceito da vida eterna é universal ou, como fez Malinowski, que o sentido da Providência é universal, se é perseguido pela mesma contradição. Para fazer uma generalização em torno de uma vida eterna idêntica para os confucionistas e os calvinistas, para os zen-budistas e os budistas tibetanos, há que se defini-la, na verdade, nos termos mais gerais — tão gerais, de fato, que qualquer força que porventura tenha virtualmente se evapora. ([p. 66](zotero://open-pdf/library/items/7KMX32EF?page=66&annotation=RRL94NGB))
-
-
-
-
-
-
-
-> [!quote]
-> Meu ponto de vista, que deve ser claro e, espero, logo se tornará ainda mais claro não é que não existam generalizações que possam ser feitas sobre o homem como homem, além da que ele é um animal muito variado, ou de que o estudo da cultura nada tem a contribuir para a descoberta de tais generalizações. Minha opinião é que tais generalizações não podem ser descobertas através de uma pesquisa baconiana de universais culturais, uma espécie de pesquisa de opinião pública dos povos do mundo em busca de um consensus gentium que de fato não existe e, além disso, que as tentativas de assim proceder conduzem precisamente à espécie de relativismo que toda a abordagem se propunha expressamente evitar. ([p. 67](zotero://open-pdf/library/items/7KMX32EF?page=67&annotation=2G8FADLU))
+[[a vacuidade analítica do consensus gentium e dos universais culturais]]
 
 
 
@@ -400,4 +390,4 @@ SORT file.cday desc
 ```
 
 
-%% Import Date: 2026-11-10T14:48:13.287-03:00 %%
+%% Import Date: 2026-11-11T18:32:51.163-03:00 %%

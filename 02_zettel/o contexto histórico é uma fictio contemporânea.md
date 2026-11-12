@@ -5,7 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-Ao definir um "período" ou uma "cultura", o historiador realiza um ato de sincronização artificial: ele atribui contemporaneidade a documentos que foram produzidos em momentos, locais e circunstâncias distintos, forçando um diálogo entre eles para que pareçam pertencer a uma mesma realidade coerente. Complementando essa ideia [[Cultura é um sítio de vestígios]], os vestígios impõem limites reais ao historiador. O que não deixou rastro documental converte-se em esquecimento irrecuperável. É a forma escolhida que decide quais documentos serão recortados e colocados em diálogo.
+Ao definir um "período" ou uma "cultura", o historiador realiza um ato de sincronização artificial: ele atribui contemporaneidade a documentos que foram produzidos em momentos, locais e circunstâncias distintos, forçando um diálogo entre eles para que pareçam pertencer a uma mesma realidade coerente. Complementando essa ideia [[a cultura é uma teia semiótica pública]], os vestígios impõem limites reais ao historiador. O que não deixou rastro documental converte-se em esquecimento irrecuperável. É a forma escolhida que decide quais documentos serão recortados e colocados em diálogo.
 
 > [!important] Trecho de origem
 > > [!quote]

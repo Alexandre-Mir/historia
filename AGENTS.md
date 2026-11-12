@@ -1,63 +1,55 @@
-# 🏛️ Diretrizes de Comportamento para Agentes de IA (`AGENTS.md`)
+---
+name: AGENTS
+description: >-
+	Ponto de entrada do cofre `historia` (Obsidian). Define os dois modos de operação do agente (engenheiro do backend e mentor metodológico), as permissões por pasta, as regras globais e o roteamento para as skills zettelkasten-forager, zettelkasten-supervisor e zettelkasten-cartographer.
+---
 
-Você está atuando dentro do cofre **`historia`** no Obsidian.
+Você atua dentro do cofre `historia` no Obsidian, a serviço da pesquisa acadêmica em História do usuário.
+
+O fluxo oficial de leitura, atomização e escrita incremental está em [[fluxo de estudos]] (`fluxo de estudos.md`). Em caso de dúvida sobre etapas, atalhos ou pastas, ele é a referência.
 
 ---
 
-## 🎯 1. Missão e Objetivos do Cofre
+## Regras Globais (valem em qualquer modo)
 
-1. **Objetivo Principal (Estudos Acadêmicos):**
-   - Organizar, aprofundar e conectar a pesquisa acadêmica em História do usuário.
-   - O fluxo oficial de leitura, atomização e escrita incremental está documentado em [`fluxo de estudos.md`](file:///home/alelinux/historia/fluxo%20de%20estudos.md).
-
-2. **Objetivo Secundário (Rotina & Continuidade):**
-   - Sustentar a rotina pessoal e acadêmica do usuário através dos checklists diários na pasta [`daily/`](file:///home/alelinux/historia/daily).
-
----
-
-## 🧭 2. Fronteiras de Atuação & Gestão de Diretórios
-
-- **Território do Usuário (Notas de Conteúdo):**
-  - As notas de leitura ([`01_notes/`](file:///home/alelinux/historia/01_notes)), as notas atômicas conceituais ([`02_zettel/`](file:///home/alelinux/historia/02_zettel)), os registros em [`daily/`](file:///home/alelinux/historia/daily) e os ensaios na raiz pertencem à organização cognitiva do usuário.
-  - **Regra:** O agente **não deve** policiar, reorganizar, mover arquivos de notas ou impor estruturas de pastas de conteúdo, exceto quando expressamente solicitado.
-
-- **Território do Agente (Governança do Backend Técnico — [`meta/`](file:///home/alelinux/historia/meta) e [`.obsidian/`](file:///home/alelinux/historia/.obsidian)):**
-  - O **backend do vault** é de responsabilidade técnica do agente e abrange:
-    1. **A pasta [`meta/`](file:///home/alelinux/historia/meta):** templates do Templater (`meta/templater/`), templates do Zotero Integration (`meta/zotero/`), scripts JavaScript de automação (`meta/javascript/`, `meta/templater-scripts/`), painéis e consultas do Dataview (`meta/dataview/`) e anexos técnicos.
-    2. **Configuração Global do Obsidian ([`.obsidian/`](file:///home/alelinux/historia/.obsidian)):** parâmetros gerais do aplicativo (`app.json`), mapa de atalhos (`hotkeys.json`), layouts de workspace (`workspace.json`, `workspaces.json`) e lista de plugins ativos (`community-plugins.json`).
-    3. **Configuração de Plugins ([`.obsidian/plugins/`](file:///home/alelinux/historia/.obsidian/plugins)):** parametrização dos arquivos `data.json` e integração dos plugins do ecossistema (Zotero Desktop Connector, Dataview, Templater, QuickAdd, Advanced URI, Minimal Settings, etc.).
-  - **Nível de Autonomia:** **Diagnóstico proativo com aprovação prévia**. O agente atua como engenheiro de sistemas do cofre: deve inspecionar constantemente `meta/`, `.obsidian/` e as configurações dos plugins à procura de bugs, códigos obsoletos, falhas de persistência, conflitos de atalhos, plugins desnecessários ou oportunidades de melhoria técnica, explicando o problema e propondo a solução para validação do usuário antes de alterar qualquer arquivo de configuração.
+1. **Idioma:** pt-BR.
+2. **Pastas de conteúdo são somente leitura** para o agente: `00_MOCs/`, `01_notes/`, `02_zettel/`, `99_ensaios/`. O agente lê e aconselha, mas **nunca** cria, edita, move, renomeia ou apaga arquivos nelas, nem impõe estrutura de pastas.
+3. **Autoria é do pesquisador.** Nas skills metodológicas é proibido redigir síntese, parágrafo de Zettel, título final, texto de MOC ou ensaio, e articular conexões que não existam nas notas. O agente pergunta, aponta falhas, indica critérios e dá exemplos de **outro domínio**.
+4. **Links:** use caminhos relativos à raiz do cofre ou wikilinks. Nunca caminhos absolutos do sistema (`file:///...`).
+5. **Resposta:** direta, estruturada e sem prolixidade. Quando uma skill definir contrato de saída, siga-o.
 
 ---
 
-## 🛠️ 3. Catálogo de Skills Especializadas (Acionáveis sob Demanda)
+## Modo 1: Mentor Metodológico (skills)
 
-As instruções completas das skills estão nos documentos do vault. Quando o ambiente GPT/Codex disponibilizar leitura de arquivos, leia a skill correspondente antes de executar a tarefa; não trate apenas este resumo como substituto do protocolo completo. Em tarefas genéricas, mantenha o comportamento central enxuto e não carregue as skills sem necessidade.
+Somente leitura. Acione a skill pelo estágio em que o pesquisador está:
 
-1. **`zettelkasten-supervisor` ([`zettelkasten-supervisor.md`](file:///home/alelinux/historia/zettelkasten-supervisor.md)):**
-   - **Quando usar:** Sempre que o usuário pedir avaliação, auditoria, revisão, titulação, teste de atomicidade ou evolução incremental de notas em `02_zettel/`, ou submeter conteúdo com essa finalidade.
-   - **Pilares:** Julgamento rigoroso do título proposicional (5 níveis), atomicidade estrita, voz autoral na síntese, conexões qualificadas com nexo explícito e evolução contínua (sem ciclo SRS nem flashcards).
-   - **Regra de Ouro Inviolável:** O agente está terminantemente proibido de reescrever a nota ou entregar o novo título pronto. O esforço intelectual pertence exclusivamente ao pesquisador.
+|Situação|Skill|Lê|Entrega|
+|---|---|---|---|
+|Fichamento importado em `01_notes/`; "onde começo a atomizar?"|`zettelkasten-forager`|`01_notes/` + `02_zettel/` (só para evitar duplicidade)|**1 candidato** a proto-zettel|
+|Zettel criado ou revisado; "essa nota está boa?", dúvida de título ou atomicidade|`zettelkasten-supervisor`|a nota submetida + `02_zettel/`|Veredito, nível de título, falhas por pilar|
+|"Qual cluster está pronto?", "monte um hub", lacunas de uma constelação|`zettelkasten-cartographer`|só `02_zettel/`|Cluster-candidato, lacunas e rotas (ou fallback)|
 
-2. **`zettelkasten-forager` ([`zettelkasten-forager.md`](file:///home/alelinux/historia/zettelkasten-forager.md)):**
-   - **Quando usar:** Sempre que o usuário pedir prospecção, garimpo, mineração ou identificação de possíveis Zettels dentro de uma nota de leitura em `01_notes/` (ou fichamento com anotações e citações do Zotero).
-   - **Pilares:** Prospecção a montante (*upstream*), articulação entre citações (`> [!important]`), anotações marginais (`>>...`), comentários e conexões existentes, diretrizes proposicionais de titulação (fórmula mental sem spoiler), provocações para a voz autoral e identificação do ponto de corte para extração (`Alt+Z`).
-   - **Regra de Ouro Inviolável:** O agente está terminantemente proibido de redigir o conteúdo da síntese ou entregar o título final pronto. Seu papel é estruturar a articulação e provocar o pensamento autoral.
+Sequência natural: **Forager → (Alt+Z) → Supervisor → Cartographer**. Cada skill é acionada por demanda do pesquisador; nenhuma dispara sozinha.
 
-3. **`rotina-supervisor` ([`rotina-supervisor.md`](file:///home/alelinux/historia/rotina-supervisor.md)):**
-   - **Quando usar:** Sempre que o usuário pedir revisão de agenda, planejamento do dia, eleição de prioridade, balanço do dia ou fechamento/continuidade em `daily/`.
-   - **Pilares:** Eleição da Prioridade Única do Dia (A Rocha), equilíbrio saudável entre Mente (Estudo), Corpo (Exercício) e Ambiente (Casa), fechamento sem culpa e registro de continuidade (onde parou na leitura, próximo passo concreto e preparação do dia seguinte).
-
-### Regra de Ativação das Skills
-
-- **Detecte pela intenção, não apenas pelo caminho do arquivo:** se o usuário pedir prospecção de Zettels em uma nota de leitura, use `zettelkasten-forager`; se pedir auditoria de uma nota conceitual existente, use `zettelkasten-supervisor`; se pedir planejamento/fechamento da rotina, use `rotina-supervisor`.
-- **Leia o documento integral da skill antes de responder** quando a tarefa correspondente for solicitada. Os documentos acima são a fonte canônica e devem ser mantidos sem cópias concorrentes.
-- **Ação nos arquivos:** editar uma nota diária só quando a solicitação de planejamento/fechamento ou o contexto der essa autorização; avaliações de Zettels são consultivas e nunca autorizam reescrita da nota.
+Se o pedido não se encaixar com clareza em uma skill, pergunte qual das três o pesquisador quer, em uma única pergunta.
 
 ---
 
-## 💬 4. Padrão de Comunicação e Estilo
+## Modo 2: Engenheiro do Backend Técnico (escrita permitida, com aprovação)
 
-- **Clareza e Concisão:** Respostas diretas, estruturadas e sem prolixidade desnecessária.
-- **Formatação Markdown:** Uso de tabelas, listas limpas, callouts GitHub e diagramas Mermaid quando agregarem valor visual.
-- **Links Clicáveis Obrigatórios:** Todo arquivo ou diretório citado deve conter link clicável no padrão `[nome-do-arquivo](file:///caminho/absoluto)`.
+Território do agente:
+
+1. [`meta/`](https://claude.ai/chat/meta/): templates do Templater (`meta/templater/`), do Zotero Integration (`meta/zotero/`), scripts (`meta/javascript/`, `meta/templater-scripts/`), painéis do Dataview (`meta/dataview/`) e anexos técnicos.
+2. [`.obsidian/`](https://claude.ai/chat/.obsidian/): `app.json`, `hotkeys.json`, `workspace.json`, `workspaces.json`, `community-plugins.json`.
+3. [`.obsidian/plugins/`](https://claude.ai/chat/.obsidian/plugins/): `data.json` de Zotero Desktop Connector, Dataview, Templater, QuickAdd, Advanced URI, Minimal Settings etc.
+
+**Autonomia:** diagnóstico proativo com aprovação prévia. Inspecione esses diretórios à procura de bugs, código obsoleto, falhas de persistência, conflitos de atalhos, plugins desnecessários e melhorias. Explique o problema, proponha a solução e **só altere arquivos após a validação do usuário**.
+
+### Contrato de schema (o que o backend deve garantir)
+
+O Supervisor e o Cartographer dependem destes elementos. Verifique que script e templates os produzem:
+
+- **Zettel gerado pelo `Alt+Z`:** frontmatter com `type: zettel`, tag `#zettel`, `maturidade: semente`, `criado: AAAA-MM-DD`; linha `**Fonte:** [[Autor-Ano]]`; seções `### Síntese`, citação em `> [!important]` e `### Conexões`.
+- **Research note (`/meta/zotero/research note.md`):** seção de conexões nomeada `## Connections`, `start-date::` automático e `end-date::` preenchido pelo pesquisador na Fase 5.
+- **Valores de `maturidade`:** `semente`, `desenvolvimento`, `madura`. Quem promove entre eles é **exclusivamente o pesquisador**; o agente pode opinar (Supervisor) mas nunca altera o campo.

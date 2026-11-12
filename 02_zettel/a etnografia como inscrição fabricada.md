@@ -5,7 +5,7 @@ tags:
   - zettel
 ---
 ### Síntese
-A fabricação no sentido de fictio trata a descrição cultural como algo construído ou modelado pelo pesquisador a partir de um ato de imaginação científica. O objeto da interpretação é o noema, o significado, o pensamento e o conteúdo intencional do discurso social. Como a [[Cultura é um sítio de vestígios]], a ausência física do historiador no tempo não impede a leitura de suas estruturas de significação. A distância temporal do evento não é, portanto, um obstáculo destrutivo, mas a condição que exige do historiador uma rigorosa adivinhação e avaliação de conjecturas para salvar o dito do discurso social e fixá-lo no registro da experiência humana.
+A fabricação no sentido de fictio trata a descrição cultural como algo construído ou modelado pelo pesquisador a partir de um ato de imaginação científica. O objeto da interpretação é o noema, o significado, o pensamento e o conteúdo intencional do discurso social. Como a [[a cultura é uma teia semiótica pública]], a ausência física do historiador no tempo não impede a leitura de suas estruturas de significação. A distância temporal do evento não é, portanto, um obstáculo destrutivo, mas a condição que exige do historiador uma rigorosa adivinhação e avaliação de conjecturas para salvar o dito do discurso social e fixá-lo no registro da experiência humana.
 
 
 > [!important] Trecho de origem
