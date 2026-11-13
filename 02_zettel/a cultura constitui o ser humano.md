@@ -20,7 +20,7 @@ Geertz recusa a concepção "estratigráfica" do homem. A evolução do cérebro
 
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
-- [[a Região implica em domínio e subordinação]] (Pré-requisito: se a cultura é mecanismo de controle extragenético, a região - como construção cultural - é também um dispositivo de controle sobre os corpos e comportamentos dos sujeitos regionais).
+- [[a região implica domínio e subordinação]] (Pré-requisito: se a cultura é mecanismo de controle extragenético, a região - como construção cultural - é também um dispositivo de controle sobre os corpos e comportamentos dos sujeitos regionais).
 
 ---
 **Fonte:** [[GEERTZ-Clifford-2006]]

@@ -1,4 +1,7 @@
 ---
+created: 2026-09-24 16:00
+type: zettel
+maturidade: semente
 tags:
   - zettel
 ---
@@ -9,7 +12,7 @@ O exercício do poder e a dominação territorial dependem inevitavelmente da pr
 A conquista depende do emprego de uma dada estratégia, de uma dada tática, exige adestramento, exige um saber fazer que se aprende na prática e na repetição constante dos mesmos gestos e das mesmas ordens. Dirá Foucault que não há poder sem a produção correlata de um saber, não há espaços de poder que não sejam imediatamente espaços de saber. ([p. 4](zotero://open-pdf/library/items/44ULM8N9?page=4&annotation=VLX5ZSIR))
 
 ### Conexões
-- [[a Região implica em domínio e subordinação]]
+- [[a região implica domínio e subordinação]]
 
 ---
 **Fonte:** [[ALBUQUERQUEJUNIOR-DurvalMuniz-2008]]

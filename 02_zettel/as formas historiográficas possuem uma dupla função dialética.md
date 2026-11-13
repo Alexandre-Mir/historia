@@ -1,6 +1,7 @@
 ---
 created: 2026-11-10 17:41
 type: zettel
+maturidade: semente
 tags:
   - zettel
 ---
@@ -21,7 +22,7 @@ A "forma" historiográfica nada mais é do que o mecanismo de controle cultural 
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 - [[a história é o passado emoldurado]] (Causal: é a tese epistemológica dessa consequência política direta - se o passado é emoldurado, a moldura escolhida produz apagamento)
-- [[a Região implica em domínio e subordinação]] (Dialético: a forma historiográfica opera o mesmo mecanismo de inclusão/exclusão que o dispositivo regional - quem "moldura" domina a memória)
+- [[a região implica domínio e subordinação]] (Dialético: a forma historiográfica opera o mesmo mecanismo de inclusão/exclusão que o dispositivo regional - quem "moldura" domina a memória)
 - [[a relação dialética entre historiografia regional e Região a-histórica]] (Aplicação: a "forma" de Guarinello é o mecanismo concreto pelo qual a historiografia regional legitima a região como a-histórica)
 
 ---

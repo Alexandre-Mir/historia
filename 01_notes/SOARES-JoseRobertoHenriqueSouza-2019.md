@@ -34,18 +34,7 @@ comment::
 
 %% begin annotations %%
 
-Imported on 2026-09-22 6:23 pm
-
-
-[[a Região foucaultiana é idealizada e planejada por uma parte minoritária da sociedade]]
-
-
-
-Imported on 2026-09-24 12:27 pm
-
-[[a historiografia regional investiga a Região como objeto]]
-[[diferença entre Região e Regionalismo]]
-[[registros do conceito de Região]]
+[[a historiografia regional deve desnaturalizar a região]]
 
 %% end annotations %%
 

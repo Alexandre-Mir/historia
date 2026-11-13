@@ -1,5 +1,6 @@
 ---
 created: 2026-11-10 18:18
+maturidade: semente
 type: zettel
 tags:
   - zettel
@@ -21,7 +22,7 @@ a escala de contextualização altera a ontologia e o significado do vestígio, 
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 - [[a história é o passado emoldurado]] (Aplicação/Caso: o exemplo de Santana do Parnaíba é a demonstração empírica mais concreta desta tese - a moldura muda, o passado muda)
-- [[a Região implica em domínio e subordinação]] (Pré-requisito: se a escala contextual é uma escolha política, então a delimitação da "região" como escala é também um ato de poder sobre a memória)
+- [[a região implica domínio e subordinação]] (Pré-requisito: se a escala contextual é uma escolha política, então a delimitação da "região" como escala é também um ato de poder sobre a memória)
 
 ---
 **Fonte:** [[GUARINELLO-NorbertoLuiz-2003]]

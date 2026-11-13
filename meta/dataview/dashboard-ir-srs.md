@@ -12,7 +12,7 @@
 
 Para revisar texto com LanguageTool, selecione um trecho e execute **Check Text** pela paleta de comandos. Sem seleção, o plugin verifica o documento ativo e envia esse texto ao endpoint configurado.
 
-Atalhos: `Ctrl/Cmd + Shift + D` abre a nota diária; `Ctrl/Cmd + Shift + R` inicia a retomada; `Ctrl/Cmd + Shift + E` registra continuidade. A conclusão da obra é uma ação separada nesta página ou na paleta de comandos.
+`Ctrl/Cmd + Shift + R` inicia a retomada; `Ctrl/Cmd + Shift + E` registra continuidade. A conclusão da obra é uma ação separada nesta página ou na paleta de comandos.
 
 ---
 

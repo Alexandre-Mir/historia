@@ -1,22 +1,42 @@
 Resultado mais recente do check-backend (o arquivo muda quando o resultado muda)
 Estado: erro (código 1)
-Erros: 6 · Avisos: 8
+Erros: 26 · Avisos: 8
 
+ERRO: Template de pasta ausente: meta/templater/templater-daily-note.md
 ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
 ERRO: Tasks está ativo, mas a consulta geral de tarefas não foi encontrada no painel.
+ERRO: O template diário não tem tarefas programadas para aparecer na linha do tempo do Day Planner.
+ERRO: O template diário não contempla o bloco esperado: Preparar o café da manhã.
+ERRO: O template diário não contempla o bloco esperado: Preparar o almoço.
+ERRO: O template diário não contempla o bloco esperado: Preparar o jantar.
+ERRO: O template diário não contempla o bloco esperado: Enviar 3 currículos.
+ERRO: O template diário não contempla o bloco esperado: A Rocha do dia.
+ERRO: A lavagem de roupa deve aparecer somente no bloco de sábado do template diário.
+ERRO: Template de nota weekly ausente: meta/templater/weekly-review.md
+ERRO: Template de nota monthly ausente: meta/templater/monthly-review.md
 ERRO: Painel de estudo sem ação frequente: Extrair da seleção.
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
-Backend com 3 erro(s).
+Backend com 13 erro(s).
 1: Command failed: /usr/bin/node meta/scripts/check-backend.js
+ERRO: Template de pasta ausente: meta/templater/templater-daily-note.md
 ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
 ERRO: Tasks está ativo, mas a consulta geral de tarefas não foi encontrada no painel.
+ERRO: O template diário não tem tarefas programadas para aparecer na linha do tempo do Day Planner.
+ERRO: O template diário não contempla o bloco esperado: Preparar o café da manhã.
+ERRO: O template diário não contempla o bloco esperado: Preparar o almoço.
+ERRO: O template diário não contempla o bloco esperado: Preparar o jantar.
+ERRO: O template diário não contempla o bloco esperado: Enviar 3 currículos.
+ERRO: O template diário não contempla o bloco esperado: A Rocha do dia.
+ERRO: A lavagem de roupa deve aparecer somente no bloco de sábado do template diário.
+ERRO: Template de nota weekly ausente: meta/templater/weekly-review.md
+ERRO: Template de nota monthly ausente: meta/templater/monthly-review.md
 ERRO: Painel de estudo sem ação frequente: Extrair da seleção.
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
-Backend com 3 erro(s).
+Backend com 13 erro(s).
 

@@ -85,7 +85,7 @@ a região é espaço de luta, é fruto de uma conquista, fronteiras nascidas da 
 Ver, para esta discussão: FOUCAULT, Michel. Op. Cit. ALBUQUERQUE JR, Durval Muniz de. A invenção do Nordeste e outras artes.3. ed. São Paulo: Cortez; Recife: Massangana, 2006 ([p. 3](zotero://open-pdf/library/items/44ULM8N9?page=3&annotation=GN2PX5J4))
 
 
-[[a Região implica em domínio e subordinação]]
+[[a região implica domínio e subordinação]]
 
 
 [[a conquista exige um saber conquistar]]

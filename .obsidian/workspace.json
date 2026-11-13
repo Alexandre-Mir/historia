@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/dataview/dashboard-ir-srs.md",
+                "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dashboard-ir-srs"
+              "title": "GUARINELLO-NorbertoLuiz-2003"
             }
           }
         ]
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 274.93359375,
+    "collapsed": true
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -188,26 +189,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "828e6926bf2053d2",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "5d6feef5101f6824",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -250,6 +231,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -258,41 +240,40 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "02_zettel/o passado é inacessível ao historiador.md",
+    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+    "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
+    "02_zettel/a história é o passado emoldurado.md",
+    "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
+    "02_zettel/a moldura é produto da cultura.md",
+    "02_zettel/o contexto histórico é uma fictio contemporânea.md",
+    "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
+    "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
     "meta/dataview/search research notes.md",
     "meta/dataview/dashboard-ir-srs.md",
-    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
-    "meta/zotero/research note.md",
+    "01_notes/SOARES-JoseRobertoHenriqueSouza-2019.md",
+    "02_zettel/registros do conceito de Região.md",
+    "02_zettel/diferença entre Região e Regionalismo.md",
+    "02_zettel/a historiografia regional deve desnaturalizar a região.md",
     "01_notes/GEERTZ-Clifford-2006.md",
-    "02_zettel/não se deve confundir o locus com o objeto.md",
+    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
+    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
     "02_zettel/a inferência clínica impede o consensus gentium.md",
-    "02_zettel/a inferência clínica como método.md",
-    "02_zettel/a vacuidade analítica do consensus gentium e dos universais culturais.md",
-    "Sem título.md",
-    "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
-    "zettelkasten-cartographer.md",
-    "IW-Queues/IW-Queue.md",
-    "skills/zettelkasten-supervisor.md",
-    "skills/zettelkasten-forager.md",
-    "skills/zettelkasten-cartographer.md",
+    "02_zettel/a descrição densa aplicada à história.md",
+    "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
+    "02_zettel/o que é o documento voluntário.md",
+    "02_zettel/origem etimológica da palavra documento.md",
+    "02_zettel/a conquista exige um saber conquistar.md",
+    "02_zettel/a regionalização é um processo unilateral.md",
+    "02_zettel/a ficção da continuidade justifica o passado e o presente.md",
     "skills",
-    "zettelkasten-supervisor.md",
-    "zettelkasten-forager.md",
-    "AGENTS.md",
-    "fluxo de estudos.md",
-    "meta/templater/zettel-extract.md",
-    "meta/templater/extract research note from selection.md",
     "99_ensaios",
     "00_MOCs",
-    "Sem título 1.md",
-    "02_zettel/o discurso contemporâneo desconstrói a narrativa leninista.md",
-    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
-    "02_zettel/o espaço pode determinar marcos cronológicos.md",
     "projetos/Sem título",
     "projetos",
     "meta/javascript/complete-reading.js",

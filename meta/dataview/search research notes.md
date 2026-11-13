@@ -13,7 +13,7 @@ note-modified::
 note-title::
 
 start-date::
-end-date::
+end-date:: x
 comment::
 tags::
 needs-page::

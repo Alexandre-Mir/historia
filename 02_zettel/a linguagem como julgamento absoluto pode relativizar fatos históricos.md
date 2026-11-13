@@ -1,4 +1,7 @@
 ---
+created: 2026-09-24 16:00
+type: zettel
+maturidade: semente
 tags:
   - zettel
 ---

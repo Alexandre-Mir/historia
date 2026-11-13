@@ -24,7 +24,7 @@ Não devemos confundir o locus com o objeto de estudo porque o lugar onde a pesq
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 - [[a relação dialética entre historiografia regional e Região a-histórica]] (Dialético: a distinção geertziana locus != objeto é a ferramenta conceitual que impede a historiografia de cair na armadilha que Albuquerque Jr. denuncia - a de tomar a região como objeto dado e não como locus onde se investigam dinâmicas de poder).
-- [[a Região implica em domínio e subordinação]] (Aplicação: a região como locus permite estudar nela os mecanismos de dominação sem naturalizar a própria região como identidade fixa)
+- [[a região implica domínio e subordinação]] (Aplicação: a região como locus permite estudar nela os mecanismos de dominação sem naturalizar a própria região como identidade fixa)
 - [[o contexto histórico é uma fictio contemporânea]] (Dialético: ao mesmo tempo que o contexto histórico é o locus do historiador, também é seu objeto)
 - [[a inferência clínica impede o consensus gentium]] (Pré-requisito: identificar o objeto como uma singularidade que pode conter universais é o processo da inferência clínica)
 ---

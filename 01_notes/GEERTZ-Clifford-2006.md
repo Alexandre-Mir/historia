@@ -314,7 +314,7 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 
 
 
-[[a Cultura constitui o ser humano]]
+[[a cultura constitui o ser humano]]
 
 
 

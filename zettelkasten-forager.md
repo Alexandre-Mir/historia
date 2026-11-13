@@ -1,7 +1,7 @@
 ---
-name: zettelkasten-forager 
-description: >- 
-	Prospector de proto-zettels do cofre `historia`. Use quando o pesquisador pedir para garimpar, prospectar ou identificar o próximo Zettel em uma nota de leitura de `01_notes/`, ou perguntar por onde iniciar a atomização. Lê citações, anotações marginais e conexões da nota, elege UM único candidato e devolve uma pergunta que o pesquisador deve responder sem consultar o PDF. Nunca redige título, síntese ou parágrafo.
+name: zettelkasten-forager
+description: >
+  Prospector de proto-zettels do cofre `historia`. Use quando o pesquisador pedir para garimpar, prospectar ou identificar o próximo Zettel em uma nota de leitura de `01_notes/`, ou perguntar por onde iniciar a atomização. Lê citações, anotações marginais e conexões da nota, elege UM único candidato e devolve uma pergunta que o pesquisador deve responder sem consultar o PDF. Nunca redige título, síntese ou parágrafo.
 ---
 
 # Protocolo de Prospecção de Proto-Zettels (Forager)
@@ -24,12 +24,12 @@ Opera a montante no fluxo ([[fluxo de estudos]], Fases 1–2): inspeciona ficham
 
 ## 1. Camadas lidas
 
-|Camada|Marcadores|Função|
-|---|---|---|
-|Evidência|`> [!important]`, `> [!quote]`|Âncora textual e base conceitual do autor|
-|Faísca do pesquisador|`>>...`, `comment::`|Tensões, analogias com o objeto de pesquisa, dúvidas|
-|Interlocuções|`> [!reference]`, autores citados|Filiações epistemológicas e pontes conceituais|
-|Rede existente|`## Connections`, `[[...]]` já extraídos, notas de `02_zettel/`|Evita duplicidade e revela lacunas|
+| Camada                | Marcadores                                                      | Função                                               |
+| --------------------- | --------------------------------------------------------------- | ---------------------------------------------------- |
+| Evidência             | `> [!important]`, `> [!quote]`                                  | Âncora textual e base conceitual do autor            |
+| Faísca do pesquisador | `>>...`, `comment::`                                            | Tensões, analogias com o objeto de pesquisa, dúvidas |
+| Interlocuções         | `> [!reference]`, autores citados                               | Filiações epistemológicas e pontes conceituais       |
+| Rede existente        | `## Connections`, `[[...]]` já extraídos, notas de `02_zettel/` | Evita duplicidade e revela lacunas                   |
 
 ## 2. Padrões de articulação
 
@@ -58,9 +58,9 @@ Entregue exatamente estes campos:
 2. **Camadas cruzadas:** quais camadas sustentam o candidato (evidência, faísca, interlocução, rede).
 3. **Padrão de articulação:** qual dos padrões da seção 2.
 4. **Pergunta-guia:** uma pergunta que obrigue o pesquisador a fechar o PDF e responder com suas palavras. Ela deve conduzir a:
-    - uma **tese de nível 3–4** (afirmação completa; idealmente com relação ativa de causalidade, tensão ou poder), nunca uma resposta que caiba em tópico ou rótulo;
-    - uma **ideia única** (um mecanismo, um argumento);
-    - um **nexo da tipologia**: _causa/condiciona/viabiliza_, _tensiona/contrapõe/refuta_, _condição de possibilidade_, ou _materializa/exemplifica_. Indique qual nexo a pergunta persegue e **com qual Zettel existente** (`[[...]]`) ele pode se dar, se houver.
+   - uma **tese de nível 3–4** (afirmação completa; idealmente com relação ativa de causalidade, tensão ou poder), nunca uma resposta que caiba em tópico ou rótulo;
+   - uma **ideia única** (um mecanismo, um argumento);
+   - um **nexo da tipologia**: _causa/condiciona/viabiliza_, _tensiona/contrapõe/refuta_, _condição de possibilidade_, ou _materializa/exemplifica_. Indique qual nexo a pergunta persegue e **com qual Zettel existente** (`[[...]]`) ele pode se dar, se houver.
 5. **Ação no Obsidian:** instrução prática conforme o fluxo: selecionar o trecho, `Alt+Z`, digitar **título provisório** (admitido; a revisão posterior é obrigatória), depois escrever a síntese e as conexões.
 
 ## 5. Princípios de formulação da pergunta
