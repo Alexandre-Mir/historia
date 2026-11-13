@@ -18,64 +18,6 @@ Atalhos: `Ctrl/Cmd + Shift + D` abre a nota diária; `Ctrl/Cmd + Shift + R` inic
 
 ---
 
-## ✅ Hoje
-
-```dataviewjs
-const now = new Date();
-const dateKey = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
-const today = dv.page(`daily/${dateKey}`);
-if (!today) {
-  dv.paragraph(`A nota de hoje ainda não existe. [Criar e abrir](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A687ee15f-5e80-47c4-b8a9-5d92c19c67e4).`);
-} else {
-  const tasks = today.file.tasks;
-  const done = tasks.filter((task) => task.completed).length;
-  const open = tasks.filter((task) => !task.completed);
-  const percent = tasks.length ? Math.round((done / tasks.length) * 100) : 0;
-  dv.paragraph(`${today.file.link} · ${done}/${tasks.length} tarefas concluídas (${percent}%)`);
-  if (open.length) dv.taskList(open, false);
-  else dv.paragraph(tasks.length ? "Tudo concluído por hoje." : "A nota não tem tarefas pendentes.");
-}
-```
-
----
-
-## 📋 Pendências no vault
-> Consulta geral do Tasks. Marque itens aqui para atualizar a caixa de seleção na nota de origem.
-
-```tasks
-not done
-sort by due
-sort by path
-```
-
----
-
-## 🧹 Leituras para resolver rapidamente
-> Consultas de visualização para encontrar obras com pequenos próximos passos de manutenção.
-
-```dataviewjs
-const works = dv.pages('"01_notes"').where((page) => !page["end-date"]);
-const noPage = works.where((page) => page["page-no"] == null || String(page["page-no"]).trim() === "");
-const stale = works.where((page) => page.file.mtime.toMillis() < Date.now() - 90 * 24 * 60 * 60 * 1000);
-const zettelSources = new Set();
-for (const zettel of dv.pages('"02_zettel"')) {
-  for (const link of zettel.file.outlinks ?? []) {
-    if (link.path?.startsWith("01_notes/")) zettelSources.add(link.path.replace(/\.md$/i, ""));
-  }
-}
-const noZettels = works.where((page) => !zettelSources.has(page.file.path.replace(/\.md$/i, "")));
-const show = (title, pages, description) => {
-  dv.header(3, `${title} (${pages.length})`);
-  if (pages.length) dv.list(pages.map((page) => page.file.link));
-  else dv.paragraph(description);
-};
-show("Sem página registrada", noPage, "Todas as leituras ativas têm página registrada.");
-show("Sem Zettels derivados", noZettels, "Todas as leituras ativas têm Zettels vinculados.");
-show("Sem atividade há mais de 90 dias", stale, "Nenhuma leitura ativa está há mais de 90 dias sem alteração.");
-```
-
----
-
 ## 📚 Leituras ativas
 > Obras sem `end-date::`, ordenadas pela última modificação da nota (um indicador aproximado, não um registro garantido de leitura).
 
@@ -144,48 +86,6 @@ const rows = active.map((work) => {
 });
 
 dv.table(["Obra", "Diário de referência", "Ponto de retomada", "Próximo passo"], rows);
-```
-
----
-
-## ↩️ Tarefas recentes para reavaliar
-> Lista tarefas únicas ainda abertas, registradas nos últimos 14 dias. Considere cada uma conforme sua relevância atual; a lista não implica atraso.
-
-```dataviewjs
-const today = new Date();
-today.setHours(0, 0, 0, 0);
-const cutoff = today.getTime() - 14 * 24 * 60 * 60 * 1000;
-const pages = dv.pages('"daily"')
-  .where((page) => page.file.day && page.file.day.toMillis() >= cutoff && page.file.day.toMillis() < today.getTime());
-const occurrences = new Map();
-
-for (const page of pages) {
-  for (const task of page.file.tasks) {
-    const key = task.text.replace(/\s+/g, " ").trim();
-    occurrences.set(key, (occurrences.get(key) ?? 0) + 1);
-  }
-}
-
-const suggestions = [];
-for (const page of pages) {
-  for (const task of page.file.tasks) {
-    const key = task.text.replace(/\s+/g, " ").trim();
-    if (!task.completed && occurrences.get(key) === 1) {
-      suggestions.push({ page, task });
-    }
-  }
-}
-
-suggestions.sort((a, b) => b.page.file.day.toMillis() - a.page.file.day.toMillis());
-const selected = suggestions.slice(0, 10);
-if (selected.length) {
-  dv.table(
-    ["Dia", "Tarefa aberta"],
-    selected.map(({ page, task }) => [page.file.link, task.text]),
-  );
-} else {
-  dv.paragraph("Nenhuma tarefa única recente precisa ser reavaliada.");
-}
 ```
 
 ---

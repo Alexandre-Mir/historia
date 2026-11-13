@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3b90482ef7720b68",
+        "id": "4a048e74afd82a94",
         "type": "tabs",
         "children": [
           {
-            "id": "c171776ff722c84a",
+            "id": "cf20fac58c848ff7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
+                "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
                 "mode": "preview",
-                "source": true
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "o passado é cognoscível no processo de sua fabricação"
+              "title": "GUARINELLO-NorbertoLuiz-2003"
             }
           }
         ]
@@ -55,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IW",
+                "query": "tag:#subject/programação",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,26 +188,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "929d4af2528d3016",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "d3db38a54f016a8d",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -220,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_zettel/registros do conceito de Região.md",
+                "file": "meta/zotero/research note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -249,6 +230,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -257,14 +239,21 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "c171776ff722c84a",
+  "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "meta/dataview/search research notes.md",
+    "meta/zotero/research note.md",
+    "01_notes/GEERTZ-Clifford-2006.md",
     "meta/dataview/dashboard-ir-srs.md",
+    "02_zettel/não se deve confundir o locus com o objeto.md",
+    "02_zettel/a inferência clínica impede o consensus gentium.md",
+    "02_zettel/a inferência clínica como método.md",
+    "02_zettel/a vacuidade analítica do consensus gentium e dos universais culturais.md",
+    "Sem título.md",
+    "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
+    "meta/dataview/search research notes.md",
     "zettelkasten-cartographer.md",
     "IW-Queues/IW-Queue.md",
     "skills/zettelkasten-supervisor.md",
@@ -275,7 +264,6 @@
     "zettelkasten-forager.md",
     "AGENTS.md",
     "fluxo de estudos.md",
-    "meta/zotero/research note.md",
     "meta/templater/zettel-extract.md",
     "meta/templater/extract research note from selection.md",
     "99_ensaios",
@@ -285,13 +273,6 @@
     "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
     "02_zettel/o espaço pode determinar marcos cronológicos.md",
     "02_zettel/a cultura é uma teia semiótica pública.md",
-    "02_zettel/o contexto histórico é uma fictio contemporânea.md",
-    "02_zettel/a moldura é produto da cultura.md",
-    "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
-    "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
-    "01_notes/CHEYETTE-FredricL.-2008.md",
-    "02_zettel/a ficção da continuidade justifica o passado e o presente.md",
-    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "projetos/Sem título",
     "projetos",
     "meta/javascript/complete-reading.js",

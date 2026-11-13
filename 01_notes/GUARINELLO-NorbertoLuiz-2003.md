@@ -22,10 +22,10 @@ GUARINELLO, Norberto Luiz. UMA MORFOLOGIA DA HISTÓRIA: AS FORMAS DA HISTÓRIA A
 ## Index
 
 start-date:: 2026-10-15
-end-date::
-page-no:: 57
-reading-position:: 57
-next-reading-step:: revisar "[[o passado é inacessível ao historiador]]"
+end-date:: 2026-11-13
+page-no:: 61
+reading-position:: 61
+next-reading-step:: revisar o [[o passado é inacessível ao historiador]]
 
 ```dataviewjs
 const page = dv.current();
@@ -214,6 +214,44 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
+### 📅 Importado em 2026-11-13 00:32
+
+
+> [!quote]
+> O que chamamos História Antiga é ainda um recorte útil para o presente, desde que reconheçamos sua arbitrariedade. Em primeiro lugar, porque se baseia numa tradição intelectual que é muito rica em termos humanos. Os textos clássicos são interessantes em e por si mesmos. Vale a pena lê-los: alguns são verdadeiros tesouros para a humanidade. Em segundo lugar, a tradição que estudamos e transformamos em História é, ainda, nossa própria tradição. Somos parte dela, mesmo no Brasil. A própria Ciência é herdeira direta da Tradição Clássica. Por fim, a história daquele mundo é uma História interessante, ainda que não seja a história antiga do mundo. Vale a pena estudá-la, mas creio que deva ser transformada para atender às necessidades do presente. Ela deve libertar-se das formas que se tornaram anacrônicas. ([p. 57](zotero://open-pdf/library/items/2TEHAUKQ?page=57&annotation=R246UNQQ))
+
+
+
+> [!quote]
+> Deve, antes de tudo, abandonar suas pretensões à universalidade. Tratase de uma História particular, específica. Deve, além disso, ultrapassar as velhas divisões em seu interior e romper com a idéia de uma linha de progresso. Algumas tentativas interessantes foram feitas em anos recentes para ver este mundo com olhos diferentes. ([p. 58](zotero://open-pdf/library/items/2TEHAUKQ?page=58&annotation=BIUI3HZT))
+
+
+
+> [!tip]
+> Curiosamente, duas das mais instigantes têm uma forte influência de F. Braudel e I. Wallerstein e de sua capacidade e ambição de construir vastos objetos históricos: a determinação de diferentes sistemasmundo no passado (CHASE-DUNN; HALL, 1991; FRANK; GILLS, 1993) e o estudo do Mediterrâneo como unidade básica de estudo, mas agora com uma perspectiva eminentemente ecológica (HORDEN; PURCELL, 2000; SHAW, 2001). ([p. 58](zotero://open-pdf/library/items/2TEHAUKQ?page=58&annotation=NZZNYVZX))
+
+
+
+> [!quote]
+> Outras maneiras são possíveis. Uma possibilidade, talvez inescapável, é a de conscientemente projetar no passado as preocupações de nosso presente. E como mostram as tendências mais recentes da disciplina, esse “mundo antigo” pode ser pensado como resultante de um longo processo de integração de povos: cidades, impérios, tribos, que povoaram as margens do Mediterrâneo e as terras continentais adjacentes, como uma “micro-globalização” regional, que pode nos ajudar a pensar problemas do mundo contemporâneo. ([p. 58](zotero://open-pdf/library/items/2TEHAUKQ?page=58&annotation=TLKH7BEJ))
+
+
+
+> [!quote]
+> A História que produzimos, escrevemos e ensinamos, a História Antiga, como a chamamos, ainda nos diz respeito. ([p. 58](zotero://open-pdf/library/items/2TEHAUKQ?page=58&annotation=T6QSM7EF))
+
+
+
+> [!tip]
+> REFERÊNCIAS BIBLIOGRÁFICAS  AMPOLO, C. Storie Greche. La formazione della moderna storiografia sugli antichi Greci. Turim: Einaudi, 1997.  ANDREAU, J. et al. L’Économie Antique. Annales: Histoire, Sciences Sociales, 50, 5, 1995.  ANKERSMIT, F. R. Historical Representation. History and Theory, v. 27, 3, p. 205-228, 1988.  BENTLEY, J. H. Shapes of World History in Twentueth-Century Scholarship. In: ADAS, M. (Ed.). Agricultural and Pastoral Societies in Ancient and Classical History. Philadelphia: Temple University Press, 2001. p. 3-35.  BLOCH, M. Apologie pour l’histoire ou métier d’historien. Édition critique préparée par Étienne Bloch. Paris: Armand Colin, 1993.  CAMERON, A. Postlude: what next with history. In: CAMERON, A. (Ed.). History as texts. The writing of ancient history. London: Duckworth, 1989. p. 206-208.  CHASE-DUNN, C.; HALL, T. D. (Ed.). Core/Periphery Relations in Precapitalist Worlds. Boulder: Westview Press, 1991.  CLARKE, M. L. Classical Education in Britain, 1500-1900. Cambridge: University Press, 1959.  DEMANT, A. Epochenbegriffe. In: LANDFESTER, M. (Ed.). Der Neue Pauly. Enzyklopädie der Antike. Stuttgart: Verlag J. B. Metzler, 2000. p. 996-1001. FINLEY, M. I. A economia antiga. Porto: Afrontamento, 1980.  FRANK, G.; GILLS, B. K. (Ed.). The World System. Five hundred years or five thousand? London; New York: Routledge, 1993.  GARNSEY, P.; SELLERS, R. The Roman Empire. Economy, society and culture. London: Duckworth, 1987. GIARDINA, A. (Org.). L’Homme romain. Paris: Seuil, 1992.  GOLDHILL, S. Whose Antiquity? Whose Modernity? Antike und Abendland, 46, p. 3-20, 2000.  HENTSCHKE, A.; MUHLACK, U. Einführung in die Geschichte der klassischen Philologie. Darmstadt: Wissenschaftliche Buchgesellschaft, 1972. HIGHET, G. The Classical Tradition. Oxford: Clarendon Press, 1949. HORDEN, P.; PURCELL, N. The Corrupting Sea. A Study of Mediterranean History. Oxford: Blackwell, 2000.  HUSKINSON, J. Experiencing Rome. Culture, Identity and Power in the Roman Empire. London: Routledge; The Open University, 2000.  LEPELLEY, C. (Org.). Rome et l’integration de l’Empire. 44 av. J.C.- 260 apr. J.C. tome 2: Approches régionales du Haut-Empire Romain. Paris: PUF, 1998.  MALKIN, I. (Ed.). Ancient Perceptions of Greek Ethnicity. Cambridge/ Massachusetts; London: Harvard University Press, 2001.  MARROU, M.-I. Sobre o conhecimento histórico. Rio de Janeiro: Zahar, 1978.  MOMIGLIANO, A. Nono Contributo alla Storia degli Studi Classici e del Mondo Antico. La unità della storia politica greca. Roma: Edizioni di Storia e Letteratura, 1992.  MOMMSEN, H. História Social. In: História. Enciclopédia Meridiano/ Fischer. Lisboa: Meridiano, 1965. p. 153.  NATIONAL CURRICULUM. History in the National Curriculum (England). Departments of Education and Science. London: HMSO Publication Center, 1991.  NOVAES, F. A. Condições da privacidade na Colônia. In: SOUZA, L. de M. e (Org.). História da vida privada no Brasil, I: cotidiano e vida privada na América portuguesa. São Paulo: Companhia das Letras, 1997. p. 13-39.  PAVAN, M. Antichità classica e pensiero moderno. Florença: La Nuova Italia, 1977.  RAAFLAUB, K.; TOHER, M. (Ed.). Between Republic and Empire. Berkeley: University of California Press, 1990.  RATHBONE, D. Rationalism and rural society in third-century A.D. Egypt. Cambridge: University Press, 1991.  RAWLANDSON, J. Landowners and Tenants in Roman Egypt. Oxford: Oxford University Press, 1996.  REEVE, M. Introduction. In: HARRISON, S. J. (Ed.). Texts, Ideas and the Classics. Scholarship, Theory and Classical Literature. Oxford: Oxford University Press, 2001. p. 245-251.  ROSTOVTZEFF, M. A Large Estate in Egypt in the 3rd B.C. A Study in Economic History. Oxford: Madison, 1922. ([p. 59](zotero://open-pdf/library/items/2TEHAUKQ?page=59&annotation=HSFH8LBR))
+
+
+
+> [!tip]
+> RUNDEL, J.; MENNELL, S. (Org.). Classical Readings in Culture and Civilization. London: Routledge, 1998.  SCHEIDEL, W.; REDEN, S. von. The Ancient Economy. Edinburgh: Edinburgh University Press, 2002.  SCHIAVONE, A. La Storia Spezzata. Roma antica e Occidente moderno. Bari: Laterza, 1999.  SHAW, B. Challenging Braudel: a new vision of the Mediterranean. Journal of Roman Archaeology, 14, p. 419-453, 2001. VEYNE, P. La société romaine. Paris: Seuil, 1991.  WILAMOVITZ-MOELLENDORFF, U. von. History of Classical Scholarship. Ed. with introduction and notes by Hugh Lloyd-Jones. London: Duckworth, 1982. ([p. 61](zotero://open-pdf/library/items/2TEHAUKQ?page=61&annotation=CX3EJJDZ))
+
+
+
 %% end annotations %%
 
 ---
@@ -221,11 +259,11 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 ## 💎 Zettels Atômicos Derivados
 
 ```dataview
-TABLE file.cday AS "Criado em", tags AS "Tags"
+TABLE file.cday AS "Criado em", maturidade AS "Maturidade"
 FROM "02_zettel"
 WHERE contains(Fonte, this.file.link) OR contains(file.outlinks, this.file.link) OR contains(file.inlinks, this.file.link)
 SORT file.cday desc
 ```
 
 
-%% Import Date: 2026-11-11T18:32:51.174-03:00 %%
+%% Import Date: 2026-11-13T00:32:34.545-03:00 %%

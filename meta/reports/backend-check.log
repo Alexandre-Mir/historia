@@ -1,18 +1,20 @@
 Resultado mais recente do check-backend (o arquivo muda quando o resultado muda)
 Estado: erro (código 1)
-Erros: 2 · Avisos: 8
+Erros: 4 · Avisos: 8
 
 ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
+ERRO: Painel de estudo sem ação frequente: Extrair da seleção.
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
-Backend com 1 erro(s).
+Backend com 2 erro(s).
 1: Command failed: /usr/bin/node meta/scripts/check-backend.js
 ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
+ERRO: Painel de estudo sem ação frequente: Extrair da seleção.
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
 AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
-Backend com 1 erro(s).
+Backend com 2 erro(s).
 

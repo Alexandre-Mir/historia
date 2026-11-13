@@ -1863,6 +1863,9 @@ function detectLocale(getLanguage) {
   }
 }
 var current = detectLocale();
+function getLocale() {
+  return current;
+}
 function format(text, vars) {
   if (!vars)
     return text;
@@ -2010,6 +2013,27 @@ function newReplacementId(existing, random = Math.random) {
 }
 function replacementCommandName(r) {
   return t("command.replace", { name: r.name.trim() });
+}
+
+// src/more-link.ts
+var MORE_URL = "https://perezamadorluisenrique-gif.github.io/pro/";
+var TEXT = {
+  en: { name: "More plugins and Pro", desc: "Other plugins by Siulved54, the optional Pro versions and template vaults. Opens a web page.", button: "Open" },
+  zh: { name: "\u66F4\u591A\u63D2\u4EF6\u548C Pro \u7248", desc: "Siulved54 \u7684\u5176\u4ED6\u63D2\u4EF6\u3001\u53EF\u9009\u7684 Pro \u7248\u672C\u548C\u6A21\u677F\u5E93\u3002\u5C06\u6253\u5F00\u4E00\u4E2A\u7F51\u9875\u3002", button: "\u6253\u5F00" },
+  ja: { name: "\u305D\u306E\u4ED6\u306E\u30D7\u30E9\u30B0\u30A4\u30F3\u3068 Pro", desc: "Siulved54 \u306E\u4ED6\u306E\u30D7\u30E9\u30B0\u30A4\u30F3\u3001\u4EFB\u610F\u306E Pro \u7248\u3001\u30C6\u30F3\u30D7\u30EC\u30FC\u30C8 Vault\u3002Web \u30DA\u30FC\u30B8\u3092\u958B\u304D\u307E\u3059\u3002", button: "\u958B\u304F" },
+  ko: { name: "\uB354 \uB9CE\uC740 \uD50C\uB7EC\uADF8\uC778\uACFC Pro", desc: "Siulved54\uC758 \uB2E4\uB978 \uD50C\uB7EC\uADF8\uC778, \uC120\uD0DD\uD615 Pro \uBC84\uC804\uACFC \uD15C\uD50C\uB9BF \uBCF4\uAD00\uD568\uC785\uB2C8\uB2E4. \uC6F9 \uD398\uC774\uC9C0\uAC00 \uC5F4\uB9BD\uB2C8\uB2E4.", button: "\uC5F4\uAE30" },
+  es: { name: "M\xE1s plugins y Pro", desc: "Otros plugins de Siulved54, las versiones Pro opcionales y los vaults de plantillas. Abre una p\xE1gina web.", button: "Abrir" },
+  de: { name: "Weitere Plugins und Pro", desc: "Weitere Plugins von Siulved54, die optionalen Pro-Versionen und Vorlagen-Vaults. \xD6ffnet eine Webseite.", button: "\xD6ffnen" },
+  fr: { name: "Plus de plugins et Pro", desc: "Les autres plugins de Siulved54, les versions Pro facultatives et les coffres de mod\xE8les. Ouvre une page web.", button: "Ouvrir" },
+  "pt-BR": { name: "Mais plugins e Pro", desc: "Outros plugins do Siulved54, as vers\xF5es Pro opcionais e os vaults de modelos. Abre uma p\xE1gina da web.", button: "Abrir" },
+  ru: { name: "\u0414\u0440\u0443\u0433\u0438\u0435 \u043F\u043B\u0430\u0433\u0438\u043D\u044B \u0438 Pro", desc: "\u0414\u0440\u0443\u0433\u0438\u0435 \u043F\u043B\u0430\u0433\u0438\u043D\u044B Siulved54, \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0432\u0435\u0440\u0441\u0438\u0438 Pro \u0438 \u043D\u0430\u0431\u043E\u0440\u044B \u0448\u0430\u0431\u043B\u043E\u043D\u043E\u0432. \u041E\u0442\u043A\u0440\u044B\u0432\u0430\u0435\u0442 \u0432\u0435\u0431-\u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443.", button: "\u041E\u0442\u043A\u0440\u044B\u0442\u044C" }
+};
+function moreText(locale = getLocale()) {
+  var _a;
+  return (_a = TEXT[locale]) != null ? _a : TEXT.en;
+}
+function openMore() {
+  window.open(MORE_URL, "_blank", "noopener");
 }
 
 // src/tidy.ts
@@ -2803,7 +2827,8 @@ var TextFormatSettingTab = class extends import_obsidian.PluginSettingTab {
             }
           }
         ]
-      }
+      },
+      { name: moreText().name, desc: moreText().desc, action: () => openMore() }
     ];
   }
   /**
@@ -2867,6 +2892,7 @@ var TextFormatSettingTab = class extends import_obsidian.PluginSettingTab {
     }
     new import_obsidian.Setting(containerEl).setName(t("heading.replacements")).setHeading();
     this.renderReplacements(containerEl.createDiv());
+    new import_obsidian.Setting(containerEl).setName(moreText().name).setDesc(moreText().desc).addButton((b) => b.setButtonText(moreText().button).onClick(() => openMore()));
   }
   /**
    * The list editor for saved replacements, drawn into `host`. Both the
@@ -2931,3 +2957,5 @@ var TextFormatSettingTab = class extends import_obsidian.PluginSettingTab {
     }));
   }
 };
+
+/* nosourcemap */

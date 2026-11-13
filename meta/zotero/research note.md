@@ -159,7 +159,7 @@ comment::
 ## 💎 Zettels Atômicos Derivados
 
 ```dataview
-TABLE file.cday AS "Criado em", tags AS "Tags"
+TABLE file.cday AS "Criado em", maturidade AS "Maturidade"
 FROM "02_zettel"
 WHERE contains(Fonte, this.file.link) OR contains(file.outlinks, this.file.link) OR contains(file.inlinks, this.file.link)
 SORT file.cday desc

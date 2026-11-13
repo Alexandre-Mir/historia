@@ -17,7 +17,7 @@ A premissa de que a garantia contra o relativismo seria encontrar denominadores 
 
 ### Conexões
 - [[a Cultura constitui o ser humano]] (Pré-requisito: se não há homem pré-cultural ou estratigráfico, qualquer busca por uma natureza humana independente da variação cultural é uma falácia metafísica)
-- [[o locus não é o objeto de estudo]] (Aplicação: a recusa aos universais vazios é o que legitima o foco microscópio no caso particular para alcançar implicações teóricas densas)
+- [[não se deve confundir o locus com o objeto]] (Aplicação: a recusa aos universais vazios é o que legitima o foco microscópio no caso particular para alcançar implicações teóricas densas)
 - [[a relação dialética entre historiografia regional e Região a-histórica]] (Dialético: o mesmo mecanismo de abstração ilusória do consensus gentium opera quando a historiografia tenta inventar uma "essência identitária regional" a-histórica).
 
 ---

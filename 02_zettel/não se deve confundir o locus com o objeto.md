@@ -1,11 +1,12 @@
 ---
 created: 2026-11-10 16:42
 type: zettel
+maturidade: semente
 tags:
   - zettel
 ---
 ### Síntese
-O lugar fornece o contexto dentro do qual  ações simbólicas podem ser descritas com densidade. O local é a "miniatura" onde grandes realidades assumem uma dimensão humana sensível, dando corpo a "megaconceitos" abstratos como Poder, Autoridade, Fé, Legitimidade, Conflito ou Mudança. O objeto é realizar uma inferência clínica: usar fatos pequenos e densamento tecidos para "generalizar dentro do caso" e compreender como ações locais funcionam como comentários sobre temas mais amplos. o lugar é a localização onde você recolhe os dados; o objeto é o significado do discurso social e das formas culturais que ganham vida e inscrição naquele espaço
+Não devemos confundir o locus com o objeto de estudo porque o lugar onde a pesquisa é realizada não é aquilo que se está teoricamente investigando. O lugar fornece o contexto dentro do qual o objeto pode ser apreendido. O local é a "miniatura" onde grandes realidades assumem uma dimensão humana sensível, dando corpo a "megaconceitos" abstratos como Poder, Autoridade, Fé, Legitimidade, Conflito ou Mudança. 
 
 > [!important] Trecho de origem
 > > [!quote]
@@ -24,5 +25,7 @@ O lugar fornece o contexto dentro do qual  ações simbólicas podem ser descrit
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
 - [[a relação dialética entre historiografia regional e Região a-histórica]] (Dialético: a distinção geertziana locus != objeto é a ferramenta conceitual que impede a historiografia de cair na armadilha que Albuquerque Jr. denuncia - a de tomar a região como objeto dado e não como locus onde se investigam dinâmicas de poder).
 - [[a Região implica em domínio e subordinação]] (Aplicação: a região como locus permite estudar nela os mecanismos de dominação sem naturalizar a própria região como identidade fixa)
+- [[o contexto histórico é uma fictio contemporânea]] (Dialético: ao mesmo tempo que o contexto histórico é o locus do historiador, também é seu objeto)
+- [[a inferência clínica impede o consensus gentium]] (Pré-requisito: identificar o objeto como uma singularidade que pode conter universais é o processo da inferência clínica)
 ---
 **Fonte:** [[GEERTZ-Clifford-2006]]

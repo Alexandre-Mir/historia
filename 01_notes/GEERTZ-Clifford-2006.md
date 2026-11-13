@@ -24,8 +24,8 @@ GEERTZ, Clifford. **A Interpretação das Culturas**. [_S.l._]: LTC, 2006. 224 p
 start-date:: 2026-10-15
 end-date::
 page-no:: 120
-reading-position:: 130
-next-reading-step:: revisar a [[o locus não é o objeto de estudo]]
+reading-position::
+next-reading-step::
 
 ```dataviewjs
 const page = dv.current();
@@ -179,7 +179,7 @@ dv.paragraph(`**Próximo passo:** ${nextStep || "registre um passo curto em next
 
 
 
-[[o locus não é o objeto de estudo]]
+[[não se deve confundir o locus com o objeto]]
 
 
 
@@ -383,11 +383,11 @@ Hegel. Tivemos, e de alguma maneira ainda temos, ambas essas aberrações nas ci
 ## 💎 Zettels Atômicos Derivados
 
 ```dataview
-TABLE file.cday AS "Criado em", tags AS "Tags"
+TABLE file.cday AS "Criado em", maturidade AS "Maturidade"
 FROM "02_zettel"
 WHERE contains(Fonte, this.file.link) OR contains(file.outlinks, this.file.link) OR contains(file.inlinks, this.file.link)
 SORT file.cday desc
 ```
 
 
-%% Import Date: 2026-11-11T18:32:51.163-03:00 %%
+%% Import Date: 2026-11-13T00:32:34.519-03:00 %%
