@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+                "file": "meta/dataview/dashboard-ir-srs.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GUARINELLO-NorbertoLuiz-2003"
+              "title": "dashboard-ir-srs"
             }
           }
         ]
@@ -188,6 +188,26 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "828e6926bf2053d2",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "5d6feef5101f6824",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
         ]
       },
@@ -230,7 +250,6 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
-      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -239,21 +258,23 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "meta/dataview/search research notes.md",
+    "meta/dataview/dashboard-ir-srs.md",
+    "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "meta/zotero/research note.md",
     "01_notes/GEERTZ-Clifford-2006.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "02_zettel/não se deve confundir o locus com o objeto.md",
     "02_zettel/a inferência clínica impede o consensus gentium.md",
     "02_zettel/a inferência clínica como método.md",
     "02_zettel/a vacuidade analítica do consensus gentium e dos universais culturais.md",
     "Sem título.md",
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
-    "meta/dataview/search research notes.md",
     "zettelkasten-cartographer.md",
     "IW-Queues/IW-Queue.md",
     "skills/zettelkasten-supervisor.md",
@@ -272,7 +293,6 @@
     "02_zettel/o discurso contemporâneo desconstrói a narrativa leninista.md",
     "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
     "02_zettel/o espaço pode determinar marcos cronológicos.md",
-    "02_zettel/a cultura é uma teia semiótica pública.md",
     "projetos/Sem título",
     "projetos",
     "meta/javascript/complete-reading.js",

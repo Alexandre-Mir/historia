@@ -6,11 +6,9 @@
 
 - [Retomar leitura](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Ae2be231a-5fc8-4e86-9c3b-997fb8676356) · [Registrar continuidade](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae) · [Concluir leitura da obra](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af6db9ad2-7bb9-4452-87d2-6ac7a255851c)
 
-### Pesquisa, navegação e revisões
+### Pesquisa
 
 - **Pesquisa:** [Buscar referência Zotero](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A26e8a6b3-1321-4b2c-ab82-3c3a17939fcb) · [[meta/dataview/search research notes|Busca avançada]] · [Busca geral](obsidian://advanced-uri?vault=historia&commandid=omnisearch%3Ashow-modal)
-- **Navegação e agenda:** [Navegador e calendário](obsidian://advanced-uri?vault=historia&commandid=notebook-navigator%3Aopen) · [Day Planner](obsidian://advanced-uri?vault=historia&commandid=obsidian-day-planner%3Ashow-day-planner-timeline)
-- **Revisões:** [Semanal](obsidian://advanced-uri?vault=historia&commandid=periodic-notes%3Aopen-weekly-note) · [Mensal](obsidian://advanced-uri?vault=historia&commandid=periodic-notes%3Aopen-monthly-note)
 
 Para revisar texto com LanguageTool, selecione um trecho e execute **Check Text** pela paleta de comandos. Sem seleção, o plugin verifica o documento ativo e envia esse texto ao endpoint configurado.
 
