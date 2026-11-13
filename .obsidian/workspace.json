@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zettelkasten-cartographer.md",
-                "mode": "source",
+                "file": "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "zettelkasten-cartographer"
+              "title": "o passado é cognoscível no processo de sua fabricação"
             }
           }
         ]
@@ -187,6 +187,26 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "929d4af2528d3016",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "d3db38a54f016a8d",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
         ]
       },
@@ -229,7 +249,6 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
-      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -238,13 +257,16 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "c171776ff722c84a",
   "lastOpenFiles": [
-    "IW-Queues/IW-Queue.md",
+    "meta/dataview/search research notes.md",
+    "meta/dataview/dashboard-ir-srs.md",
     "zettelkasten-cartographer.md",
+    "IW-Queues/IW-Queue.md",
     "skills/zettelkasten-supervisor.md",
     "skills/zettelkasten-forager.md",
     "skills/zettelkasten-cartographer.md",
@@ -266,12 +288,10 @@
     "02_zettel/o contexto histórico é uma fictio contemporânea.md",
     "02_zettel/a moldura é produto da cultura.md",
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "01_notes/MENESES-UlpianoToledoBezerrade-1980.md",
     "01_notes/CHEYETTE-FredricL.-2008.md",
     "02_zettel/a ficção da continuidade justifica o passado e o presente.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
-    "01_notes/GEERTZ-Clifford-2006.md",
     "projetos/Sem título",
     "projetos",
     "meta/javascript/complete-reading.js",

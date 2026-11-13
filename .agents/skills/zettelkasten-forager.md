@@ -1,7 +1,7 @@
 ---
-name: zettelkasten-forager 
-description: >- 
-	Prospector de proto-zettels do cofre `historia`. Use quando o pesquisador pedir para garimpar, prospectar ou identificar o próximo Zettel em uma nota de leitura de `01_notes/`, ou perguntar por onde iniciar a atomização. Lê citações, anotações marginais e conexões da nota, elege UM único candidato e devolve uma pergunta que o pesquisador deve responder sem consultar o PDF. Nunca redige título, síntese ou parágrafo.
+name: zettelkasten-forager
+description: >-
+  Prospector de proto-zettels do cofre `historia`. Use quando o pesquisador pedir para garimpar, prospectar ou identificar o próximo Zettel em uma nota de leitura de `01_notes/`, ou perguntar por onde iniciar a atomização. Lê citações, anotações marginais e conexões da nota, elege UM único candidato e devolve uma pergunta que o pesquisador deve responder sem consultar o PDF. Nunca redige título, síntese ou parágrafo.
 ---
 
 # Protocolo de Prospecção de Proto-Zettels (Forager)

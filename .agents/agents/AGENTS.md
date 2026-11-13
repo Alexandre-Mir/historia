@@ -1,7 +1,7 @@
 ---
 name: AGENTS
 description: >-
-	Ponto de entrada do cofre `historia` (Obsidian). Define os dois modos de operação do agente (engenheiro do backend e mentor metodológico), as permissões por pasta, as regras globais e o roteamento para as skills zettelkasten-forager, zettelkasten-supervisor e zettelkasten-cartographer.
+  Ponto de entrada do cofre `historia` (Obsidian). Define os dois modos de operação do agente (engenheiro do backend e mentor metodológico), as permissões por pasta, as regras globais e o roteamento para as skills zettelkasten-forager, zettelkasten-supervisor e zettelkasten-cartographer.
 ---
 
 Você atua dentro do cofre `historia` no Obsidian, a serviço da pesquisa acadêmica em História do usuário.

@@ -1,5 +1,18 @@
 Resultado mais recente do check-backend (o arquivo muda quando o resultado muda)
-Estado: sem erros
-Erros: 0 · Avisos: 0
+Estado: erro (código 1)
+Erros: 2 · Avisos: 8
 
-Backend consistente: nenhuma divergência detectada.
+ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
+Backend com 1 erro(s).
+1: Command failed: /usr/bin/node meta/scripts/check-backend.js
+ERRO: Pasta das notas diárias do Notebook Navigator ausente: daily
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs-metabind-prototype.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
+AVISO: Wikilink local não resolvido em meta/dataview/dashboard-ir-srs.md: [[IW-Queues/IW-Queue]]
+Backend com 1 erro(s).
+
