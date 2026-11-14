@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+                "file": "meta/dataview/dashboard-ir-srs.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GUARINELLO-NorbertoLuiz-2003"
+              "title": "dashboard-ir-srs"
             }
           }
         ]
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -189,6 +188,26 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
+          },
+          {
+            "id": "74428e5ba76b306f",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "c289f943ca63db32",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "timer",
+              "title": "Time Tracker"
+            }
           }
         ]
       },
@@ -231,7 +250,6 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
-      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -240,13 +258,14 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
-    "02_zettel/o passado é inacessível ao historiador.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+    "02_zettel/o passado é inacessível ao historiador.md",
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
     "02_zettel/a história é o passado emoldurado.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
