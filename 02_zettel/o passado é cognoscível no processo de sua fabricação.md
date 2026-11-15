@@ -6,7 +6,7 @@ tags:
   - zettel
 ---
 ### Síntese
-Pressupondo que [[o passado é inacessível ao historiador]], esse deve fabricar seu objeto de estudo através da significação (documentos) de suas matérias primas (objetos, textos e depoimentos)
+Pressupondo que [[o passado é inacessível ao historiador impelindo-o a operar formas e contextos fabricados e enviesados como intermédio]], esse deve fabricar seu objeto de estudo através da significação (documentos) de suas matérias primas (objetos, textos e depoimentos)
 
 > [!important] Trecho de origem
 > > [!quote]

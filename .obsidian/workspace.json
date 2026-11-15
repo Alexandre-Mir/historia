@@ -13,16 +13,93 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/dataview/dashboard-ir-srs.md",
+                "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
                 "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "dashboard-ir-srs"
-            }
+              "title": "GUARINELLO-NorbertoLuiz-2003"
+            },
+            "group": "09aeb1c4e718b146"
           }
         ]
+      },
+      {
+        "id": "105667ca3bcf22f1",
+        "type": "split",
+        "children": [
+          {
+            "id": "3b90482ef7720b68",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4802931c711b8928",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": false
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Gráfico de GUARINELLO-NorbertoLuiz-2003"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          },
+          {
+            "id": "bb70bbec74d76a1d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6bac3f8df84a785b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para GUARINELLO-NorbertoLuiz-2003"
+                },
+                "group": "09aeb1c4e718b146"
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -188,26 +265,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "74428e5ba76b306f",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "c289f943ca63db32",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -221,7 +278,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/zotero/research note.md",
+                "file": "02_zettel/registros do conceito de Região.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -250,6 +307,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -258,23 +316,24 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "02_zettel/projetar uma região contemporânea ao passado é anacronismo.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
-    "02_zettel/o passado é inacessível ao historiador.md",
+    "02_zettel/o passado é inacessível ao historiador impelindo-o a operar formas e contextos fabricados e enviesados como intermédio.md",
+    "02_zettel/o contexto histórico é uma fictio contemporânea.md",
+    "02_zettel/a moldura é produto da cultura.md",
+    "meta/dataview/dashboard-ir-srs.md",
+    "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
     "02_zettel/a história é o passado emoldurado.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
-    "02_zettel/a moldura é produto da cultura.md",
-    "02_zettel/o contexto histórico é uma fictio contemporânea.md",
     "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
     "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
     "meta/dataview/search research notes.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "01_notes/SOARES-JoseRobertoHenriqueSouza-2019.md",
     "02_zettel/registros do conceito de Região.md",
     "02_zettel/diferença entre Região e Regionalismo.md",
@@ -288,8 +347,6 @@
     "02_zettel/o que é o documento voluntário.md",
     "02_zettel/origem etimológica da palavra documento.md",
     "02_zettel/a conquista exige um saber conquistar.md",
-    "02_zettel/a regionalização é um processo unilateral.md",
-    "02_zettel/a ficção da continuidade justifica o passado e o presente.md",
     "skills",
     "99_ensaios",
     "00_MOCs",

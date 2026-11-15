@@ -27,7 +27,7 @@ TABLE
   next-reading-step AS "Próximo passo"
 FROM "01_notes"
 WHERE !end-date
-SORT file.mtime asc
+SORT file.mtime desc
 LIMIT 15
 ```
 

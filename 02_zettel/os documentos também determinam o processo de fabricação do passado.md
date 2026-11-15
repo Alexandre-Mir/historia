@@ -17,7 +17,7 @@ Se a [[a moldura é produto da cultura]], os vestígios que sobreviveram até ch
 
 ### Conexões
 - <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
-- os vestígios vão determinar a fabricação do passado, também, por que [[o passado é inacessível ao historiador]]
+- os vestígios vão determinar a fabricação do passado, também, por que [[o passado é inacessível ao historiador impelindo-o a operar formas e contextos fabricados e enviesados como intermédio]]
 - [[o que é o documento voluntário]] - em relação ao filtro, um documento voluntário pode também mostrar algo que não pretendia
 
 ---
