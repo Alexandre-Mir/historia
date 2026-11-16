@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/dataview/dashboard-ir-srs.md",
-                "mode": "preview",
+                "file": "02_zettel/nem toda coisa física é um documento por natureza.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "dashboard-ir-srs"
+              "title": "nem toda coisa física é um documento por natureza"
             }
           }
         ]
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375
+    "width": 274.93359375,
+    "collapsed": true
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -264,12 +265,12 @@
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "meta/dataview/dashboard-ir-srs.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "02_zettel/projetar uma região contemporânea ao passado é anacronismo.md",
     "02_zettel/o passado é inacessível ao historiador impelindo-o a operar formas e contextos fabricados e enviesados como intermédio.md",
     "02_zettel/o contexto histórico é uma fictio contemporânea.md",
     "02_zettel/a moldura é produto da cultura.md",
-    "meta/dataview/dashboard-ir-srs.md",
     "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
     "02_zettel/a história é o passado emoldurado.md",
