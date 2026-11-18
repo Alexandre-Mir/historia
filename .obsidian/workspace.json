@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_zettel/nem toda coisa física é um documento por natureza.md",
-                "mode": "source",
+                "file": "01_notes/ALBUQUERQUEJUNIOR-DurvalMuniz-2008.md",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "nem toda coisa física é um documento por natureza"
+              "title": "ALBUQUERQUEJUNIOR-DurvalMuniz-2008"
             }
           }
         ]
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.93359375,
-    "collapsed": true
+    "width": 274.93359375
   },
   "right": {
     "id": "b7e18aa5642b4687",
@@ -189,26 +188,6 @@
               "icon": "lucide-archive",
               "title": "Todas as propriedades"
             }
-          },
-          {
-            "id": "c69e143e3c5d6774",
-            "type": "leaf",
-            "state": {
-              "type": "planner-timeline",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Timeline"
-            }
-          },
-          {
-            "id": "a1257a4fd05332e9",
-            "type": "leaf",
-            "state": {
-              "type": "planner-time-tracker",
-              "state": {},
-              "icon": "timer",
-              "title": "Time Tracker"
-            }
           }
         ]
       },
@@ -251,6 +230,7 @@
       "modalforms:Edit forms": false,
       "random-note:Abrir nota aleatória": false,
       "notebook-navigator:Notebook Navigator": false,
+      "periodic-notes:Open this week": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
@@ -259,13 +239,38 @@
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
-      "templater-obsidian:Templater": false,
-      "periodic-notes:Open this week": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "cf20fac58c848ff7",
   "lastOpenFiles": [
+    "O_Zettelkasten_de_Luhmann.pdf",
+    "meta/zotero/fluxo-de-importacao.md",
     "meta/dataview/dashboard-ir-srs.md",
+    "fluxo de estudos.md",
+    "meta/glossario.md",
+    "meta/tests/CHANGELOG-SKILLS.md",
+    "meta/tests/test-runner-supervisor.js",
+    "meta/tests/dataset-supervisor.json",
+    "meta/tests",
+    "zettelkasten-forager.md",
+    "meta/archive/skills-root/zettelkasten-supervisor.md",
+    "meta/archive/skills-root/zettelkasten-forager.md",
+    "meta/archive/skills-root/zettelkasten-cartographer.md",
+    "meta/archive/skills-root",
+    "meta/archive",
+    "zettelkasten-cartographer.md",
+    "meta/templater/monthly-review.md",
+    "meta/README.md",
+    "meta/dataview/dashboard-ir-srs.md.af853150-f83d-4c7f-a906-3a7444e44a45.tmp",
+    "meta/templater/monthly-review.md.b2c850c5-e89d-4822-b684-aa470730aef6.tmp",
+    "meta/templater/weekly-review.md",
+    "meta/templater/templater-daily-note.md",
+    "periodic/weekly",
+    "periodic/monthly",
+    "periodic",
+    "Sem título.md",
+    "02_zettel/nem toda coisa física é um documento por natureza.md",
     "01_notes/GUARINELLO-NorbertoLuiz-2003.md",
     "02_zettel/projetar uma região contemporânea ao passado é anacronismo.md",
     "02_zettel/o passado é inacessível ao historiador impelindo-o a operar formas e contextos fabricados e enviesados como intermédio.md",
@@ -275,32 +280,6 @@
     "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
     "02_zettel/a história é o passado emoldurado.md",
     "02_zettel/os documentos também determinam o processo de fabricação do passado.md",
-    "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
-    "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
-    "meta/dataview/search research notes.md",
-    "01_notes/SOARES-JoseRobertoHenriqueSouza-2019.md",
-    "02_zettel/registros do conceito de Região.md",
-    "02_zettel/diferença entre Região e Regionalismo.md",
-    "02_zettel/a historiografia regional deve desnaturalizar a região.md",
-    "01_notes/GEERTZ-Clifford-2006.md",
-    "02_zettel/a relação dialética entre historiografia regional e Região a-histórica.md",
-    "02_zettel/a linguagem como julgamento absoluto pode relativizar fatos históricos.md",
-    "02_zettel/a inferência clínica impede o consensus gentium.md",
-    "02_zettel/a descrição densa aplicada à história.md",
-    "02_zettel/a centralidade do mundo rural na Antiguidade Tardia e no início da Idade Média.md",
-    "02_zettel/o que é o documento voluntário.md",
-    "02_zettel/origem etimológica da palavra documento.md",
-    "02_zettel/a conquista exige um saber conquistar.md",
-    "skills",
-    "99_ensaios",
-    "00_MOCs",
-    "projetos/Sem título",
-    "projetos",
-    "meta/javascript/complete-reading.js",
-    "meta/reports/archive/community-plugins-conflict-20260908.json",
-    "meta/reports/archive",
-    "meta/javascript/open-todays-note.js",
-    "meta/reports/backend-check.log",
     "meta/attachments/ROUSSO-Henry-2016/image-19-x456-y175.png",
     "meta/attachments/ROUSSO-Henry-2016/image-18-x88-y389.png",
     "meta/attachments/MORAES-AntonioCarlosRobert-2005/image-14-x99-y293.png",

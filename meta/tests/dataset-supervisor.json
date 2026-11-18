@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "descricao": "Dataset de 10 notas rotuladas para testes de regressão metodológica do zettelkasten-supervisor.",
+  "referencia_rubrica": "meta/glossario.md §3 e §3.1",
+  "casos": [
+    {
+      "id": "EXEMPLAR-01",
+      "arquivo": "02_zettel/as formas historiográficas possuem uma dupla função dialética.md",
+      "categoria": "exemplar",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 4,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta",
+      "justificativa": "Título N4 com dinâmica dialética ativa. Paráfrase autoral densa e autônoma. Citação ancorada com comentário. Nexo tipado fundamenta:: com justificativa."
+    },
+    {
+      "id": "EXEMPLAR-02",
+      "arquivo": "02_zettel/a vacuidade analítica do consensus gentium e dos universais culturais.md",
+      "categoria": "exemplar",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 3,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta",
+      "justificativa": "Título N3 proposicional robusto. Síntese com excelente domínio conceitual sem dependência de citação. Citação ancorada. Nexo tensiona:: bem articulado."
+    },
+    {
+      "id": "EXEMPLAR-03",
+      "arquivo": "02_zettel/a escala de contextualização altera a ontologia e o significado do vestígio.md",
+      "categoria": "exemplar",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 4,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta",
+      "justificativa": "Título N4 enuncia causalidade epistemológica direta. Síntese autoral rica confrontando Ginzburg e Revel. Nexos múltiplos tipados."
+    },
+    {
+      "id": "EXEMPLAR-04",
+      "arquivo": "02_zettel/a ficção da continuidade justifica o passado e o presente.md",
+      "categoria": "exemplar",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 4,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta",
+      "justificativa": "Título N4 proposicional ativo. Paráfrase rigorosa na voz do pesquisador. Citação presente e nexos com justificação consistente."
+    },
+    {
+      "id": "QUASE-LA-01",
+      "arquivo": "02_zettel/a história é o passado emoldurado.md",
+      "categoria": "quase_la",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "semente",
+      "nivel_titulo_esperado": 3,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta com ressalvas",
+      "justificativa": "Título N3 e síntese autoral presentes, mas a seção de conexões mantém o comentário de placeholder HTML do template em aberto sem nexo tipado."
+    },
+    {
+      "id": "QUASE-LA-02",
+      "arquivo": "02_zettel/o passado é cognoscível no processo de sua fabricação.md",
+      "categoria": "quase_la",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "semente",
+      "nivel_titulo_esperado": 3,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta com ressalvas",
+      "justificativa": "Título N3 e boa formulação de síntese, mas conexão única mantendo vínculo preliminar que necessita de chave canônica direta e justificativa autoral."
+    },
+    {
+      "id": "QUASE-LA-03",
+      "arquivo": "02_zettel/a região implica domínio e subordinação.md",
+      "categoria": "quase_la",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "semente",
+      "nivel_titulo_esperado": 4,
+      "conformidade_formal_esperada": "Conforme",
+      "veredito_conceitual_esperado": "apta com ressalvas",
+      "justificativa": "Título N4 ativo de poder e síntese clara, mas a conexão foi registrada no formato provisório sem chave direta com justificativa completa."
+    },
+    {
+      "id": "RUIM-01",
+      "arquivo": "02_zettel/a inferência clínica impede o consensus gentium.md",
+      "categoria": "ruim",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "semente",
+      "nivel_titulo_esperado": 4,
+      "conformidade_formal_esperada": "Não Conforme",
+      "veredito_conceitual_esperado": "reprovada",
+      "justificativa": "Bloqueante conceitual: campo ### Síntese está totalmente vazio. Além disso, a Fonte aponta para outro Zettel em vez de uma nota de leitura de 01_notes."
+    },
+    {
+      "id": "RUIM-02",
+      "arquivo": "02_zettel/o que é o documento voluntário.md",
+      "categoria": "ruim",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 1,
+      "conformidade_formal_esperada": "Não Conforme",
+      "veredito_conceitual_esperado": "apta com ressalvas em semente; reprovada em desenvolvimento",
+      "justificativa": "Falha formal: citação > [!important] ausente. Falha conceitual se promovida: título Nível 1 (pergunta aberta interrogativa). Tolerado exclusivamente como provisório em semente; se submetido para promoção a desenvolvimento, é bloqueante (reprovada)."
+    },
+    {
+      "id": "RUIM-03",
+      "arquivo": "02_zettel/etmologia da Região.md",
+      "categoria": "ruim",
+      "estagio_declarado": "semente",
+      "estagio_alvo": "desenvolvimento",
+      "nivel_titulo_esperado": 0,
+      "conformidade_formal_esperada": "Não Conforme",
+      "veredito_conceitual_esperado": "apta com ressalvas em semente; reprovada em desenvolvimento",
+      "justificativa": "Falha formal: type: zettel e citação > [!important] ausentes. Falha conceitual se promovida: título Nível 0/2 (rótulo descritivo sem predicado ativo). Tolerado provisoriamente em semente; se submetido a desenvolvimento, é bloqueante (reprovada)."
+    }
+  ]
+}

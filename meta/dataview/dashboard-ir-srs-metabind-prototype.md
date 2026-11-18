@@ -266,9 +266,7 @@ if (rows.length) {
 ---
 
 ## ✍️ Projetos de escrita incremental
-> Escolha um item da [[IW-Queues/IW-Queue|fila de escrita]] e termine cada sessão deixando anotado o próximo passo concreto.
-
-Fila: [[IW-Queues/IW-Queue|abrir a fila de escrita incremental]].
+> Acompanhe e redija ensaios apoiados pela rede de Zettels na pasta `99_ensaios/`. Termine cada sessão registrando o próximo passo concreto.
 
 ## 🧰 Importação de referências
 

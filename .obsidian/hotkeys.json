@@ -57,15 +57,6 @@
     }
   ],
   "editor:delete-paragraph": [],
-  "quickadd:choice:687ee15f-5e80-47c4-b8a9-5d92c19c67e4": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
   "quickadd:choice:e2be231a-5fc8-4e86-9c3b-997fb8676356": [
     {
       "modifiers": [
@@ -82,15 +73,6 @@
         "Shift"
       ],
       "key": "E"
-    }
-  ],
-  "quickadd:choice:0a8e34a0-121c-4eb8-a25d-3051c56f9a72": [
-    {
-      "modifiers": [
-        "Mod",
-        "Alt"
-      ],
-      "key": "T"
     }
   ],
   "quickadd:choice:6560e10b-a2af-4b02-bcc4-8d0e9a7cb92d": [

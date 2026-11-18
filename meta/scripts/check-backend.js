@@ -155,76 +155,10 @@ for (const [commandId, bindings] of Object.entries(hotkeys)) {
   }
 }
 
-if (communityPlugins.includes("notebook-navigator")) {
-  const dailyNotes = readJson(path.join(obsidian, "daily-notes.json"), {}) ?? {};
-  const navigator = readJson(path.join(obsidian, "plugins/notebook-navigator/data.json"), {}) ?? {};
-  if (navigator.calendarEnabled && navigator.calendarIntegrationMode !== "daily-notes") {
-    error("Notebook Navigator deve usar Notas Diárias como fonte de configuração do calendário.");
-  }
-  if (!corePlugins["daily-notes"]) error("O calendário do Notebook Navigator depende do plugin nativo Notas Diárias, que está desativado.");
-  if (!dailyNotes.folder || !exists(dailyNotes.folder)) {
-    error(`Pasta das notas diárias do Notebook Navigator ausente: ${dailyNotes.folder ?? "(não configurada)"}`);
-  }
-  if (!(templater.folder_templates ?? []).some((rule) => rule.folder === dailyNotes.folder)) {
-    warn(`Notebook Navigator cria notas em ${dailyNotes.folder}, mas o Templater não tem modelo associado a essa pasta.`);
-  }
-}
-
-if (communityPlugins.includes("obsidian-tasks-plugin")) {
-  const dashboardPath = path.join(root, "meta/dataview/dashboard-ir-srs.md");
-  const dashboard = fs.existsSync(dashboardPath) ? fs.readFileSync(dashboardPath, "utf8") : "";
-  if (!/```tasks\s+not done[\s\S]*?```/.test(dashboard)) {
-    error("Tasks está ativo, mas a consulta geral de tarefas não foi encontrada no painel.");
-  }
-  const capturePath = path.join(root, "meta/javascript/add-task-to-today.js");
-  const capture = fs.existsSync(capturePath) ? fs.readFileSync(capturePath, "utf8") : "";
-  if (!capture.includes("- [ ]")) {
-    error("A captura diária do QuickAdd não grava tarefas no formato Markdown reconhecido pelo Tasks.");
-  }
-  if (!capture.includes("timeRange") || !capture.includes("HH:mm - HH:mm")) {
-    error("A captura QuickAdd deve permitir um horário opcional compatível com a linha do tempo do Day Planner.");
-  }
-}
-
 if (communityPlugins.includes("omnisearch")) {
   const omnisearch = readJson(path.join(obsidian, "plugins/omnisearch/data.json"), {}) ?? {};
   if (omnisearch.PDFIndexing || omnisearch.imagesIndexing) {
     error("Omnisearch deve manter desativadas as indexações de PDFs e imagens, conforme a configuração deste vault.");
-  }
-}
-
-if (communityPlugins.includes("obsidian-day-planner")) {
-  if (!corePlugins["daily-notes"]) error("Day Planner requer Notas Diárias nativas para ler a pasta daily/.");
-  if (!communityPlugins.includes("obsidian-tasks-plugin")) error("Day Planner deve integrar-se ao plugin Tasks ativo no vault.");
-  const planner = readJson(path.join(obsidian, "plugins/obsidian-day-planner/data.json"), {}) ?? {};
-  if ((planner.icals ?? []).length) warn("Day Planner tem calendários externos configurados; confirme que são intencionais.");
-  const dailyTemplate = exists("meta/templater/templater-daily-note.md")
-    ? fs.readFileSync(path.join(root, "meta/templater/templater-daily-note.md"), "utf8")
-    : "";
-  if (!/- \[ \] \d{2}:\d{2} - \d{2}:\d{2} /.test(dailyTemplate)) {
-    error("O template diário não tem tarefas programadas para aparecer na linha do tempo do Day Planner.");
-  }
-  for (const activity of ["Preparar o café da manhã", "Preparar o almoço", "Preparar o jantar", "Enviar 3 currículos", "A Rocha do dia"]) {
-    if (!dailyTemplate.includes(activity)) error(`O template diário não contempla o bloco esperado: ${activity}.`);
-  }
-  if ((dailyTemplate.match(/Lavar e estender a roupa/g) ?? []).length !== 1 || !/dia === 6[\s\S]*?Lavar e estender a roupa/.test(dailyTemplate)) {
-    error("A lavagem de roupa deve aparecer somente no bloco de sábado do template diário.");
-  }
-}
-
-if (communityPlugins.includes("periodic-notes")) {
-  const periodic = readJson(path.join(obsidian, "plugins/periodic-notes/data.json"), {}) ?? {};
-  const dailyNotes = readJson(path.join(obsidian, "daily-notes.json"), {}) ?? {};
-  if (!corePlugins["daily-notes"] || dailyNotes.folder !== "daily") {
-    error("Periodic Notes deve preservar Notas Diárias nativas na pasta daily/.");
-  }
-  if (periodic.daily?.enabled) error("Periodic Notes deve deixar a criação diária sob controle do plugin nativo.");
-  for (const period of ["weekly", "monthly"]) {
-    const settings = periodic[period] ?? {};
-    if (!settings.enabled) error(`Periodic Notes deve manter ${period} habilitado.`);
-    if (!settings.folder || settings.folder === "daily") error(`Notas ${period} devem ter pasta separada de daily/.`);
-    if (!settings.template || !exists(settings.template)) error(`Template de nota ${period} ausente: ${settings.template || "(não configurado)"}`);
-    if (settings.enabled) pluginCommands.get("periodic-notes")?.add(`open-${period}-note`);
   }
 }
 

@@ -2,9 +2,9 @@
 
 ## ⚡ Ações frequentes
 
-### Leitura
+### Leitura e Extração
 
-- [Retomar leitura](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Ae2be231a-5fc8-4e86-9c3b-997fb8676356) · [Registrar continuidade](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae) · [Concluir leitura da obra](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af6db9ad2-7bb9-4452-87d2-6ac7a255851c)
+- [Retomar leitura](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Ae2be231a-5fc8-4e86-9c3b-997fb8676356) · [Registrar continuidade](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3A8fccdf26-e809-4000-a664-2e0bc7c3c5ae) · [Concluir leitura da obra](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af6db9ad2-7bb9-4452-87d2-6ac7a255851c) · [Extrair da seleção](obsidian://advanced-uri?vault=historia&commandid=quickadd%3Achoice%3Af660fbef-76bf-44e1-b1fb-3e6de8976e18)
 
 ### Pesquisa
 
@@ -32,59 +32,6 @@ LIMIT 15
 ```
 
 > Atualize `reading-position::` e `next-reading-step::` na nota da obra ao encerrar uma sessão. Se os campos estiverem vazios, use `page-no::` como ponto de partida e registre o próximo passo ao retomar.
-
----
-
-## 🧭 Continuidade encontrada nos diários
-> `reading-position::` e `next-reading-step::` na nota da obra são o registro atual. Os diários recentes servem de recuperação quando esses campos estão vazios.
-
-```dataviewjs
-const active = dv.pages('"01_notes"').where((page) => !page["end-date"]);
-const cutoff = Date.now() - 90 * 24 * 60 * 60 * 1000;
-const logs = dv.pages('"daily"')
-  .where((page) => page.file.day && page.file.day.toMillis() >= cutoff)
-  .sort((page) => page.file.day, "desc");
-const worksNeedingHistory = active.filter((work) => !work["reading-position"] || !work["next-reading-step"]);
-const logRecords = worksNeedingHistory.length
-  ? await Promise.all(logs.map(async (log) => ({
-      log,
-      lines: (await dv.io.load(log.file.path)).split(/\r?\n/),
-    })))
-  : [];
-
-const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-const rows = active.map((work) => {
-  const workLink = new RegExp(`\\[\\[${escapeRegExp(work.file.name)}(?:\\|[^\\]]*)?\\]\\]`);
-  let history = null;
-  if (!work["reading-position"] || !work["next-reading-step"]) {
-    for (const { log, lines } of logRecords) {
-      const linkedLines = lines.filter((line) => workLink.test(line));
-      const stopLine = linkedLines.find((line) => /Onde parei/i.test(line));
-      const nextLine = linkedLines.find((line) => /Próximo passo concreto/i.test(line));
-      if (stopLine || nextLine) {
-        const clean = (line, label) => line
-          ?.replace(/^\s*[-*>]+\s*/, "")
-          .replace(new RegExp(`^.*?${label}[^:]*:\\s*`, "i"), "")
-          .trim();
-        history = {
-          log: log.file.link,
-          position: clean(stopLine, "Onde parei"),
-          nextStep: clean(nextLine, "Próximo passo concreto"),
-        };
-        break;
-      }
-    }
-  }
-  return [
-    work.file.link,
-    history?.log ?? "—",
-    work["reading-position"] ?? history?.position ?? work["page-no"] ?? "—",
-    work["next-reading-step"] ?? history?.nextStep ?? "Defina um próximo passo curto",
-  ];
-});
-
-dv.table(["Obra", "Diário de referência", "Ponto de retomada", "Próximo passo"], rows);
-```
 
 ---
 
@@ -168,9 +115,7 @@ if (rows.length) {
 ---
 
 ## ✍️ Projetos de escrita incremental
-> Escolha um item da [[IW-Queues/IW-Queue|fila de escrita]] e termine cada sessão deixando anotado o próximo passo concreto.
-
-Fila: [[IW-Queues/IW-Queue|abrir a fila de escrita incremental]].
+> Acompanhe e redija ensaios apoiados pela rede de Zettels na pasta `99_ensaios/`. Termine cada sessão registrando o próximo passo concreto.
 
 ## 🧰 Importação de referências
 

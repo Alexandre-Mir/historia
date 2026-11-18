@@ -46,11 +46,13 @@ tags:
 ---
 ### Síntese
 
+
 > [!important] Trecho de origem
 ${quotedSelection}
 
 ### Conexões
-- <!-- Explique em uma frase como esta ideia se relaciona à nota linkada. -->
+- <!-- Escolha uma chave inline: condiciona:: | tensiona:: | fundamenta:: | exemplifica:: -->
+- <!-- Formato: tipo_de_nexo:: [[Nota]] — Justificativa autoral. -->
 
 ---
 **Fonte:** [[${sourceTitle}]]
